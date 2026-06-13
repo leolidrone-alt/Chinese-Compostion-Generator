@@ -44,6 +44,10 @@
 - DeepSeek API Key
 - 阿里云 DashScope API Key（用于 Qwen）
   上述两个API Key建议直接添加到PATH否则需要硬编码改动kit_planner(DeepSeek)和kit_craftman(Qwen)
+  
+### 使用
+-可以选择输入字数题目和情感三项或者什么都不用交互直接空格跳过, 都可以生成一份优秀的作文/随笔
+
 ### 安装
 
 ```bash
@@ -51,7 +55,4 @@ git clone https://github.com/yourname/HumanWritingPlan.git
 cd HumanWritingPlan
 pip install -r requirements.txt
 
-### 使用
-选择输入主题字数以及情感或者什么都不用交互都可以生成一份优秀的作文/随笔
-```bash
-python MAIN.py
+
