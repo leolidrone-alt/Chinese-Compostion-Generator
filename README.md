@@ -1,2 +1,57 @@
-# Chinese-Compostion-Generator
-A human-like AI writing engine that simulates imperfect rhythm, idle thoughts, and authentic voice through dual‑model collaboration (DeepSeek + Qwen), rhythm control, and an imagery knowledge graph.
+# 人类写作计划 · HumanWritingPlan
+
+> 让 AI 不再写出光滑完美的套话，而是像人一样，有呼吸、有闲笔、有瑕疵、有余味。
+
+本项目是一套**以“像人”为目标的 AI 写作工作流**。它不追求逻辑最严密、修辞最华丽，而是通过工程手段模拟人类写作中的真实感——句长起伏、情感波动、无关的闲笔、偶尔的人称混淆，以及意犹未尽的结尾。
+
+---
+
+## ✨ 核心特性
+
+- **双 AI 协同架构**  
+  `PlannerKit`（DeepSeek）生成全局写作蓝图，`CraftsmanKit`（Qwen）为每一句生成 5 个长度/风格变体，并动态择优。
+
+- **节奏控制（RhythmKit）**  
+  基于统计得出的平均句长（27.3字）和标准差（16.78），动态调控句长、段落呼吸、疲劳衰减与随机扰动，模拟人类的“呼吸感”。
+
+- **意象库与闲笔（DivergentKit + relation_graph）**  
+  预构建十万级意象‑关系图，在适当位置插入陌生化细节（如“松脂香”“指尖微颤”），让文章拥有个人记忆般的质感。
+
+- **人称与衔接修正（CoherenceKit）**  
+  自动修复人称混用、主语缺失、代词指代模糊等“AI 常见病”，同时保留人类写作中合理的跳跃与不完美。
+
+- **文体自适应（StyleArbiter）**  
+  自动识别中考/高考作文、散文、小说、讽刺文学等文体，调整温度、节奏标准差与结尾类型。
+
+- **随机结尾风格**  
+  意犹未尽（45%）、明显升华（45%）、看似烂尾（10%），打破 AI 写作的“传承”套路。
+
+---
+
+## 🧠 设计哲学
+
+大多数 AI 写作工具追求“更好”：逻辑更严密、用词更精准、结构更工整。  
+**人类写作计划**追求“更像人”：允许情感跳跃、接受无关闲笔、保留轻微瑕疵、拒绝强行升华。
+
+我们认为：当 AI 连“不完美”都能模拟时，它才能真正触及人类写作的本质。
+
+---
+
+## 🛠️ 快速开始
+
+### 环境要求
+- Python 3.8+
+- DeepSeek API Key
+- 阿里云 DashScope API Key（用于 Qwen）
+  上述两个API Key建议直接添加到PATH否则需要硬编码改动kit_planner(DeepSeek)和kit_craftman(Qwen)
+### 安装
+
+```bash
+git clone https://github.com/yourname/HumanWritingPlan.git
+cd HumanWritingPlan
+pip install -r requirements.txt
+
+### 使用
+选择输入主题字数以及情感或者什么都不用交互都可以生成一份优秀的作文/随笔
+```bash
+python MAIN.py
