@@ -1,0 +1,533 @@
+{
+  "user_input": {
+    "topic": "高三毕业典礼我和好哥们道别，本以为是最后一次见面，没想到在香港大学上学时在校园里面偶遇了",
+    "emotion": "温暖，惊讶，喜悦",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "毕业后的重逢：香港大学的意外相遇",
+    "overall_emotional_baseline": 0.6,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "id": "s1_1",
+            "core_fact": "高三毕业典礼上，我和好哥们道别",
+            "must_contain": [
+              "毕业典礼",
+              "好哥们",
+              "道别"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_2",
+            "core_fact": "我们站在学校操场上，阳光明媚",
+            "must_contain": [
+              "操场",
+              "阳光",
+              "明媚"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_3",
+            "core_fact": "互相拥抱，约定保持联系",
+            "must_contain": [
+              "拥抱",
+              "约定",
+              "联系"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_4",
+            "core_fact": "心里有些伤感，以为这是最后一次见面",
+            "must_contain": [
+              "伤感",
+              "最后一次",
+              "见面"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "id": "s1_5",
+            "core_fact": "他要去北京，我要去香港",
+            "must_contain": [
+              "北京",
+              "香港",
+              "距离"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s1_6",
+            "core_fact": "挥手告别，背影渐行渐远",
+            "must_contain": [
+              "挥手",
+              "告别",
+              "背影"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_7",
+            "core_fact": "感觉青春就此画上句号",
+            "must_contain": [
+              "青春",
+              "句号",
+              "结束"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s1_8",
+            "core_fact": "但生活总是充满未知",
+            "must_contain": [
+              "生活",
+              "未知",
+              "可能"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "id": "s2_1",
+            "core_fact": "进入香港大学，开始新生活",
+            "must_contain": [
+              "香港大学",
+              "新生活",
+              "开始"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_2",
+            "core_fact": "校园很大，人很多，有些孤独",
+            "must_contain": [
+              "校园",
+              "孤独",
+              "陌生"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_3",
+            "core_fact": "每天忙于课程和社团活动",
+            "must_contain": [
+              "课程",
+              "社团",
+              "忙碌"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_4",
+            "core_fact": "偶尔想起高中时光和好哥们",
+            "must_contain": [
+              "高中时光",
+              "想起",
+              "回忆"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_5",
+            "core_fact": "发过几次消息，但渐渐少了联系",
+            "must_contain": [
+              "消息",
+              "联系",
+              "减少"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_6",
+            "core_fact": "以为友情会随时间淡去",
+            "must_contain": [
+              "友情",
+              "淡去",
+              "时间"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_7",
+            "core_fact": "一个普通的下午，去图书馆学习",
+            "must_contain": [
+              "下午",
+              "图书馆",
+              "学习"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_8",
+            "core_fact": "走在校园小路上，阳光透过树叶",
+            "must_contain": [
+              "小路",
+              "树叶",
+              "阳光"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_9",
+            "core_fact": "听到远处传来熟悉的笑声",
+            "must_contain": [
+              "笑声",
+              "熟悉",
+              "远处"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_10",
+            "core_fact": "心里一动，但没太在意",
+            "must_contain": [
+              "心里",
+              "一动",
+              "不在意"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_11",
+            "core_fact": "继续往前走，准备进图书馆",
+            "must_contain": [
+              "往前走",
+              "图书馆",
+              "准备"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_12",
+            "core_fact": "突然有人从后面拍我肩膀",
+            "must_contain": [
+              "突然",
+              "拍肩膀",
+              "后面"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_13",
+            "core_fact": "转身一看，竟然是高中好哥们",
+            "must_contain": [
+              "转身",
+              "好哥们",
+              "竟然"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_14",
+            "core_fact": "他笑着站在我面前，样子没变",
+            "must_contain": [
+              "笑着",
+              "面前",
+              "没变"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_15",
+            "core_fact": "我愣住了，不敢相信自己的眼睛",
+            "must_contain": [
+              "愣住",
+              "不敢相信",
+              "眼睛"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "id": "s2_16",
+            "core_fact": "问他怎么会在这里",
+            "must_contain": [
+              "问",
+              "怎么",
+              "这里"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_17",
+            "core_fact": "他说他也考上了香港大学",
+            "must_contain": [
+              "考上",
+              "香港大学",
+              "也"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_18",
+            "core_fact": "因为想给我惊喜，所以没提前说",
+            "must_contain": [
+              "惊喜",
+              "提前",
+              "说"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_19",
+            "core_fact": "我们相视而笑，感觉像在做梦",
+            "must_contain": [
+              "相视而笑",
+              "做梦",
+              "感觉"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_20",
+            "core_fact": "周围的学生匆匆走过，没人注意我们",
+            "must_contain": [
+              "学生",
+              "走过",
+              "注意"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "scene_setting"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "climax",
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "id": "s3_1",
+            "core_fact": "他笑着说：“没想到吧，我们又见面了！”",
+            "must_contain": [
+              "没想到",
+              "又见面",
+              "笑"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "dialogue",
+            "atmosphere_hint": "dialogue_and_reaction"
+          },
+          {
+            "id": "s3_2",
+            "core_fact": "我激动得说不出话，只是点头",
+            "must_contain": [
+              "激动",
+              "说不出话",
+              "点头"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "action",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_3",
+            "core_fact": "阳光洒在他脸上，显得格外温暖",
+            "must_contain": [
+              "阳光",
+              "脸上",
+              "温暖"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_4",
+            "core_fact": "我们拥抱在一起，像毕业时那样",
+            "must_contain": [
+              "拥抱",
+              "毕业时",
+              "那样"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "action",
+            "atmosphere_hint": "third_person_glimpse"
+          },
+          {
+            "id": "s3_5",
+            "core_fact": "路过的学生投来好奇的目光",
+            "must_contain": [
+              "路过",
+              "学生",
+              "目光"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "third_person_glimpse"
+          },
+          {
+            "id": "s3_6",
+            "core_fact": "但这一刻，世界仿佛只有我们两人",
+            "must_contain": [
+              "世界",
+              "只有",
+              "两人"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_7",
+            "core_fact": "所有的距离和陌生感瞬间消失",
+            "must_contain": [
+              "距离",
+              "陌生感",
+              "消失"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s3_8",
+            "core_fact": "感觉友情从未离开，只是换了个地方",
+            "must_contain": [
+              "友情",
+              "从未离开",
+              "地方"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "closing",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "id": "s4_1",
+            "core_fact": "那天我们聊了很久，直到天黑",
+            "must_contain": [
+              "聊",
+              "天黑",
+              "很久"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_2",
+            "core_fact": "分享各自的大学生活和计划",
+            "must_contain": [
+              "分享",
+              "大学生活",
+              "计划"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_3",
+            "core_fact": "约定以后常常见面，一起探索香港",
+            "must_contain": [
+              "约定",
+              "见面",
+              "探索"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s4_4",
+            "core_fact": "这次重逢让我明白，缘分很奇妙",
+            "must_contain": [
+              "重逢",
+              "缘分",
+              "奇妙"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_5",
+            "core_fact": "生活总在不经意间带来惊喜",
+            "must_contain": [
+              "生活",
+              "不经意",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_6",
+            "core_fact": "毕业不是结束，而是新的开始",
+            "must_contain": [
+              "毕业",
+              "结束",
+              "开始"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_7",
+            "core_fact": "感谢这次偶遇，让友情更加珍贵",
+            "must_contain": [
+              "感谢",
+              "偶遇",
+              "珍贵"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s4_8",
+            "core_fact": "未来，我们还会一起创造更多回忆",
+            "must_contain": [
+              "未来",
+              "创造",
+              "回忆"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260419_141326"
+}

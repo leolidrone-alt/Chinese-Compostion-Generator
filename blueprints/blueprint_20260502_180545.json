@@ -1,0 +1,655 @@
+{
+  "user_input": {
+    "topic": "伴随着秋冬天的到来，父亲的花凋零了，父亲也生病了，命不久矣",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "父亲的花",
+    "emotional_baseline": -0.3,
+    "paragraphs": [
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "秋风吹落最后一片花瓣，父亲的花圃空了。",
+            "must_contain": [
+              "秋风",
+              "花瓣",
+              "花圃",
+              "空"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "opening"
+          },
+          {
+            "core_fact": "他坐在藤椅上，手指轻抚枯萎的枝干。",
+            "must_contain": [
+              "藤椅",
+              "手指",
+              "枝干",
+              "枯萎"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "母亲说父亲今年秋天开始咳嗽不止。",
+            "must_contain": [
+              "母亲",
+              "咳嗽",
+              "秋天",
+              "不止"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "opening"
+          },
+          {
+            "core_fact": "医生的诊断像是判决书，家里骤然安静。",
+            "must_contain": [
+              "医生",
+              "诊断",
+              "判决书",
+              "安静"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "opening"
+          },
+          {
+            "core_fact": "我看着父亲消瘦的背影，想起他年轻时种花的模样。",
+            "must_contain": [
+              "消瘦",
+              "背影",
+              "种花",
+              "年轻"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "那时他总说花和人一样，都有节气。",
+            "must_contain": [
+              "节气",
+              "花",
+              "人"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "院子里的桂花今年开得极盛，香得刺鼻。",
+            "must_contain": [
+              "桂花",
+              "盛开",
+              "刺鼻",
+              "院子"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "母亲把凋落的花瓣扫成一堆，说留着做香囊。",
+            "must_contain": [
+              "母亲",
+              "扫",
+              "花瓣",
+              "香囊"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲却摆摆手，示意无用。",
+            "must_contain": [
+              "父亲",
+              "摆手",
+              "无用"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我蹲在花圃边，泥土的香气带着腐烂。",
+            "must_contain": [
+              "蹲",
+              "花圃",
+              "泥土",
+              "腐烂"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 270,
+        "sentences": [
+          {
+            "core_fact": "翻找旧物时，我看到一本泛黄的献血证。",
+            "must_contain": [
+              "旧物",
+              "献血证",
+              "泛黄"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "body"
+          },
+          {
+            "core_fact": "母亲说那是父亲年轻时的，每年都去。",
+            "must_contain": [
+              "母亲",
+              "年轻",
+              "每年"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "body"
+          },
+          {
+            "core_fact": "证上父亲的名字端正，像我户口本上那栏。",
+            "must_contain": [
+              "名字",
+              "端正",
+              "户口本",
+              "血缘"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他签字时手指的力度，仿佛在确认某种官方证明。",
+            "must_contain": [
+              "签字",
+              "手指",
+              "力度",
+              "确认",
+              "证明"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "想起我十八岁那年，父亲逼我去献血。",
+            "must_contain": [
+              "十八岁",
+              "父亲",
+              "逼",
+              "献血"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他说男人要有担当，血是热的最好。",
+            "must_contain": [
+              "担当",
+              "血",
+              "热"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我不情愿，现在才明白那只是他笨拙的关怀。",
+            "must_contain": [
+              "不情愿",
+              "明白",
+              "笨拙",
+              "关怀"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "父亲的血型是O型，母亲说是万能血。",
+            "must_contain": [
+              "血型",
+              "O型",
+              "万能血"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "body"
+          },
+          {
+            "core_fact": "他总说自己的血救过很多人。",
+            "must_contain": [
+              "救",
+              "人"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我把献血证放回抽屉，手有微微颤抖。",
+            "must_contain": [
+              "放回",
+              "抽屉",
+              "颤抖"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "窗外父亲已经睡下，呼吸声很轻。",
+            "must_contain": [
+              "窗外",
+              "睡下",
+              "呼吸",
+              "轻"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他的生命像那本证一样，薄薄一页。",
+            "must_contain": [
+              "生命",
+              "薄薄",
+              "一页"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "母亲进来关灯，问我看见了什么。",
+            "must_contain": [
+              "母亲",
+              "关灯",
+              "看见"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我说没什么，只是旧东西。",
+            "must_contain": [
+              "没什么",
+              "旧东西"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "她没有再问，轻轻关上门。",
+            "must_contain": [
+              "没有",
+              "问",
+              "关上门"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 270,
+        "sentences": [
+          {
+            "core_fact": "门口的青石台阶是父亲年轻时铺的。",
+            "must_contain": [
+              "青石台阶",
+              "父亲",
+              "年轻",
+              "铺"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "body"
+          },
+          {
+            "core_fact": "他修了半辈子，每块都严丝合缝。",
+            "must_contain": [
+              "修",
+              "半辈子",
+              "严丝合缝"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "body"
+          },
+          {
+            "core_fact": "我每一次踩上去，都听见岁月回响。",
+            "must_contain": [
+              "踩",
+              "岁月",
+              "回响"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "台阶表面磨损出浅浅凹陷，是无数脚踏。",
+            "must_contain": [
+              "磨损",
+              "凹陷",
+              "脚踏"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲说石阶有感情，踩久了就像亲人的脚印。",
+            "must_contain": [
+              "石阶",
+              "感情",
+              "亲人",
+              "脚印"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我小时候常在这台阶上写作业，等父亲回家。",
+            "must_contain": [
+              "小时候",
+              "写作业",
+              "等",
+              "回家"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他的脚步声从巷口传来，沉重而有力。",
+            "must_contain": [
+              "脚步声",
+              "巷口",
+              "沉重",
+              "有力"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "现在父亲走不动了，上下台阶需要搀扶。",
+            "must_contain": [
+              "走不动",
+              "上下",
+              "搀扶"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "body"
+          },
+          {
+            "core_fact": "我扶着他，他的体重压在我手臂上。",
+            "must_contain": [
+              "扶着",
+              "体重",
+              "手臂"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "台阶上的凹陷似乎更深了，像是血脉里沉默的引力。",
+            "must_contain": [
+              "凹陷",
+              "更深",
+              "血脉",
+              "沉默",
+              "引力"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他停下喘气，抬头看天。",
+            "must_contain": [
+              "停下",
+              "喘气",
+              "看天"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "天灰蒙蒙的，一只鸟飞过。",
+            "must_contain": [
+              "天",
+              "灰蒙蒙",
+              "鸟",
+              "飞过"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我说爸进屋吧，外面凉。",
+            "must_contain": [
+              "爸",
+              "进屋",
+              "外面",
+              "凉"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他点点头，脚却停在那里。",
+            "must_contain": [
+              "点头",
+              "脚",
+              "停"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我知道他舍不得这台阶，像舍不得他自己的一生。",
+            "must_contain": [
+              "舍不得",
+              "台阶",
+              "一生"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          }
+        ]
+      },
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "父亲病重的那天，花圃里最后一片叶子落下。",
+            "must_contain": [
+              "病重",
+              "花圃",
+              "叶子",
+              "落下"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "climax",
+            "atmosphere_hint": "凝重"
+          },
+          {
+            "core_fact": "母亲打电话让我回家，声音很平静。",
+            "must_contain": [
+              "母亲",
+              "电话",
+              "回家",
+              "平静"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "climax",
+            "atmosphere_hint": "压抑"
+          },
+          {
+            "core_fact": "我赶回时，父亲半靠在床上，眼神清亮。",
+            "must_contain": [
+              "赶回",
+              "父亲",
+              "靠",
+              "床上",
+              "清亮"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "climax",
+            "atmosphere_hint": "微弱"
+          },
+          {
+            "core_fact": "他指着窗外，嘴唇动了动。",
+            "must_contain": [
+              "指着",
+              "窗外",
+              "嘴唇"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "climax",
+            "atmosphere_hint": "无力"
+          },
+          {
+            "core_fact": "我看见那棵梅树，枝丫光秃秃的。",
+            "must_contain": [
+              "梅树",
+              "枝丫",
+              "光秃秃"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "climax",
+            "atmosphere_hint": "萧瑟"
+          },
+          {
+            "core_fact": "他说，春天会再开的。",
+            "must_contain": [
+              "春天",
+              "再开"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我握住他的手，骨节分明，冰凉。",
+            "must_contain": [
+              "握住",
+              "手",
+              "骨节",
+              "冰凉"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "climax",
+            "atmosphere_hint": "悲凉"
+          },
+          {
+            "core_fact": "那夜他走了，像花落一样安静。",
+            "must_contain": [
+              "走了",
+              "花落",
+              "安静"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "climax",
+            "atmosphere_hint": "寂静"
+          },
+          {
+            "core_fact": "我没有哭，只是看着窗外发呆。",
+            "must_contain": [
+              "没有哭",
+              "窗外",
+              "发呆"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "climax",
+            "atmosphere_hint": "麻木"
+          },
+          {
+            "core_fact": "月亮很圆，像父亲的眼睛。",
+            "must_contain": [
+              "月亮",
+              "圆",
+              "父亲",
+              "眼睛"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "climax",
+            "atmosphere_hint": "清冷"
+          }
+        ]
+      },
+      {
+        "target_word_count": 90,
+        "sentences": [
+          {
+            "core_fact": "第二天我开始整理他的遗物。",
+            "must_contain": [
+              "整理",
+              "遗物"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "在抽屉深处找到一包花籽。",
+            "must_contain": [
+              "抽屉",
+              "花籽"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "包装纸上的字迹已经模糊。",
+            "must_contain": [
+              "包装纸",
+              "字迹",
+              "模糊"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "母亲说这是他今年春天买的，没来得及种。",
+            "must_contain": [
+              "春天",
+              "买",
+              "没来得及",
+              "种"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "我把花籽埋在花圃里，泥土湿润。",
+            "must_contain": [
+              "花籽",
+              "埋",
+              "花圃",
+              "湿润"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "没有浇水，等一场雨。",
+            "must_contain": [
+              "浇水",
+              "雨"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "青石台阶上，一片干枯的花瓣被风吹起。",
+            "must_contain": [
+              "青石台阶",
+              "干枯",
+              "花瓣",
+              "吹起"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "它盘旋着，落在我脚边。",
+            "must_contain": [
+              "盘旋",
+              "落",
+              "脚边"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "closing"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_180545"
+}

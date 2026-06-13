@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="The Or Foundation RSS" href="https://theor.org/rss.xml" />
+<link rel="shortcut icon" href="https://theor.org/sites/all/themes/theor_landing_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>The Or Foundation | The Best Resistance is an Alternative</title>
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="The Or Foundation" />
+    <meta property="og:description" content="Too Much Clothing. Not Enough Justice. Too Often A Consumer. So Rarely a Human. It is Time to Recover. You Are Invited." />
+    <meta property="og:image" content="https://theor.org/sites/all/themes/theor_landing_theme/images-source/KayayoMeta.jpg"/>
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="A woman working as a kayayo carries a bowl atop her head in the early morning." />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/qpg2oen.css">
+  <style>
+@import url("https://theor.org/modules/field/theme/field.css?t4777x");
+@import url("https://theor.org/modules/search/search.css?t4777x");
+@import url("https://theor.org/modules/user/user.css?t4777x");
+</style>
+<style>
+@import url("https://theor.org/sites/all/themes/theor_landing_theme/css/styles.css?t4777x");
+</style>
+  <script src="https://theor.org/misc/jquery.js?v=1.4.4"></script>
+<script src="https://theor.org/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script src="https://theor.org/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script src="https://theor.org/misc/jquery.once.js?v=1.2"></script>
+<script src="https://theor.org/misc/drupal.js?t4777x"></script>
+<script src="https://theor.org/sites/all/themes/theor_landing_theme/js/script.js?t4777x"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"theor_landing_theme","theme_token":"9W3HQaznj3cnNsqIIpx9lfdDoyEfG-BdXQSnpuVTEmE","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/theor_landing_theme\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/themes\/theor_landing_theme\/system.base.css":1,"sites\/all\/themes\/theor_landing_theme\/system.menus.css":1,"sites\/all\/themes\/theor_landing_theme\/system.messages.css":1,"sites\/all\/themes\/theor_landing_theme\/system.theme.css":1,"sites\/all\/themes\/theor_landing_theme\/comment.css":1,"sites\/all\/themes\/theor_landing_theme\/node.css":1,"sites\/all\/themes\/theor_landing_theme\/css\/styles.css":1}}});</script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-73976541-1', 'auto');
+  ga('send', 'pageview');
+</script>      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+<body class="html front not-logged-in no-sidebars page-node" >
+     
+
+   
+
+    <main role="main">
+    <div class="menu-header">
+    <div id="column-1"><a class="logo-link" href="/" title="Human Beings Are Not Commodities"><logo></logo></a><div class="link-wrapper" ><a id="menu-link" title="Menu">MENU</a><a id="exit-link" title="Exit Menu">EXIT</a></div></div>
+    <div id="column-2"><div class="inner-column-wrapper"><a title="Mission" href="/mission">MISSION</a><a title="Work" href="/work">WORK</a><a title="Team" href="/team">TEAM</a><a title="Newsroom" href="/newsroom">NEWSROOM</a><a title="Donate" href="/donate">DONATE</a><a title="Contact" href="/contact">CONTACT</a></div></div>
+    <div id="column-3"><div class="inner-column-wrapper"><a title="Instagram @TheORIsPresent" href="https://instagram.com/theorispresent" target="_blank">Instagram</a><a title="Youtube @TheORIsPresent" href="https://www.youtube.com/channel/UCrUw3BCtKjHV-SnD3_HymIg/featured" target="_blank">Youtube</a><a title="Twitter @TheORIsPresent" href="https://twitter.com/theorispresent" target="_blank">Twitter</a></div></div>
+    </div>
+     <video playsinline autoplay muted loop id="bgvideo" poster="https://s3.amazonaws.com/deadwhitemansclothes/bg-images/loopposter.png">
+  <source src="https://s3.amazonaws.com/deadwhitemansclothes/bg-images/landingloopsmall.mp4" type="video/mp4">
+    <source src="https://s3.amazonaws.com/deadwhitemansclothes/bg-images/landingloopsmall.webm" type="video/webm">
+<img src="https://s3.amazonaws.com/deadwhitemansclothes/bg-images/loopposter.png" alt="Evidently your browser does not support our video. So you're getting this image instead. Sorry about that" title="Evidently your browser does not support our video. So you're getting this image instead. Sorry about that">
+</video>
+<overlay></overlay>
+
+    </main>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,491 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "老钟的时光",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 140,
+        "sentences": [
+          {
+            "core_fact": "老钟位于祖屋堂屋的条案上，是祖父的遗物。",
+            "must_contain": [
+              "老钟",
+              "祖屋",
+              "条案"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "每日清晨，祖父会踩着木凳为其上弦。",
+            "must_contain": [
+              "祖父",
+              "上弦",
+              "木凳"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声深沉悠扬，能传遍整座老宅。",
+            "must_contain": [
+              "钟声",
+              "深沉",
+              "老宅"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲说，这钟是曾祖父从省城背回的。",
+            "must_contain": [
+              "父亲",
+              "曾祖父",
+              "省城"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我的童年记忆，始于老钟的滴答声。",
+            "must_contain": [
+              "童年",
+              "老钟",
+              "滴答声"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "钟摆左右摇晃，像永不疲倦的心脏。",
+            "must_contain": [
+              "钟摆",
+              "摇晃",
+              "心脏"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那声音定义了家的节奏。",
+            "must_contain": [
+              "声音",
+              "家",
+              "节奏"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "core_fact": "我常仰头看钟摆，直到脖子发酸。",
+            "must_contain": [
+              "仰头",
+              "钟摆",
+              "脖子"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "祖父手把手教我识别罗马数字。",
+            "must_contain": [
+              "祖父",
+              "罗马数字",
+              "识别"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "指针移动极慢，时间仿佛停滞。",
+            "must_contain": [
+              "指针",
+              "缓慢",
+              "时间"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我幻想钟内住着一位矮人，拨动齿轮。",
+            "must_contain": [
+              "幻想",
+              "矮人",
+              "齿轮"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "午后阳光斜射，在钟面投下光斑。",
+            "must_contain": [
+              "阳光",
+              "钟面",
+              "光斑"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "钟声伴我进入午睡，梦里也是滴答。",
+            "must_contain": [
+              "钟声",
+              "午睡",
+              "滴答"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "一次我偷偷拨动指针，钟响起乱调。",
+            "must_contain": [
+              "拨动",
+              "指针",
+              "乱调"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "祖父发现后只是微笑，重新校准。",
+            "must_contain": [
+              "祖父",
+              "微笑",
+              "校准"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "core_fact": "我离家求学时，在院门口回望老钟。",
+            "must_contain": [
+              "离家",
+              "回望",
+              "老钟"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声穿过门廊，像是在说再见。",
+            "must_contain": [
+              "钟声",
+              "门廊",
+              "再见"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "城市喧嚣中，我时常想起那沉静声响。",
+            "must_contain": [
+              "城市",
+              "喧嚣",
+              "沉静"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "春节回家，老钟仍在原地，指针如常。",
+            "must_contain": [
+              "春节",
+              "原地",
+              "指针"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "祖父步履蹒跚，上弦时需扶墙。",
+            "must_contain": [
+              "祖父",
+              "蹒跚",
+              "扶墙"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我接过钥匙，代为上弦，手感滞涩。",
+            "must_contain": [
+              "钥匙",
+              "上弦",
+              "滞涩"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我发现老钟慢了十分钟，需要调整。",
+            "must_contain": [
+              "慢了",
+              "十分钟",
+              "调整"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "那时我才察觉，时间在偷走一切。",
+            "must_contain": [
+              "察觉",
+              "时间",
+              "偷走"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "core_fact": "多年后我带着孩子回乡，老钟布满灰尘。",
+            "must_contain": [
+              "孩子",
+              "灰尘",
+              "老钟"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "孩子踮脚好奇地看钟摆晃动。",
+            "must_contain": [
+              "孩子",
+              "踮脚",
+              "钟摆"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我讲述自己儿时与钟相伴的往事。",
+            "must_contain": [
+              "讲述",
+              "儿时",
+              "往事"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "父亲已去世多年，钟声依旧沉默。",
+            "must_contain": [
+              "父亲",
+              "去世",
+              "沉默"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我注意到钟停了，指针停在凌晨三点。",
+            "must_contain": [
+              "停了",
+              "指针",
+              "凌晨"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我拧紧发条，钟摆却纹丝不动。",
+            "must_contain": [
+              "发条",
+              "钟摆",
+              "不动"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "打开钟壳，内部齿轮锈迹斑斑。",
+            "must_contain": [
+              "钟壳",
+              "齿轮",
+              "锈迹"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我决定将它修好，仿佛在挽救记忆。",
+            "must_contain": [
+              "修好",
+              "挽救",
+              "记忆"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 140,
+        "sentences": [
+          {
+            "core_fact": "我小心翼翼拆下所有零件，逐一清洗。",
+            "must_contain": [
+              "拆下",
+              "零件",
+              "清洗"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action",
+            "atmosphere_hint": "专注而沉重"
+          },
+          {
+            "core_fact": "齿轮上的每一道划痕，都是岁月印记。",
+            "must_contain": [
+              "划痕",
+              "岁月",
+              "印记"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection",
+            "atmosphere_hint": "怀旧"
+          },
+          {
+            "core_fact": "我给轴承注油，金属焕发微光。",
+            "must_contain": [
+              "轴承",
+              "注油",
+              "微光"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action",
+            "atmosphere_hint": "希望"
+          },
+          {
+            "core_fact": "重新组装后，上紧发条，钟摆开始摆动。",
+            "must_contain": [
+              "组装",
+              "发条",
+              "摆动"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action",
+            "atmosphere_hint": "紧张与期待"
+          },
+          {
+            "core_fact": "钟声再次响起，却比记忆中更加沉重。",
+            "must_contain": [
+              "钟声",
+              "沉重",
+              "记忆"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description",
+            "atmosphere_hint": "沧桑"
+          },
+          {
+            "core_fact": "我触摸钟面，感到微温，仿佛它也有生命。",
+            "must_contain": [
+              "触摸",
+              "微温",
+              "生命"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action",
+            "atmosphere_hint": "温情"
+          },
+          {
+            "core_fact": "那一刻，我和时间达成了和解。",
+            "must_contain": [
+              "和解",
+              "时间",
+              "那一刻"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "climax",
+            "atmosphere_hint": "宁静"
+          }
+        ]
+      },
+      {
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "core_fact": "临别前，我将老钟交给儿子。",
+            "must_contain": [
+              "交给",
+              "儿子",
+              "老钟"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子双手接过，神情郑重。",
+            "must_contain": [
+              "双手",
+              "接过",
+              "郑重"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他保证会好好保管，让钟一直走。",
+            "must_contain": [
+              "保证",
+              "保管",
+              "走"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我教他如何上弦，他学得很认真。",
+            "must_contain": [
+              "教",
+              "上弦",
+              "认真"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声再次响起，比之前更加清澈。",
+            "must_contain": [
+              "钟声",
+              "清澈",
+              "响起"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "老钟从计时工具，变成了家族的信物。",
+            "must_contain": [
+              "信物",
+              "家族",
+              "计时"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "closing"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260503_220728"
+}

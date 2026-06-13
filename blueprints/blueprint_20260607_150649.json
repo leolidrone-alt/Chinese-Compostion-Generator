@@ -1,0 +1,670 @@
+{
+  "user_input": {
+    "topic": "词语是表达思想情感的载体，也是展现社会生活变化的窗口。当前，世界之变、时代之变、历史之变正以前所未有的方式展开。青年是常为新的，在你的成长过程中，你对哪一个词语的理解发生了变化？这变化有你成长的印记，对你有特殊的意义……以上材料引发了你怎样的联想和思考？请写一篇文章。",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "词典里的“责任”",
+    "emotional_baseline": 0.2,
+    "paragraphs": [
+      {
+        "paragraph_index": 0,
+        "paragraph_role": "introduction",
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "core_fact": "我从小在父亲的书房里看到一本泛黄的老词典。",
+            "must_contain": [
+              "老词典",
+              "父亲",
+              "书房"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "父亲说，这本词典陪伴了他整个求学时代。",
+            "must_contain": [
+              "陪伴",
+              "求学",
+              "父亲"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我随手翻开一页，看到“责任”一词的释义。",
+            "must_contain": [
+              "翻开",
+              "责任",
+              "释义"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "释义写着：分内应做的事。",
+            "must_contain": [
+              "分内",
+              "事",
+              "责任"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "fact"
+          },
+          {
+            "core_fact": "那时的我，觉得“责任”就是一种束缚。",
+            "must_contain": [
+              "束缚",
+              "责任",
+              "那时"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "我不喜欢被要求做这做那。",
+            "must_contain": [
+              "不喜欢",
+              "要求",
+              "做"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老词典静静的立在书架上，像一位沉默的老师。",
+            "must_contain": [
+              "老词典",
+              "书架",
+              "沉默"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "我很少再去碰它。",
+            "must_contain": [
+              "很少",
+              "碰",
+              "老词典"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "直到初中毕业那年，我遇到一件事。",
+            "must_contain": [
+              "初中毕业",
+              "一件事",
+              "遇到"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "fact"
+          },
+          {
+            "core_fact": "这件事改变了我对“责任”的看法。",
+            "must_contain": [
+              "改变",
+              "责任",
+              "看法"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_index": 1,
+        "paragraph_role": "body_first",
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "我被选为班长，负责班级纪律。",
+            "must_contain": [
+              "班长",
+              "负责",
+              "纪律"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action",
+            "atmosphere_hint": "紧张"
+          },
+          {
+            "core_fact": "起初我很兴奋，觉得这是荣誉。",
+            "must_contain": [
+              "兴奋",
+              "荣誉",
+              "起初"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "但很快，麻烦来了。",
+            "must_contain": [
+              "麻烦",
+              "很快",
+              "来了"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "fact"
+          },
+          {
+            "core_fact": "有朋友上课讲话，我该不该记名字？",
+            "must_contain": [
+              "朋友",
+              "讲话",
+              "记名字"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "记了，朋友怪我无情；不记，老师说我失职。",
+            "must_contain": [
+              "记",
+              "朋友",
+              "老师",
+              "失职"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我夹在中间，左右为难。",
+            "must_contain": [
+              "夹在中间",
+              "左右为难"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那段时间，我回家就把自己锁在房间。",
+            "must_contain": [
+              "回家",
+              "锁",
+              "房间"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我再次翻出老词典，想找答案。",
+            "must_contain": [
+              "翻出",
+              "老词典",
+              "答案"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "可“分内应做的事”这几个字并不能说服我。",
+            "must_contain": [
+              "分内应做的事",
+              "说服"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "我赌气把词典扔回书架。",
+            "must_contain": [
+              "赌气",
+              "扔回",
+              "书架"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "后来我选择了辞职，卸下担子。",
+            "must_contain": [
+              "辞职",
+              "卸下",
+              "担子"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "同学们都说我不负责任。",
+            "must_contain": [
+              "同学",
+              "不负责任"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我沉默不语，心里却想：责任到底意味着什么？",
+            "must_contain": [
+              "沉默不语",
+              "责任",
+              "意味着"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "那本老词典依然立在书架上，不曾改变。",
+            "must_contain": [
+              "老词典",
+              "书架",
+              "不曾改变"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "但我对“责任”的理解，已经摇摇欲坠。",
+            "must_contain": [
+              "责任",
+              "理解",
+              "摇摇欲坠"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_index": 2,
+        "paragraph_role": "body_second",
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "高二暑假，我参加了山区支教活动。",
+            "must_contain": [
+              "高二",
+              "暑假",
+              "支教"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "出发前，我特意把老词典塞进背包。",
+            "must_contain": [
+              "老词典",
+              "背包",
+              "出发"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "也许潜意识里，我还想追问那个问题。",
+            "must_contain": [
+              "潜意识",
+              "追问",
+              "问题"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "支教点条件艰苦，教室是土坯房。",
+            "must_contain": [
+              "条件艰苦",
+              "教室",
+              "土坯房"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "但孩子们的眼睛里充满渴望。",
+            "must_contain": [
+              "孩子",
+              "眼睛",
+              "渴望"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "我的搭档是一位五十多岁的乡村教师。",
+            "must_contain": [
+              "搭档",
+              "乡村教师",
+              "五十多岁"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "fact"
+          },
+          {
+            "core_fact": "他在这所学校教了三十年，从青年到白头。",
+            "must_contain": [
+              "三十年",
+              "青年",
+              "白头"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "fact"
+          },
+          {
+            "core_fact": "我问他为什么坚持。",
+            "must_contain": [
+              "为什么",
+              "坚持",
+              "问"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他笑了笑，说：“因为孩子们需要。”",
+            "must_contain": [
+              "笑",
+              "孩子",
+              "需要"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那一刻，我好像明白了什么。",
+            "must_contain": [
+              "那一刻",
+              "明白",
+              "什么"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "晚上，我拿出老词典，重新翻阅“责任”那一页。",
+            "must_contain": [
+              "老词典",
+              "翻阅",
+              "责任"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "这次，我没有只看释义。",
+            "must_contain": [
+              "没有",
+              "看",
+              "释义"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我看到了例句：“培养下一代是我们的责任。”",
+            "must_contain": [
+              "例句",
+              "培养下一代",
+              "责任"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "fact"
+          },
+          {
+            "core_fact": "我突然发现，责任不是枷锁，而是与他人的联结。",
+            "must_contain": [
+              "责任",
+              "不是",
+              "枷锁",
+              "联结"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "core_fact": "老词典的纸页在灯光下泛着暖黄的光。",
+            "must_contain": [
+              "老词典",
+              "纸页",
+              "暖黄"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "setting"
+          }
+        ]
+      },
+      {
+        "paragraph_index": 3,
+        "paragraph_role": "body_third",
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "支教回来，我变得主动承担班级事务。",
+            "must_contain": [
+              "支教",
+              "主动",
+              "承担"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "大家惊讶于我的变化。",
+            "must_contain": [
+              "惊讶",
+              "变化"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我只是笑笑，心里知道答案。",
+            "must_contain": [
+              "笑笑",
+              "答案"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "大学我选择了师范专业。",
+            "must_contain": [
+              "大学",
+              "师范",
+              "专业"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "毕业那年，我再次回到那所山区小学实习。",
+            "must_contain": [
+              "毕业",
+              "回到",
+              "小学"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "这次，我带上了父亲的老词典。",
+            "must_contain": [
+              "父亲",
+              "老词典",
+              "带上"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "在最后一堂课上，我把词典拿出来。",
+            "must_contain": [
+              "最后一堂",
+              "课堂",
+              "词典"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我跟学生们讲了自己与“责任”的故事。",
+            "must_contain": [
+              "学生",
+              "责任",
+              "故事"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "然后，我把词典交给了班上最内向的男孩。",
+            "must_contain": [
+              "词典",
+              "交给",
+              "男孩"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他叫小峰，眼睛亮晶晶的。",
+            "must_contain": [
+              "小峰",
+              "眼睛",
+              "亮晶晶"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "我说：“希望它能帮你找到自己的答案。”",
+            "must_contain": [
+              "希望",
+              "帮助",
+              "答案"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小峰紧紧抱住词典，点了点头。",
+            "must_contain": [
+              "抱住",
+              "词典",
+              "点头"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那一刻，老词典不再只是一本书。",
+            "must_contain": [
+              "老词典",
+              "不再",
+              "书"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它承载了两代人的困惑与觉醒。",
+            "must_contain": [
+              "承载",
+              "两代人",
+              "困惑",
+              "觉醒"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "从父亲到我，再到小峰，责任在传递。",
+            "must_contain": [
+              "父亲",
+              "我",
+              "小峰",
+              "传递"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_index": 4,
+        "paragraph_role": "conclusion",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "core_fact": "如今，我明白词语的意义并非一成不变。",
+            "must_contain": [
+              "词语",
+              "意义",
+              "一成不变"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它会随着人的经历而被重新书写。",
+            "must_contain": [
+              "经历",
+              "重新书写"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "就像那本老词典，封皮已磨损，但内页常新。",
+            "must_contain": [
+              "老词典",
+              "封皮",
+              "内页"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "我理解了父亲当年的沉默。",
+            "must_contain": [
+              "父亲",
+              "沉默"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "也终于与自己和解。",
+            "must_contain": [
+              "与自己",
+              "和解"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "词语是时代的注脚，更是成长的刻度。",
+            "must_contain": [
+              "词语",
+              "时代",
+              "成长",
+              "刻度"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "字典里的“责任”二字，从此有了温度。",
+            "must_contain": [
+              "字典",
+              "责任",
+              "温度"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_150649"
+}

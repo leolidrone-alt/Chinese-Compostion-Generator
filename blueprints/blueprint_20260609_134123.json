@@ -1,0 +1,550 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "老槐树下的石磨",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "村口老槐树下有一盘石磨，爷爷说它比村子还老。",
+            "must_contain": [
+              "老槐树",
+              "石磨",
+              "爷爷"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "石磨上刻着模糊的莲花纹，磨眼里长出了青苔。",
+            "must_contain": [
+              "莲花纹",
+              "磨眼",
+              "青苔"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我小时候总爱趴在石磨上，听爷爷讲他年轻时推磨的故事。",
+            "must_contain": [
+              "趴",
+              "推磨",
+              "故事"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "爷爷说，这石磨养活了三代人。",
+            "must_contain": [
+              "三代人",
+              "养活"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我摸着石磨粗糙的边缘，想象它转动的样子。",
+            "must_contain": [
+              "粗糙",
+              "边缘",
+              "转动"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "那时石磨是村里唯一的磨坊，每天清晨都有人来排队。",
+            "must_contain": [
+              "磨坊",
+              "清晨",
+              "排队"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "爷爷推磨时哼着不成调的歌，石磨发出沉闷的响声。",
+            "must_contain": [
+              "推磨",
+              "哼歌",
+              "沉闷"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我学着爷爷的样子推磨，却怎么也推不动。",
+            "must_contain": [
+              "学",
+              "推不动"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "爷爷笑着说，力气是磨出来的。",
+            "must_contain": [
+              "力气",
+              "磨出来"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我记住了这句话，也记住了石磨的温度。",
+            "must_contain": [
+              "记住",
+              "温度"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "父亲年轻时接过了爷爷的磨棍，成了村里最后一个磨匠。",
+            "must_contain": [
+              "父亲",
+              "磨棍",
+              "磨匠"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "但电磨出现了，石磨的生意一天不如一天。",
+            "must_contain": [
+              "电磨",
+              "生意",
+              "不如"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲坐在石磨上抽烟，烟灰掉进磨眼里。",
+            "must_contain": [
+              "抽烟",
+              "烟灰",
+              "磨眼"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他试着改进石磨，把磨齿凿得更深，但没人来。",
+            "must_contain": [
+              "改进",
+              "磨齿",
+              "凿深"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "村里人开始用机器磨面，说石磨磨的粉太粗。",
+            "must_contain": [
+              "机器",
+              "磨面",
+              "粗"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲不服气，自己磨了一袋面，挨家挨户送。",
+            "must_contain": [
+              "不服气",
+              "磨面",
+              "送"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "有人说石磨的面香，但更多人嫌麻烦。",
+            "must_contain": [
+              "香",
+              "麻烦"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲把石磨洗得干干净净，磨盘上能照见人影。",
+            "must_contain": [
+              "洗",
+              "磨盘",
+              "人影"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他每天还是早起，把磨棍架好，等一个永远不会来的客人。",
+            "must_contain": [
+              "早起",
+              "磨棍",
+              "客人"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "那年冬天，父亲病倒了，石磨彻底停了。",
+            "must_contain": [
+              "冬天",
+              "病倒",
+              "停了"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我放学回家，看见石磨上落了一层雪。",
+            "must_contain": [
+              "雪",
+              "石磨"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲躺在床上，让我把磨棍收起来。",
+            "must_contain": [
+              "床",
+              "磨棍",
+              "收"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我抱着磨棍，觉得它比从前轻了。",
+            "must_contain": [
+              "抱",
+              "轻"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲说，石磨老了，人也老了。",
+            "must_contain": [
+              "老了"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我默默把磨棍放回墙角，石磨在雪里沉默。",
+            "must_contain": [
+              "墙角",
+              "沉默"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "我考上大学那年，村里通了公路，石磨被移到路边。",
+            "must_contain": [
+              "大学",
+              "公路",
+              "路边"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲病好了，但不再提磨面的事。",
+            "must_contain": [
+              "病好",
+              "不提"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他偶尔去擦擦石磨上的灰，像在擦一件古董。",
+            "must_contain": [
+              "擦",
+              "灰",
+              "古董"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我暑假回家，发现石磨上刻了新的痕迹。",
+            "must_contain": [
+              "暑假",
+              "新痕迹"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "是村里小孩用石子刻的名字，歪歪扭扭。",
+            "must_contain": [
+              "小孩",
+              "石子",
+              "名字"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲说，石磨成了孩子们的凳子。",
+            "must_contain": [
+              "凳子"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我坐在石磨上，感觉它比记忆里矮了。",
+            "must_contain": [
+              "坐",
+              "矮"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "石磨的莲花纹已经模糊不清，像被时间磨平了。",
+            "must_contain": [
+              "莲花纹",
+              "模糊",
+              "磨平"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我用手掌贴上去，石面冰凉。",
+            "must_contain": [
+              "手掌",
+              "冰凉"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲说，这石磨以后就留在这里吧。",
+            "must_contain": [
+              "留"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我点点头，知道有些东西回不去了。",
+            "must_contain": [
+              "点头",
+              "回不去"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "exposition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "我毕业后留在城里工作，很少回村。",
+            "must_contain": [
+              "毕业",
+              "城里",
+              "回村"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "有一年清明回去，发现老槐树被砍了，石磨孤零零地立着。",
+            "must_contain": [
+              "清明",
+              "老槐树",
+              "砍",
+              "孤零零"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "石磨上爬满了藤蔓，磨眼里长出一棵小树苗。",
+            "must_contain": [
+              "藤蔓",
+              "小树苗"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我蹲下来，想拔掉藤蔓，手却停住了。",
+            "must_contain": [
+              "蹲",
+              "拔",
+              "停住"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "那棵小树苗的根扎在磨眼里，像石磨长出了新生命。",
+            "must_contain": [
+              "根",
+              "磨眼",
+              "新生命"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我拍了张照片，发给父亲。",
+            "must_contain": [
+              "照片",
+              "父亲"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲回消息说，石磨终于又活了。",
+            "must_contain": [
+              "回消息",
+              "活了"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我看着照片里的石磨，想起爷爷推磨的样子。",
+            "must_contain": [
+              "照片",
+              "想起"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "石磨不再转动，却以另一种方式生长。",
+            "must_contain": [
+              "转动",
+              "生长"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "风吹过，小树苗的叶子轻轻摇晃。",
+            "must_contain": [
+              "风",
+              "叶子",
+              "摇晃"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "去年，村里搞旅游，有人提议把石磨做成景点。",
+            "must_contain": [
+              "旅游",
+              "景点"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "父亲不同意，说石磨不是给人看的。",
+            "must_contain": [
+              "不同意",
+              "看"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他让人在石磨旁立了块牌子，上面写着“老磨”。",
+            "must_contain": [
+              "牌子",
+              "老磨"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我回去时，看见一个小孩正趴在石磨上写作业。",
+            "must_contain": [
+              "小孩",
+              "写作业"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "夕阳照在石磨上，磨盘上的莲花纹隐隐发光。",
+            "must_contain": [
+              "夕阳",
+              "发光"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我走过去，摸了摸石磨，它还是温的。",
+            "must_contain": [
+              "摸",
+              "温"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "小孩抬头看我，笑了笑，继续写字。",
+            "must_contain": [
+              "抬头",
+              "笑",
+              "写字"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "石磨静静地立在那里，像什么都没发生过。",
+            "must_contain": [
+              "静静",
+              "立"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          }
+        ]
+      }
+    ],
+    "ending_style": "implicit"
+  },
+  "generated_at": "20260609_134123"
+}

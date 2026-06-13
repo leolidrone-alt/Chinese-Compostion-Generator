@@ -1,0 +1,1142 @@
+{
+  "user_input": {
+    "topic": "用一篇文章展示一个普通人到死的在人生中的三起三落,最好文章有一个线索贯穿全文",
+    "emotion": "中性",
+    "target_words": 1500
+  },
+  "blueprint": {
+    "title": "钟声如诉",
+    "overall_emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "村口老钟悬在槐树下，铁锈斑驳",
+            "must_contain": [
+              "老钟",
+              "槐树",
+              "铁锈"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "每日清晨守钟人拉动绳索，钟声沉闷悠远",
+            "must_contain": [
+              "守钟人",
+              "绳索",
+              "钟声"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生出生那天钟声敲了七下",
+            "must_contain": [
+              "阿生",
+              "出生",
+              "七下"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲躺在床上听着钟声微笑",
+            "must_contain": [
+              "母亲",
+              "床上",
+              "微笑"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "父亲探进头说这孩子赶上了晨钟",
+            "must_contain": [
+              "父亲",
+              "晨钟",
+              "孩子"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "阿生哭声响亮压过了钟声",
+            "must_contain": [
+              "哭声",
+              "压过",
+              "钟声"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "窗外梧桐叶沙沙作响，阳光洒进窗",
+            "must_contain": [
+              "梧桐叶",
+              "阳光",
+              "窗户"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "老钟铜舌微微晃动，余音袅袅",
+            "must_contain": [
+              "铜舌",
+              "晃动",
+              "余音"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "村里人说这钟传了三百年，见证生老病死",
+            "must_contain": [
+              "三百年",
+              "见证",
+              "生老病死"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "阿生在钟声中睁开眼，世界初醒",
+            "must_contain": [
+              "睁开眼",
+              "世界",
+              "初醒"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "transition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "core_fact": "阿生七岁那年冬天父亲病倒了",
+            "must_contain": [
+              "七岁",
+              "冬天",
+              "父亲病倒"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声在寒风里格外悲凉",
+            "must_contain": [
+              "寒风",
+              "钟声",
+              "悲凉"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "父亲临终拉着阿生的手，说听见钟声就要想起家",
+            "must_contain": [
+              "临终",
+              "拉手",
+              "钟声",
+              "家"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "阿生哭了，眼泪滴在冰冷的地上",
+            "must_contain": [
+              "哭了",
+              "眼泪",
+              "地上"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "父亲丧事办完，家里穷得揭不开锅",
+            "must_contain": [
+              "丧事",
+              "穷",
+              "揭不开锅"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "母亲日夜织布供阿生上学",
+            "must_contain": [
+              "母亲",
+              "织布",
+              "上学"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生很争气，每次考试得第一",
+            "must_contain": [
+              "争气",
+              "考试",
+              "第一"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "黄昏时分阿生爬上钟楼触摸老钟",
+            "must_contain": [
+              "黄昏",
+              "钟楼",
+              "触摸"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他对着老钟发誓要出人头地",
+            "must_contain": [
+              "发誓",
+              "出人头地",
+              "老钟"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "钟声在晚霞里格外温暖",
+            "must_contain": [
+              "晚霞",
+              "钟声",
+              "温暖"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "阿生考上了县里的中学",
+            "must_contain": [
+              "考上",
+              "县中学",
+              "阿生"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲卖掉嫁妆给他交学费",
+            "must_contain": [
+              "卖掉",
+              "嫁妆",
+              "学费"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "离家的早晨钟声为他送行",
+            "must_contain": [
+              "离家",
+              "早晨",
+              "送行"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "阿生回头望村子，眼里有不舍和坚定",
+            "must_contain": [
+              "回头",
+              "村子",
+              "不舍",
+              "坚定"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "中学日子很苦，他咬牙挺过",
+            "must_contain": [
+              "苦",
+              "咬牙",
+              "挺过"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "每个夜晚他想象家乡的钟声",
+            "must_contain": [
+              "夜晚",
+              "想象",
+              "钟声"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "期末考试名列前茅，拿到奖学金",
+            "must_contain": [
+              "期末考试",
+              "名列前茅",
+              "奖学金"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他写信回家，母亲回信说钟声每天都在响",
+            "must_contain": [
+              "写信",
+              "回信",
+              "钟声"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那一年阿生第一次感到可以改变命运",
+            "must_contain": [
+              "第一次",
+              "感到",
+              "改变命运"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他站在学校操场望着远方的灯火",
+            "must_contain": [
+              "操场",
+              "远方",
+              "灯火"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "钟声在记忆里回响，像母亲的手",
+            "must_contain": [
+              "记忆",
+              "回响",
+              "母亲的手"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "暑假回家他特意去敲了两下钟",
+            "must_contain": [
+              "暑假",
+              "回家",
+              "敲钟"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声清脆仿佛在欢迎他",
+            "must_contain": [
+              "清脆",
+              "欢迎",
+              "钟声"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "母亲站在门口白发多了几根",
+            "must_contain": [
+              "母亲",
+              "门口",
+              "白发"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "这个暑假他第一次帮母亲下地干活",
+            "must_contain": [
+              "暑假",
+              "帮母亲",
+              "下地"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "core_fact": "阿生大学毕业后留在城里进了工厂",
+            "must_contain": [
+              "大学毕业",
+              "城里",
+              "工厂"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他每天加班想攒钱娶媳妇",
+            "must_contain": [
+              "加班",
+              "攒钱",
+              "娶媳妇"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "工厂突然倒闭他失业了",
+            "must_contain": [
+              "倒闭",
+              "失业",
+              "阿生"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "女友也因此离开了他",
+            "must_contain": [
+              "女友",
+              "离开",
+              "阿生"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生坐在出租屋里听窗外的车流声",
+            "must_contain": [
+              "出租屋",
+              "车流声",
+              "阿生"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他想起家乡钟声心里空落落的",
+            "must_contain": [
+              "想起",
+              "钟声",
+              "空落落"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他不想回家怕母亲担心",
+            "must_contain": [
+              "不想回家",
+              "怕",
+              "担心"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他四处求职都碰了壁",
+            "must_contain": [
+              "求职",
+              "碰壁",
+              "阿生"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "最困难时口袋里只剩十块钱",
+            "must_contain": [
+              "困难",
+              "十块钱",
+              "口袋"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "一个老钟表匠收留他教他修钟",
+            "must_contain": [
+              "老钟表匠",
+              "收留",
+              "修钟"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生学了手艺渐渐能养活自己",
+            "must_contain": [
+              "手艺",
+              "养活",
+              "自己"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他租了个小铺子专门修钟表",
+            "must_contain": [
+              "租铺子",
+              "修钟表",
+              "阿生"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他修好许多旧钟每修好一个就想起村口老钟",
+            "must_contain": [
+              "修好",
+              "旧钟",
+              "想起",
+              "老钟"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "后来攒了点钱把母亲接到城里",
+            "must_contain": [
+              "攒钱",
+              "母亲",
+              "接到城里"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲看到他的铺子泪流满面",
+            "must_contain": [
+              "母亲",
+              "铺子",
+              "泪流满面"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "阿生终于有了自己的家不再漂泊",
+            "must_contain": [
+              "有了家",
+              "不再漂泊",
+              "阿生"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他娶了隔壁裁缝的女儿生活平淡温暖",
+            "must_contain": [
+              "娶了",
+              "裁缝女儿",
+              "平淡温暖"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "婚礼那天他让人从老家运来钟录了音",
+            "must_contain": [
+              "婚礼",
+              "运来钟",
+              "录音"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声在婚宴上响起宾客都安静了",
+            "must_contain": [
+              "钟声",
+              "婚宴",
+              "宾客安静"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "阿生觉得日子有了盼头",
+            "must_contain": [
+              "日子",
+              "盼头",
+              "阿生"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "妻子怀孕他将成为父亲",
+            "must_contain": [
+              "怀孕",
+              "父亲",
+              "阿生"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他在铺子门前挂了一串小铜铃风一吹叮当响",
+            "must_contain": [
+              "铜铃",
+              "风",
+              "叮当响"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "生活虽然不富裕但充满希望",
+            "must_contain": [
+              "不富裕",
+              "希望",
+              "生活"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "第一声啼哭传来他抱住妻子",
+            "must_contain": [
+              "啼哭",
+              "抱住",
+              "妻子"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声仿佛又在耳边响起这次是欢快的",
+            "must_contain": [
+              "钟声",
+              "耳边",
+              "欢快"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "atmosphere"
+          }
+        ]
+      },
+      {
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "core_fact": "阿生四十岁时修钟铺生意越来越好",
+            "must_contain": [
+              "四十岁",
+              "修钟铺",
+              "生意好"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他开了分店请了几个学徒",
+            "must_contain": [
+              "分店",
+              "学徒",
+              "阿生"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "好景不长电子表兴起机械钟无人问津",
+            "must_contain": [
+              "电子表",
+              "机械钟",
+              "无人问津"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "铺子生意一落千丈学徒纷纷离开",
+            "must_contain": [
+              "一落千丈",
+              "学徒离开",
+              "生意"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生积劳成疾腰间盘突出卧床不起",
+            "must_contain": [
+              "积劳成疾",
+              "腰间盘",
+              "卧床"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲也病倒了医药费压得喘不过气",
+            "must_contain": [
+              "母亲病倒",
+              "医药费",
+              "喘不过气"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "妻子日夜操劳头发白了大半",
+            "must_contain": [
+              "妻子",
+              "操劳",
+              "头发白"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "阿生看着妻子憔悴的脸心里愧疚",
+            "must_contain": [
+              "看着",
+              "憔悴",
+              "愧疚"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他想起父亲临终的话眼泪无声滑落",
+            "must_contain": [
+              "想起",
+              "临终",
+              "眼泪"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "他觉得自己这辈子到头了",
+            "must_contain": [
+              "觉得",
+              "这辈子",
+              "到头"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "一日老钟表匠来看他带来一口古钟",
+            "must_contain": [
+              "老钟表匠",
+              "古钟",
+              "来看他"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老人说这钟是你父亲当年修的",
+            "must_contain": [
+              "父亲",
+              "修",
+              "钟"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "阿生摸着钟上面刻着家族印记",
+            "must_contain": [
+              "摸着",
+              "刻着",
+              "家族印记"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他突然有了力量决定重新开始",
+            "must_contain": [
+              "力量",
+              "重新开始",
+              "阿生"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他专攻古钟修复慢慢有了名气",
+            "must_contain": [
+              "古钟修复",
+              "名气",
+              "阿生"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "博物馆也来找他修文物钟",
+            "must_contain": [
+              "博物馆",
+              "文物钟",
+              "阿生"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他的腰病好转能下床走动了",
+            "must_contain": [
+              "腰病",
+              "好转",
+              "下床"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生重新把老家的钟声录成CD在店里播放",
+            "must_contain": [
+              "钟声",
+              "CD",
+              "播放"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "顾客都说这钟声让人平静",
+            "must_contain": [
+              "顾客",
+              "钟声",
+              "平静"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他的儿子考上大学选了历史专业",
+            "must_contain": [
+              "儿子",
+              "大学",
+              "历史专业"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子说想研究钟的文化",
+            "must_contain": [
+              "儿子",
+              "研究",
+              "钟文化"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "阿生觉得一切都在变好",
+            "must_contain": [
+              "一切",
+              "变好",
+              "阿生"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "那口老钟依然在村口日夜守候",
+            "must_contain": [
+              "老钟",
+              "村口",
+              "守候"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "阿生决定给村里捐一笔钱保护老钟",
+            "must_contain": [
+              "捐钱",
+              "保护",
+              "老钟"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "电话那头老村长激动地说钟声不能断",
+            "must_contain": [
+              "老村长",
+              "激动",
+              "钟声不能断"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "阿生六十岁那年把铺子交给徒弟",
+            "must_contain": [
+              "六十岁",
+              "铺子",
+              "交给徒弟"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他带着老伴回到了村里",
+            "must_contain": [
+              "老伴",
+              "回到",
+              "村里"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "村口老槐树还在但老钟破旧不堪",
+            "must_contain": [
+              "老槐树",
+              "老钟",
+              "破旧"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "村里要拆迁老钟将被送进博物馆",
+            "must_contain": [
+              "拆迁",
+              "博物馆",
+              "老钟"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阿生抚摸老钟上面满是裂纹",
+            "must_contain": [
+              "抚摸",
+              "裂纹",
+              "老钟"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他想起自己一生三次起落",
+            "must_contain": [
+              "一生",
+              "三次",
+              "起落"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "每一落钟声低沉每一起钟声高亢",
+            "must_contain": [
+              "低沉",
+              "高亢",
+              "钟声"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他决定最后一次晨钟自己亲手敲响",
+            "must_contain": [
+              "最后一次",
+              "晨钟",
+              "亲手"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那天早上天没亮他就来到树下",
+            "must_contain": [
+              "早上",
+              "天没亮",
+              "树下"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他的手指触到冰凉铜舌心中千言万语",
+            "must_contain": [
+              "手指",
+              "铜舌",
+              "千言万语"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他缓缓拉动绳索钟声响起",
+            "must_contain": [
+              "拉动",
+              "绳索",
+              "钟声"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声在空旷田野上回荡",
+            "must_contain": [
+              "田野",
+              "回荡",
+              "钟声"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "村里人都来了默默站立",
+            "must_contain": [
+              "村里人",
+              "站立",
+              "默默"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "阿生闭上眼睛往事如钟声涌来",
+            "must_contain": [
+              "闭眼",
+              "往事",
+              "涌来"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "他看见自己出生时母亲的笑容",
+            "must_contain": [
+              "出生",
+              "母亲",
+              "笑容"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "看见父亲远去的背影",
+            "must_contain": [
+              "父亲",
+              "远去",
+              "背影"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "看见中学的荣誉",
+            "must_contain": [
+              "中学",
+              "荣誉",
+              "看见"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "看见失业的落魄",
+            "must_contain": [
+              "失业",
+              "落魄",
+              "看见"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "看见修钟铺的灯光",
+            "must_contain": [
+              "修钟铺",
+              "灯光",
+              "看见"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "看见儿子的笑脸",
+            "must_contain": [
+              "儿子",
+              "笑脸",
+              "看见"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "钟声渐渐微弱最后余音消散",
+            "must_contain": [
+              "微弱",
+              "余音",
+              "消散"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "阿生睁开眼天已经大亮",
+            "must_contain": [
+              "睁开眼",
+              "大亮",
+              "阿生"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "有人问他以后听不到钟声怎么办",
+            "must_contain": [
+              "问",
+              "听不到",
+              "钟声"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他张了张嘴想说些什么",
+            "must_contain": [
+              "张嘴",
+              "想说",
+              "什么"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "最终只吐出一句钟声在",
+            "must_contain": [
+              "一句",
+              "钟声在",
+              "未说完"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_183940"
+}

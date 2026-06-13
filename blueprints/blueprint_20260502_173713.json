@@ -1,0 +1,599 @@
+{
+  "user_input": {
+    "topic": "伴随着秋冬天的到来，父亲的花凋零了，父亲也生病了，命不久矣",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "凋零",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "paragraph_intent": "开篇：以秋景和花凋零引入父亲生病",
+        "sentences": [
+          {
+            "core_fact": "秋风起，院子里的菊花开始枯萎",
+            "must_contain": [
+              "秋风",
+              "菊花",
+              "枯萎"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "花瓣一片片落在泥土上，颜色变暗",
+            "must_contain": [
+              "花瓣",
+              "泥土",
+              "颜色"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "父亲的花园今年格外萧条",
+            "must_contain": [
+              "花园",
+              "萧条"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "母亲说父亲这几天咳得厉害",
+            "must_contain": [
+              "母亲",
+              "咳",
+              "厉害"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我推开他卧室的门，看到他在午睡",
+            "must_contain": [
+              "卧室",
+              "午睡",
+              "父亲"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "但十分钟后，母亲从同一扇门走出来，微笑着说你爸在午睡",
+            "must_contain": [
+              "十分钟",
+              "母亲",
+              "微笑",
+              "午睡"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "我愣住了，明明看见父亲进去了",
+            "must_contain": [
+              "愣住",
+              "父亲",
+              "进去"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "母亲的眼神躲闪，似乎藏着什么",
+            "must_contain": [
+              "眼神",
+              "躲闪",
+              "藏着"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "窗外，最后一片花瓣悄然落下",
+            "must_contain": [
+              "窗外",
+              "花瓣",
+              "落下"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "sensory_detail"
+          }
+        ]
+      },
+      {
+        "paragraph_intent": "展开：回忆父亲与花园，以及病重的细节",
+        "sentences": [
+          {
+            "core_fact": "父亲以前是个勤快的园丁",
+            "must_contain": [
+              "父亲",
+              "园丁",
+              "勤快"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他总在清晨浇水，对每一株花说话",
+            "must_contain": [
+              "清晨",
+              "浇水",
+              "说话"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "那些花像是他的孩子，他叫得出名字",
+            "must_contain": [
+              "花",
+              "孩子",
+              "名字"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "如今他躺在床上，连翻身都吃力",
+            "must_convert": "如今他躺在床上，连翻身都吃力",
+            "must_contain": [
+              "床上",
+              "翻身",
+              "吃力"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "母亲每天熬药，屋里弥漫着苦涩的气味",
+            "must_contain": [
+              "熬药",
+              "苦涩",
+              "气味"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "他说花都开了，我透过窗户看到光秃秃的枝干",
+            "must_contain": [
+              "花",
+              "窗户",
+              "枝干"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "记忆里那些繁花似锦的夏天，一去不返",
+            "must_contain": [
+              "记忆",
+              "繁花",
+              "夏天"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我握住他的手，瘦得像枯柴",
+            "must_contain": [
+              "手",
+              "瘦",
+              "枯柴"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "他勉强笑了一下，说没事",
+            "must_contain": [
+              "笑",
+              "没事"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我知道他在安慰我，就像从前安慰生病的我",
+            "must_contain": [
+              "安慰",
+              "从前",
+              "生病"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "母亲在厨房切药，刀声笃笃",
+            "must_contain": [
+              "厨房",
+              "切药",
+              "刀声"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我走到院子里，捡起一片枯叶",
+            "must_contain": [
+              "院子",
+              "枯叶"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "叶子脉络清晰，像父亲手上的血管",
+            "must_contain": [
+              "叶子",
+              "脉络",
+              "血管"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "风一吹，它碎成了几片",
+            "must_contain": [
+              "风",
+              "碎"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "sensory_detail"
+          }
+        ]
+      },
+      {
+        "paragraph_intent": "展开第二段：母亲与父亲的互动，以及那个推门的意象反复出现",
+        "sentences": [
+          {
+            "core_fact": "那天下午，我又一次看见父亲走进卧室",
+            "must_contain": [
+              "下午",
+              "父亲",
+              "卧室"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲在里面待了很久才出来，说她爸在午睡",
+            "must_contain": [
+              "母亲",
+              "很久",
+              "午睡"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我走进房间，床上空无一人",
+            "must_contain": [
+              "房间",
+              "床上",
+              "空无一人"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "窗开着，风吹动窗帘，像是什么东西离开了",
+            "must_contain": [
+              "窗",
+              "风",
+              "窗帘"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我跑出去找母亲，她在花园里蹲着",
+            "must_contain": [
+              "母亲",
+              "花园",
+              "蹲着"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她正把一朵枯萎的菊花埋进土里",
+            "must_contain": [
+              "枯萎",
+              "菊花",
+              "土"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她说，你爸说花谢了，要埋起来",
+            "must_contain": [
+              "爸",
+              "花谢",
+              "埋"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我突然明白，父亲可能已经不在了",
+            "must_contain": [
+              "明白",
+              "父亲",
+              "不在"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "但母亲没有哭，只是继续挖土",
+            "must_contain": [
+              "母亲",
+              "哭",
+              "挖土"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "指甲里全是泥，像那些花的根",
+            "must_contain": [
+              "指甲",
+              "泥",
+              "根"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "sensory_detail"
+          }
+        ]
+      },
+      {
+        "paragraph_intent": "高潮：把山和路的比喻融入，情感达到最深",
+        "sentences": [
+          {
+            "core_fact": "父亲是必须被记住的山，沉默而可靠",
+            "must_contain": [
+              "父亲",
+              "山",
+              "记住",
+              "沉默"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "母亲是永远无法绕开的路，总是通向父亲",
+            "must_contain": [
+              "母亲",
+              "路",
+              "绕开",
+              "父亲"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "每当我回头，就看见山在路上长出了新的皱纹",
+            "must_contain": [
+              "回头",
+              "山",
+              "皱纹"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "那些皱纹像花园里的沟壑，藏着雨水和眼泪",
+            "must_contain": [
+              "皱纹",
+              "沟壑",
+              "雨水",
+              "眼泪"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "我站在院子里，听见母亲轻轻哼唱",
+            "must_contain": [
+              "院子",
+              "母亲",
+              "哼唱"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "那是父亲年轻时爱唱的歌",
+            "must_contain": [
+              "父亲",
+              "年轻时",
+              "歌"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "歌声像落花，飘进泥土里",
+            "must_contain": [
+              "歌声",
+              "落花",
+              "泥土"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "我想起父亲推门的那一幕，不知道是幻觉还是什么",
+            "must_contain": [
+              "推门",
+              "幻觉"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "也许有些告别并不需要门",
+            "must_contain": [
+              "告别",
+              "门"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "母亲站起身，拍了拍膝盖上的土",
+            "must_contain": [
+              "母亲",
+              "膝盖",
+              "土"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她说，你爸说下午想喝粥",
+            "must_contain": [
+              "爸",
+              "下午",
+              "粥"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我点点头，转身去厨房点火",
+            "must_contain": [
+              "点头",
+              "厨房",
+              "点火"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "paragraph_intent": "收束：日常细节与留白，情感平缓",
+        "sentences": [
+          {
+            "core_fact": "粥在锅里咕嘟咕嘟地响",
+            "must_contain": [
+              "粥",
+              "咕嘟",
+              "响"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "蒸汽模糊了窗户，什么也看不清",
+            "must_contain": [
+              "蒸汽",
+              "窗户",
+              "模糊"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我盛了两碗，一碗放在父亲床头",
+            "must_contain": [
+              "盛",
+              "两碗",
+              "床头"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲坐在床边，对着空气说话",
+            "must_contain": [
+              "母亲",
+              "床边",
+              "空气"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "她说，趁热喝吧，凉了伤胃",
+            "must_contain": [
+              "趁热",
+              "凉",
+              "伤胃"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我不知道她是在对父亲说，还是对我",
+            "must_contain": [
+              "不知道",
+              "父亲",
+              "我"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "我低头喝粥，咸涩的味道混着泪",
+            "must_contain": [
+              "喝粥",
+              "咸涩",
+              "泪"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "院子里，一朵晚开的菊突然绽放了",
+            "must_contain": [
+              "院子",
+              "晚开",
+              "菊",
+              "绽放"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "母亲看着窗外，喃喃道，你爸看见了",
+            "must_contain": [
+              "母亲",
+              "窗",
+              "你爸",
+              "看见"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我张了张嘴，想说点什么",
+            "must_contain": [
+              "张嘴",
+              "想说"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "但最后只问了一句，爸他……",
+            "must_contain": [
+              "最后",
+              "问",
+              "爸"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_173713"
+}

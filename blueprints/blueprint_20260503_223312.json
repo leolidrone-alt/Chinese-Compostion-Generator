@@ -1,0 +1,344 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "古井",
+    "overall_emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "村口古井的石栏被磨得发亮",
+            "must_contain": [
+              "古井",
+              "石栏",
+              "磨"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我童年每天清晨随奶奶去井边打水",
+            "must_contain": [
+              "童年",
+              "奶奶",
+              "打水"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "memory"
+          },
+          {
+            "core_fact": "木桶在井水里咕咚作响",
+            "must_contain": [
+              "木桶",
+              "井水",
+              "咕咚"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "sensory"
+          },
+          {
+            "core_fact": "井绳在我手掌勒出红痕",
+            "must_contain": [
+              "井绳",
+              "手掌",
+              "红痕"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "sensory"
+          },
+          {
+            "core_fact": "井水冬暖夏凉，夏天我把脸贴在桶沿",
+            "must_contain": [
+              "井水",
+              "冬暖夏凉",
+              "桶沿"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "memory"
+          },
+          {
+            "core_fact": "奶奶说井底有龙王，不能往里扔石头",
+            "must_contain": [
+              "奶奶",
+              "龙王",
+              "石头"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我偷偷试过，回音很久才消失",
+            "must_contain": [
+              "偷偷",
+              "回音",
+              "消失"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那口井像一只眼睛，日夜看着村子",
+            "must_contain": [
+              "井",
+              "眼睛",
+              "村子"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "metaphor"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "十五岁那年我去县城读书，告别了古井",
+            "must_contain": [
+              "十五岁",
+              "县城",
+              "告别"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "井边浣衣声成了周末才能听到的回忆",
+            "must_contain": [
+              "浣衣声",
+              "周末",
+              "回忆"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "memory"
+          },
+          {
+            "core_fact": "宿舍自来水有漂白粉味，我总想起井水的甜",
+            "must_contain": [
+              "自来水",
+              "漂白粉",
+              "井水甜"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "comparison"
+          },
+          {
+            "core_fact": "暑假回家，井台边长了青苔",
+            "must_contain": [
+              "暑假",
+              "井台",
+              "青苔"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲说现在家家通自来水，井用得少了",
+            "must_contain": [
+              "父亲",
+              "自来水",
+              "用得少"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我趴在井口往下看，水面映出一张少年的脸",
+            "must_contain": [
+              "井口",
+              "水面",
+              "少年脸"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "那个夏天我在井边背书，井水声帮我消暑",
+            "must_contain": [
+              "夏天",
+              "背书",
+              "消暑"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "井绳磨出了凹槽，像时间刻下的记号",
+            "must_contain": [
+              "井绳",
+              "凹槽",
+              "时间"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "metaphor"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "三十岁那年我带着妻子回村，井已半枯",
+            "must_contain": [
+              "三十岁",
+              "妻子",
+              "半枯"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "村里装了水泵，井被荒草掩埋大半",
+            "must_contain": [
+              "水泵",
+              "荒草",
+              "掩埋"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我拨开杂草，井水浑浊，看到自己的白发",
+            "must_contain": [
+              "拨开",
+              "浑浊",
+              "白发"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "妻子问我这井的故事，我讲了她笑",
+            "must_contain": [
+              "妻子",
+              "故事",
+              "笑"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我用桶打上一半泥沙一半水，浇了旁边的柿子树",
+            "must_contain": [
+              "桶",
+              "泥沙",
+              "柿子"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那晚我梦见井水重新涌出，清澈如镜",
+            "must_contain": [
+              "梦",
+              "井水",
+              "清澈"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "醒来发现枕边有泪",
+            "must_contain": [
+              "醒来",
+              "枕边",
+              "泪"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "古井像村庄的脐带，渐渐萎缩",
+            "must_contain": [
+              "古井",
+              "脐带",
+              "萎缩"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "metaphor"
+          }
+        ]
+      },
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "六十岁退休后我回到村里，决心修整古井",
+            "must_contain": [
+              "六十岁",
+              "退休",
+              "修整"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我请人清理淤泥，修补井壁",
+            "must_contain": [
+              "清理",
+              "淤泥",
+              "井壁"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "井水复涌那天，村里老人都来了",
+            "must_contain": [
+              "复涌",
+              "老人",
+              "来了"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "我把井绳换新，打上第一桶水喝了一口",
+            "must_contain": [
+              "井绳",
+              "第一桶水",
+              "喝"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "水还是从前的味道，只是我老了",
+            "must_contain": [
+              "从前",
+              "味道",
+              "老了"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "孙子跑过来问：爷爷，这就是你说的古井吗？",
+            "must_contain": [
+              "孙子",
+              "爷爷",
+              "古井"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我摸摸他的头说：是啊，它等了你很多年。",
+            "must_contain": [
+              "摸摸头",
+              "等你",
+              "多年"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260503_223312"
+}

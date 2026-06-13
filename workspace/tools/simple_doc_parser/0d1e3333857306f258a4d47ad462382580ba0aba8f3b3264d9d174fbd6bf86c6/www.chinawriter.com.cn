@@ -1,0 +1,896 @@
+<!DOCTYPE html>  
+<!--[if IE 9]><html class="ie ie9 lt10"><![endif]-->
+<!--[if (gt IE 9) | !(IE)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="icon" href="/img/MAIN/2018/04/118229/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/img/MAIN/2018/04/118229/img/favicon.ico" type="image/x-icon">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="format-detection" content="email=no"/>
+<meta name="HandheldFriendly" content="true">
+<!--浏览器强制竖屏-->
+<meta name="screen-orientation" content="portrait"/>
+<meta name="x5-orientation" content="portrait"/>
+<meta name="full-screen" content="yes"/>
+<meta name="x5-fullscreen" content="true"/>
+<meta name="browsermode" content="application"/>
+<meta name="x5-page-mode" content="app"/>
+<meta name="msapplication-tap-highlight" content="no"/>    
+<title>中国作家网</title>
+<meta name="description" content="中国作家网（https://www.chinawriter.com.cn）是由中国作家协会主办、中国作家出版集团管理运营的综合性专业文学网站。中国作家网是党的文艺工作和新闻舆论工作的重要阵地，是中国作家协会发布信息、服务作家的重要窗口。作为专业性的文学网站，中国作家网积极推荐优秀作家作品，整合资源，联通线上线下文学组织工作，竭力为文学爱好者提供作品发表园地，为作家和读者提供互动交流平台，全方位、多角度呈现当代文学繁荣发展的图景，努力助推中国文学走向高峰。" />
+<meta name="keywords" content="文学,作家,现实,图书,研讨,写作,阅读,中国作协,时代,创作,征文,网络,电影,评论,活动" />
+<meta name="filetype" content="1" />
+<meta name="publishedtype" content="1" />
+<meta name="pagetype" content="2" />
+<meta name="catalogs" content="403928" />
+<link rel="stylesheet" href="/img/MAIN/2018/04/118229/css/animate.min.css"/>
+<link rel="stylesheet" href="/img/MAIN/2018/04/118229/css/swiper.min.css">
+<link rel="stylesheet" href="/img/MAIN/2018/04/118229/css/publicindex.css">
+<link rel="stylesheet" href="/img/MAIN/2018/04/118229/css/index.css"/>
+<link rel="stylesheet" href="/img/MAIN/2020/06/120261/gai2020.css"/>
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/jquery-1.10.2.min.js"></script>  
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/jquery.nicescroll.js"></script> 
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/swiper.min.js"></script>
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/web02.js"></script>
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/wow.min.js" ></script>
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/pgwmenu.min.js"></script>
+<script type="text/javascript" src="/img/MAIN/2018/04/118229/js/portamento.js"></script>
+<!--[if lt IE 9]>
+<script src="/img/MAIN/2018/04/118229/js/html5shiv.js"></script>
+<script src="/img/MAIN/2018/04/118229/js/respond.min.js"></script>
+<p class="browserupgrade">您在使用一个 <strong>旧版本的</strong> 浏览器，请 <a href="https://support.microsoft.com/zh-cn#!/zh-cn" target="_blank">更新你的浏览器</a> 来更好的体验本网站。</p>
+<![endif]--> 
+<style type="text/css">
+main{ width:1000px; margin:0 auto;}
+@media only screen and (max-width: 767px){
+	main{ width:100%;}
+}
+</style>
+</head>
+<body>
+
+
+<!--header begin-->
+<header class="header headerIndex">
+    <div class="inner clearfix">
+        <div class="header_bar clearfix">
+            <div class="oldLink"><a href="http://www.chinawriter.com.cn/index.shtml" target="_blank"><b>[</b>旧版<b>入口]</b></a></div>
+            <div class="sousuo">					
+                <!--<form action="https://search.chinawriter.com.cn/chinawriter/search.do" name="searchForm" method="post"  target="_blank">-->
+                <!--<div class="searchBox fr"><input type="text" name="keyword" id="keyword" onfocus="if (value =='搜索文章'){value ='';this.style.color='#333'}" onblur="if (value ==''){value='搜索文章';this.style.color='#999'}" value="搜索文章" class="text_01"><div class="select01"><select name="searchField">
+                        <option value="content" selected>按内容</option>
+                        <option value="title">按标题</option>
+                        <option value="author">按作者</option>
+                </select></div><input type="image" class="pcbtn" src="/img/MAIN/2018/04/118229/img/search.jpg" style="width:76px;height:36px;"><input type="image" class="sjbtn" src="/img/MAIN/2020/06/120261/images/search_ico01.png"></div>
+                <input type="hidden" name="pageNum" value="1" />
+                <input type="hidden" name="siteName" value="chinawriter" />
+                </form>-->
+				<form enctype="application/x-www-form-urlencoded" action="https://www.chinawriter.com.cn/405303/460412/index.html" name="searchForm2" method="get" target="_blank"> <a href="https://vip.chinawriter.com.cn/" class="pcxianshi" target="_blank">用户登录</a><a href="https://vip.chinawriter.com.cn/" target="_blank" class="wapxianshi">投稿</a><div class="searchBox fr"><input type="text" name="keywords" id="keyword" onfocus="if (value =='搜索文章'){value ='';this.style.color='#333'}" onblur="if (value ==''){value='搜索文章';this.style.color='#999'}" value="搜索文章" class="text_01"><div class="select01"><select name="searchField" id="searchType">
+<option value="1" selected>按标题</option>
+<option value="2">按内容</option>                     
+<option value="3">按作者</option>
+</select></div><input type="image" class="pcbtn" src="/img/MAIN/2018/04/118229/img/search.jpg" style="width:76px;height:36px;"><input type="image" class="sjbtn" src="/img/MAIN/2020/06/120261/images/search_ico01.png"></div></form>
+            </div>
+        </div>
+        <h1 class="logo"><a href="https://www.chinawriter.com.cn/" target="_blank"><img src="/img/MAIN/2018/04/118229/img/logo.jpg"></a><b>中国作家协会主管</b></h1>
+    </div>
+</header>
+<!--nav begin-->
+<div class="inner clearfix">
+		<div class="nav indexNav">
+			<div class="daohang"><ul>
+<li>
+<a href="https://www.chinawriter.com.cn/403936/419343/index.html" target="_blank"><b>机构</b></a>
+<a href="https://www.chinawriter.com.cn/403937/index.html" target="_blank">服务</a>
+<a href="https://www.chinawriter.com.cn/403978/index.html" target="_blank">会员</a>
+<a href="https://www.chinawriter.com.cn/403973/index.html" target="_blank">文学奖项</a>
+</li>
+<li><a href="https://www.chinawriter.com.cn/403990/index.html" target="_blank"><b>新闻</b></a>
+<a href="https://www.chinawriter.com.cn/403997/index.html" target="_blank">访谈</a>
+<a href="https://vip.chinawriter.com.cn/" target="_blank">投稿</a><a href="https://www.chinawriter.com.cn/404087/index.html" target="_blank">专题</a><a href="https://www.chinawriter.com.cn/404002/index.html" target="_blank">艺术</a>
+</ul>
+<ul>
+<li>
+<a href="https://www.chinawriter.com.cn/404029/index.html" target="_blank"><b>理论评论</b></a>
+<a href="https://www.chinawriter.com.cn/404057/index.html" target="_blank">文史</a>
+<a href="https://www.chinawriter.com.cn/404078/index.html" target="_blank">科幻</a>
+<a href="https://www.chinawriter.com.cn/404058/index.html" target="_blank">书汇</a>
+<a href="https://www.chinawriter.com.cn/404015/index.html" target="_blank">新作品</a>
+</li>
+<li>
+<a href="https://www.chinawriter.com.cn/404085/index.html" target="_blank"><b>世界文坛</b></a>
+<a href="https://www.chinawriter.com.cn/404086/index.html" target="_blank">民族文艺</a>
+<a href="https://www.chinawriter.com.cn/404022/index.html" target="_blank">网络文学</a>
+<a href="https://www.chinawriter.com.cn/404059/index.html" target="_blank">儿童文学</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="https://wyb.chinawriter.com.cn" target="_blank"><b>文艺报</b></a>
+</li>
+<li>
+<a href="https://www.chinawriter.com.cn/404040/index.html" target="_blank"><b>鲁迅文学院</b></a>
+</li>
+</ul></div>
+			<a href="javascript:void(0);" class="menu_ico"><i></i><i></i><i></i></a>
+		</div>
+	</div>
+<!--main begin-->
+<main>
+    <div class="inner clearfix">
+        <div class="firstNews" >
+            <style type="text/css">
+.blue,.blue a:link,.blue a:visited{color:#11549f}
+.blue a:hover{color:#e30b20;}
+</style><h1 class="blue"><a href='/n1/2026/0417/c404018-40703048.html' target=_blank>全民阅读丨大地书香·脚下长出远方</a></h1>
+
+            <p><span>[<a href='/n1/2026/0413/c403993-40699928.html' target=_blank>国家新闻出版署等关于组织实施 二〇二六年“全民阅读活动周”的通知</a>]</span>
+<span>[<a href='/n1/2026/0402/c403994-40693725.html' target=_blank>第五届全民阅读大会将在南昌举办</a>]</span>
+</p>
+        </div>
+        <!--focus begin-->  
+        <div class="owl-carousel" id="focus"><div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404071-40703235.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776388334281Z1VO5GIIQQ.jpeg" width="640" height="405" alt="获奖之后：从月销0到加印破万，蔡皋终于抵达大众"/><p class="focus_caption">获奖之后：从月销0到加印破万，蔡皋终于抵达大众</p></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0417/c403994-40703293.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776388334272Y2763147WC.jpg" width="640" height="405" alt="首届小说年度风云榜在包河发布 紫云山文学季同步启幕"/><p class="focus_caption">首届小说年度风云榜在包河发布 紫云山文学季同步启幕</p></a></div>
+<div class="item"><a href="http://www.chinawriter.com.cn/n1/2026/0330/c436741-40691742.html" target=_blank><img src="/NMediaFile/2025/1230/MAIN176707628328039761C950R.jpg" width="640" height="405" alt="2026年4月全国文学期刊目录盘点"/><p class="focus_caption">2026年4月全国文学期刊目录盘点</p></a></div>
+<div class="item"><a href="http://www.chinawriter.com.cn/404087/404988/461193/index.html" target=_blank><img src="/NMediaFile/2026/0407/MAIN1775523942371UX6BC5ZXS1.jpg" width="640" height="405" alt="【专题】新时代文学实践点"/><p class="focus_caption">【专题】新时代文学实践点</p></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/404087/404988/459746/index.html" target=_blank><img src="/NMediaFile/2025/0224/MAIN1740359876530FBHI0FE97U.jpg" width="640" height="405" alt="【专题】“中国作家网文学好书”"/><p class="focus_caption">【专题】“中国作家网文学好书”</p></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/404087/404988/461709/index.html" target=_blank><img src="/NMediaFile/2026/0205/MAIN17702519043001BDMG61XZN.jpg" width="640" height="405" alt="【专题】大文学观"/><p class="focus_caption">【专题】大文学观</p></a></div>
+<div class="item"><a href="http://www.chinawriter.com.cn/404087/404988/421785/index.html" target=_blank><img src="/NMediaFile/2026/0112/MAIN1768181162110UJR3VVJ0JT.jpg" width="640" height="405" alt="【专题】著名作家抵达文学“县”场"/><p class="focus_caption">【专题】著名作家抵达文学“县”场</p></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/404087/404988/461386/index.html" target=_blank><img src="/NMediaFile/2025/1226/MAIN1766709378282ZS6WL7JZHV.jpg" width="640" height="405" alt="【专题】俄苏文学书友会"/><p class="focus_caption">【专题】俄苏文学书友会</p></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/404087/404988/458421/index.html" target=_blank><img src="/NMediaFile/2024/0108/MAIN1704697831045BQZ456RQ35.jpg" width="640" height="405" alt="【专题】新时代文学攀登计划"/><p class="focus_caption">【专题】新时代文学攀登计划</p></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/404087/404988/448795/index.html" target=_blank><img src="/NMediaFile/2022/1226/MAIN202212260955208737091912736.jpg" width="640" height="405" alt="【专题】新时代山乡巨变创作计划"/><p class="focus_caption">【专题】新时代山乡巨变创作计划</p></a></div>
+</div>
+        <!--news_r begin-->
+        <div class="news_r">
+				<ul><li><a href='/n1/2026/0417/c403991-40703099.html' target=_blank>总书记指引书香社会建设</a></li>
+<li><a href='/n1/2026/0417/c441519-40703348.html' target=_blank>第16届北京国际电影节开幕,尹力、张政、张宏森出席</a></li>
+<li><a href='/n1/2026/0409/c403937-40698156.html' target=_blank>中国作协“新时代山乡巨变创作计划”征集公告</a></li>
+<li><a href='/n1/2026/0409/c403937-40698162.html' target=_blank>中国作协新时代文学攀登计划第八期征集公告</a></li>
+</ul>
+				<ul><li><a href='/n1/2026/0417/c403994-40703293.html' target=_blank>首届小说年度风云榜在包河发布</a></li>
+<li><a href='/n1/2026/0417/c404071-40703235.html' target=_blank>从月销0到加印破万，蔡皋终于抵达大众</a></li>
+<li><a href='/n1/2026/0417/c403994-40703058.html' target=_blank>中俄专家共论“我们为什么阅读”</a></li>
+<li><a href='/n1/2026/0417/c405057-40703107.html' target=_blank>崔欣:写出和别人不一样的好才是应有之义</a></li>
+</ul>
+				<ul><li><a href='/n1/2026/0417/c403994-40703195.html' target=_blank>马伯庸：十年职场沉淀笔墨</a></li>
+<li><a href='/n1/2026/0417/c403994-40703097.html' target=_blank>文学，何以向海而行</a></li>
+<li><a href='/n1/2026/0416/c407521-40702799.html' target=_blank>分离自己，还是蒸馏他人？</a></li>
+</ul>
+			</div>
+    </div>
+    <div class="ad01 inner clearfix"><a href="https://www.chinawriter.com.cn/404087/404988/461242/index.html" target=_blank><img src="/NMediaFile/2025/1124/MAIN1763971693798S75JBFG67U.jpg" width="1000" height="100" border="0" alt="全会"/></a>
+</div>
+    <div class="ad01sj inner clearfix"><a href="https://www.chinawriter.com.cn/404087/404988/461242/index.html" target=_blank><img src="/NMediaFile/2025/1124/MAIN1763971704979FHKKLBXL9A.jpg" width="640" height="150" border="0" alt="全会"/></a>
+</div>
+    <!--xinwen_inner begin-->
+    <div class="inner xinwen_inner clearfix">
+        <div class="sz_news">
+				<h3 class="title_01"><span>新闻动态</span> <a href="https://www.chinawriter.com.cn/403990/index.html" target="_blank" class="more_01"></a></h3>
+				<ul><li><a href='/n1/2026/0417/c403994-40703219.html' target=_blank><img src="/img/MAIN/2018/04/118229/img/index10.png">中国图书走进东南亚千家万户</a></li>
+<li><a href='/n1/2026/0417/c403994-40703052.html' target=_blank>书香四月，上海发出阅读邀请函</a></li>
+<li><a href='/n1/2026/0417/c403994-40703055.html' target=_blank>书香润泽神州 阅读赋能未来</a></li>
+<li><a href='/n1/2026/0417/c403994-40703053.html' target=_blank>藏书票里看巴金看阅读看世界</a></li>
+<li><a href='/n1/2026/0416/c403994-40702887.html' target=_blank>中哥学者作家对话“城市记忆里的文学与生活”</a></li>
+<li><a href='/n1/2026/0417/c403994-40703054.html' target=_blank>倒序本问世 第8版在途</a></li>
+<li><a href='/n1/2026/0417/c403994-40703049.html' target=_blank>江西金溪：刀刻匠心传书香</a></li>
+<li><a href='/n1/2026/0416/c403994-40702883.html' target=_blank>“四海为邻 共沐月光”中国—中亚首届青春三行诗创作大赛启动</a></li>
+<li><a href='/n1/2026/0416/c403994-40702454.html' target=_blank>2026年“书香湖南”全民阅读暨版权宣传主题活动举行</a></li>
+<li><a href='/n1/2026/0416/c403994-40702469.html' target=_blank>“年度优秀书籍设计榜”入选图书展呈现当代阅读的审美变迁</a></li>
+</ul>
+			</div>
+        <div class="sz_news zx_news clearfix">
+            <h3 class="title_01"><span>评论争鸣</span> <a href="https://www.chinawriter.com.cn/404029/index.html" target="_blank" class="more_01"></a></h3>
+            <div class="left_news">
+                <dl class="clearfix"><dt><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404030-40703359.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN17763885632262YNN7GBYUR.jpg" width="117" height="151"/></a></dt>
+						<dd><h6><a href="
+https://www.chinawriter.com.cn/n1/2026/0417/c404030-40703359.html
+
+" target="_blank">独特而深刻的时代注脚——关于黄灯的文学行吟
+</a></h6>
+							<p>黄灯通过剖析家庭生计、代际关系……
+</p></dd>
+</dl>
+                <ul class="clearfix"  style="margin-top:0px;"><li><a href='/n1/2026/0417/c404030-40703357.html' target=_blank>“逆行者”的生命之书——读姜耕玉《可可西里传奇》</a></li>
+<li><a href='/n1/2026/0417/c404030-40703362.html' target=_blank>以自己之眼观物，以自己之舌言情——评梁平《一蓑烟雨》</a></li>
+<li><a href='/n1/2026/0416/c404030-40702619.html' target=_blank>当代文学版本批评的新探索——评罗先海《小说变形记：新时期长篇小说版本变迁》</a></li>
+</ul>
+            </div>
+            <ul class="right_news"><li><a href='/n1/2026/0416/c404030-40702906.html' target=_blank>用简洁的笔墨呈现“迷彩阵营”——读《男兵女兵》</a></li>
+<li><a href='/n1/2026/0416/c404030-40702624.html' target=_blank>丁茜菡：显现秩序与促成改变</a></li>
+<li><a href='/n1/2026/0416/c404030-40702621.html' target=_blank>海子：“今天我要歌唱太阳和春天”</a></li>
+<li><a href='/n1/2026/0416/c404030-40702617.html' target=_blank>北京胡同里的“慢光阴”——评杨清茨《京华胡同》</a></li>
+<li><a href='/n1/2026/0416/c404030-40702591.html' target=_blank>山的那一边：苦旅、乡愁与女性之光</a></li>
+<li><a href='/n1/2026/0416/c419351-40702614.html' target=_blank>出版如何推动人类文明交流互鉴</a></li>
+<li><a href='/n1/2026/0416/c419351-40702625.html' target=_blank>从“组织动员”到“有机融合”——“新大众文艺”的传承创新和理论启示</a></li>
+</ul>
+            <!--shiping begin-->
+            <dl class="shiping clearfix">
+					<dt><img src="/img/MAIN/2018/04/118229/img/index09.png"><br>时评</dt><dd><a href="
+https://www.chinawriter.com.cn/n1/2026/0416/c407521-40702799.html
+" target=_"blank">
+“人生切割术”作为AI时代的工作寓言
+<span>
+对于主人格而言，这似乎意味着一种“无痛”的上班机制，因为他根本不必知道自己如何工……
+
+</span></a>
+</dd><dd><a href="
+https://www.chinawriter.com.cn/n1/2026/0415/c407521-40701783.html
+" target=_"blank">童真童趣中藏着育人智慧
+<span>
+高校育人，不仅应帮助学生培养技能、提升学养、增进才干，更应为社会培养出更多品格健全……
+
+</span></a>
+</dd></dl>
+        </div>
+    </div>
+    <!--btnrukou begin-->
+    <div class="btnrukou inner clearfix" >
+        <h3 class="title_01 title_01zx"><span>作协工作</span><a href="https://www.chinawriter.com.cn/403937/index.html" target="_blank" class="more_01"></a></h3>
+        <div class="rukoul">
+            <div class="rukoul_top">
+                <ul class="addnews">
+                    <a href="https://www.chinawriter.com.cn/403937/index.html" target="_blank" class="more_01"></a><li><a href='/n1/2026/0409/c403937-40698156.html' target=_blank>中国作家协会“新时代山乡巨变创作计划”征集公告</a></li>
+<li><a href='/n1/2026/0409/c403937-40698162.html' target=_blank>中国作家协会新时代文学攀登计划第八期征集公告</a></li>
+<li><a href='/n1/2026/0302/c403937-40672666.html' target=_blank>第九届鲁迅文学奖参评作品征集公告</a></li>
+<li><a href='/n1/2026/0302/c403937-40672665.html' target=_blank>鲁迅文学奖评奖办法（2026年2月12日修订）</a></li>
+<li><a href='/n1/2026/0211/c403937-40663510.html' target=_blank>2026年度中国作家协会网络文学选题指南暨重点作品扶持征集启事</a></li>
+</ul>
+                <div class="xuanzbtn">
+                    <div class="rukouTit"><p class="btnSelect"><span><img src="/img/MAIN/2020/06/120261/images/add/add05.png"></span>入会申请</p>  
+  					<div class="ulDiv names_block">  
+    					<ul>  
+      						<li><a href="https://www.chinawriter.com.cn/n1/2025/1231/c403937-40636592.html" target=_blank>入会申请</a></li>  
+      						<li><a href="https://zgzxhy.chinawriter.com.cn/" target=_blank>中国作家协会会员平台</a></li> 
+      						
+     					</ul>  
+  					</div></div>
+                    <div class="rukouTit"><p class="btnSelect"><span><img src="/img/MAIN/2020/06/120261/images/add/add02.png"></span>作品扶持</p>  
+<div class="ulDiv names_block ulDiv1">
+<ul>  
+<li><a href="https://www.chinawriter.com.cn/n1/2026/0204/c403937-40659324.html" target="_blank">重点作品扶持</a></li>  
+<li>  
+<li><a href="https://www.chinawriter.com.cn/n1/2026/0211/c403937-40663510.html" target="_blank">网络文学中心重点作品扶持</a></li>  
+<li><a href="https://www.chinawriter.com.cn/n1/2020/0624/c403937-31758648.html" target="_blank">少数民族文学重点作品扶持</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2026/0112/c403937-40643682.html" target=_blank>定点深入生活</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2026/0107/c403937-40640815.html" target="_blank">“中国少数民族文学之星”申报</a></li>  
+</ul>  
+</div></div>
+                    <div class="rukouTit"><p class="btnSelect"><span><img src="/img/MAIN/2020/06/120261/images/add/add08.png"></span>对外译介</p>  
+  					<div class="ulDiv names_block">  
+    					<ul> 
+  
+      						<li><a href="https://www.chinawriter.com.cn/n1/2026/0126/c403937-40652358.html" target="_blank">2026年度中国当代作品翻译工程征集公告</a></li> 
+    						<li><a href="https://www.chinawriter.com.cn/n1/2021/1025/c403937-32263448.html" target="_blank">中国当代作品翻译资助申报办法</a></li>  
+      						<li><a href="https://www.chinawriter.com.cn/n1/2016/0706/c403985-28529410.html" target="_blank">中国当代文学对外译介</a></li> 
+      						
+    					</ul>  
+  					</div></div>
+                    <div class="rukouTit"><p class="btnSelect"><span><img src="/img/MAIN/2020/06/120261/images/add/add06.png"></span>作家维权</p>  
+  					<div class="ulDiv names_block ulDiv1">  
+    					<ul>  
+<li><a href="https://www.chinawriter.com.cn/n1/2018/1128/c403972-30430836.html" target="_blank">联系中国作协作家权益保障委员会</a></li>  
+<li><a href="http://bqdj.shcaee.com/" target="_blank">全国文学作品著作权保护与开发平台</a></li>  
+<li><a href="https://www.chinawriter.com.cn/n1/2020/0511/c403937-31704487.html" target="_blank">图书出版合同常见条款解读</a></li>  
+<li><a href="https://www.chinawriter.com.cn/n1/2020/0511/c403937-31704464.html" target="_blank">信息网络传播权授权协议常见条款解读</a></li>  
+      						
+    					</ul>  
+  					</div></div>
+                </div>
+            </div>
+           <div class="ad02_add"><a href="https://www.chinawriter.com.cn/404087/404988/425775/index.html" target=_blank><img src="/NMediaFile/2024/0112/MAIN1705043015426ITWWBOPK5N.jpg" width="690" height="80" border="0" alt="中国当代文学研究"/></a>
+</div>
+        </div>
+        <div class="rukour">
+        <dl><a href="https://wyb.chinawriter.com.cn/" target="_blank"><dt><img src="/NMediaFile/2026/0417/MAIN1776379619385CQNJSTJQN8.jpg" width="317"></dt>
+            <dd><b>    总第<span>5452</span>期</b></dd></a></dl>
+        </div>
+    </div>
+    <div class="ad01sj adadd01 inner clearfix"><a href="https://www.chinawriter.com.cn/404087/404988/425775/index.html" target=_blank><img src="/NMediaFile/2024/0112/MAIN1705042902055JYMS40AT4M.jpg" width="640" height="150" border="0" alt="中国当代文学研究"/></a>
+</div>
+    <!--bwch_inner begin-->
+    <div class="inner bwch_inner clearfix">
+        
+        <!--新作品 begin-->
+        <h3 class="title_01 clearfix"><span>新作品</span><a href="https://vip.chinawriter.com.cn/" target="_blank" class="tougao">我要投稿</a><a href="https://www.chinawriter.com.cn/404015/index.html" target="_blank" class="more_01"></a></h3>
+        <div class="xinzp01">
+            <div class="xinzpTxt"><h5><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404019-40703050.html
+" target="_blank">一个山村的境界
+</a></h5>
+					<p>一方水土养一方人，养育的不只是生命，这大山的骨骼，这河流的血脉，一直在塑造着这里人的性格。
+
+</p><span> 陈启文 《光明日报》</span></div>
+            <ul><li><p><a href="https://www.chinawriter.com.cn/404015/416204/436741/" target=blan class="leibie 
+
+xiaoshuo">盘点</a><a href="http://www.chinawriter.com.cn/n1/2026/0330/c436741-40691742.html" 
+
+target=_blank>2026年4月全国文学期刊目录</a></p>
+						<span>中国作家网</span></li><li><p><a href="https://www.chinawriter.com.cn/404015/404017/index.html" target=_blank 
+
+class="leibie xiaoshuo">小说</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0409/c424967-40698083.html
+
+"target=blank>米黄色风衣</a></p>
+	 					<span>裘山山 《四川文学》</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404018/
+" class="leibie sanwen">散文
+</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0413/c431461-40700314.html
+">
+曾为十载滇云客</a></p>
+						<span>
+高洪波 《边疆文学》
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404020/index.html
+" class="leibie shige">诗歌</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0330/c418926-40691725.html
+
+"target=blank>春日来信</a></p>
+
+	 					<span>曹 兵 《诗刊》 </span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404018/index.html
+" class="leibie sanwen">散文
+</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0413/c404018-40699833.html
+">
+走过乌江亭
+</a></p>
+						<span>
+郭 华 《文艺报》
+</span></li></ul>
+        </div>
+        <div class="xinzp01 xinzp02">
+            <div class="xinzpTxt02"><a href="https://www.chinawriter.com.cn/n1/2026/0415/c404018-40701400.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776388019683G6XGPJM2HP.png" width="137" height="168" alt="徐鲁：东湖鸟雀观察记"/><span>徐鲁：东湖鸟雀观察记</span></a>
+<a href="https://www.chinawriter.com.cn/n1/2026/0415/c404018-40701396.html" target=_blank><img src="/NMediaFile/2026/0416/MAIN1776294810059HVZ9ART4W7.png" width="137" height="168" alt="黑陶：在汉字的激流中"/><span>黑陶：在汉字的激流中</span></a>
+</div>
+            <ul style="margin-top:15px;"><li><p><a href="https://www.chinawriter.com.cn/404015/404017/index.html" target=_blank 
+
+class="leibie xiaoshuo">小说</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0409/c418992-40698084.html
+
+"target=blank>犟汉老黑</a></p>
+
+	 					<span>唐 彦 《天涯》</span></li><li><p><a href="https://www.chinawriter.com.cn/404015/404019/index.html" target=_blank 
+
+class="leibie 
+
+suibi">纪实</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0405/c404019-40695500.html
+
+" target="_blank">安化殇夫七十六
+</a></p>
+ 
+	 					<span>萧跃华  《文汇报》  </span></li><li><p><a href="https://www.chinawriter.com.cn/404015/404018/index.html" target="_blank" 
+class="leibie sanwen">散文</a><a 
+
+href="
+
+https://www.chinawriter.com.cn/n1/2026/0409/c419827-40698284.html
+" 
+
+target="_blank">鹭，一种隐秘的白及自由</a></p>
+
+	 					<span>杨永康 《山西文学》</span></li><li><p><a href="https://www.chinawriter.com.cn/404015/404017/index.html" target="_blank" 
+class="leibie sanwen">小说</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0408/c419156-40697438.html
+
+"target=blank>交叉路口（中篇小说 节选）</a></p>
+	 					
+<span>杨少衡 《湖南文学》</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404020/index.html
+" class="leibie shige">诗歌
+</a><a href="
+
+https://www.chinawriter.com.cn/n1/2026/0408/c404020-40697404.html
+
+">
+
+空
+</a></p>						<span>
+
+幽 莲   中国诗歌网
+</span></li></ul>
+        </div>
+        <div class="xinzp01 xinzp03">
+            <ul><li><p><a href="
+https://www.chinawriter.com.cn/404015/404017/index.html
+" class="leibie xiaoshuo">小说
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/yujize2018/viewarchives_870644.html
+">
+
+凋零的花
+
+</a></p>						<span>
+余继泽
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404020/index.html
+" class="leibie shige">诗歌
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/13477989515LCX/viewarchives_870648.html
+">
+
+弯（组诗）
+
+</a></p>						<span>
+野狼
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404020/index.html
+" class="leibie shige">诗歌
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/luozhijia/viewarchives_870658.html
+">
+
+院坝里那棵风景树
+
+</a></p>						<span>
+罗芝家
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404020/index.html
+" class="leibie shige">诗歌
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/zql631129/viewarchives_870653.html
+">
+
+再多一些绿（组诗）
+
+</a></p>						<span>
+张青林
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404018/index.html
+" class="leibie sanwen">散文
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/xidi52/viewarchives_870400.html
+">
+
+星夜怀思
+
+</a></p>
+						<span>
+魏宏举
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404018/index.html
+" class="leibie sanwen">散文
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/gyby753001/viewarchives_870694.html
+">
+
+横河村记忆
+
+</a></p>
+						<span>
+任咏夏
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404018/index.html
+" class="leibie sanwen">散文
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/sun888/viewarchives_870671.html
+">
+
+小风景三章
+
+</a></p>
+						<span>
+红山飞雪
+
+中国作家网
+</span></li><li><p><a href="
+https://www.chinawriter.com.cn/404015/404018/index.html
+" class="leibie sanwen">散文
+</a><a href="
+
+https://vip.chinawriter.com.cn/member/tanghanneng/viewarchives_871111.html
+">
+
+春风十里
+
+</a></p>
+						<span>
+唐人
+
+中国作家网
+</span></li></ul>
+        </div>
+    </div>
+    <div class="ad01 ad02 inner clearfix"><a href="https://www.chinawriter.com.cn/404087/404988/444198/index.html" target=_blank><img src="/NMediaFile/2022/0810/MAIN202208101228459590328233122.jpg" width="690" height="110"/></a>
+<a href="https://www.chinawriter.com.cn/404015/431511/index.html" target=_blank><img src="/NMediaFile/2025/0407/MAIN1744006294737S4KD5Q1CA0.jpg" width="308" height="110"/></a>
+</div>
+    <div class="ad01sj inner clearfix"><a href="https://www.chinawriter.com.cn/404087/404988/444198/index.html" target=_blank><img src="/NMediaFile/2022/0810/MAIN202208101420061664833787652.jpg" width="690" height="110" border="0" alt="中国作家网“十号会议室”专题"/></a>
+<a href="https://www.chinawriter.com.cn/404015/431511/index.html" target=_blank><img src="/NMediaFile/2025/0407/MAIN1744006352951N62TIZJGTO.jpeg" width="690" height="110" border="0"/></a>
+</div>
+        
+    <!--contJh begin-->
+    <div class="inner contJh clearfix">
+        <div class="contJhL">
+			<h3 class="title_01 title_04"><span>访谈</span> <a href="https://www.chinawriter.com.cn/403997/index.html" target="_blank" class="more_02"></a></h3>
+				<div class="owl-carousel" id="fangtan"><div class="item">
+					<dl>
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0417/c405057-40703107.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776386117964YIFSZ3ZWTN.JPG" width="310" height="146"/></a></dt>
+						<dd><h6><a https://www.chinawriter.com.cn/n1/2026/0417/c405057-40703107.html
+" target="_blank">崔欣:写出和别人不一样的好是题中应有之义
+</a></h6>		
+<p>
+“写作本质上是艺术的一种，所有艺术都要表现独特，拒绝同质化。”
+ </p></dd>
+					</dl>
+				</div>
+<div class="item">
+					<dl>
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0414/c405057-40701195.html" target=_blank><img src="/NMediaFile/2026/0414/MAIN17761538365937HXEOF9SR3.jpg" width="310" height="146"/></a></dt>
+						<dd><h6><a https://www.chinawriter.com.cn/n1/2026/0414/c405057-40701195.html
+" target="_blank">访谈 | 少数民族女诗人创作：她与她的群山
+</a></h6>		
+<p>
+“创作者的身份、成长背景与知识来源，共同决定了彼此不同的风格面貌和美学理想……”
+ </p></dd>
+					</dl>
+				</div>
+<div class="item">
+					<dl>
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0415/c405057-40701443.html" target=_blank><img src="/NMediaFile/2026/0415/MAIN1776212473708CZL17GYH54.JPG" width="310" height="146"/></a></dt>
+						<dd><h6><a https://www.chinawriter.com.cn/n1/2026/0415/c405057-40701443.html
+" target="_blank">宁肯&王德领:在文学中不断进行原初的追问
+</a></h6>		
+<p>
+“放松是什么？就是有距离感，不再把文学看得那么近、那么重，不按套路写，不管当下文学什么样。我觉得这就是跨界的好处，可以从另一个角度看文学。”
+ </p></dd>
+					</dl>
+				</div>
+<div class="item">
+					<dl>
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0414/c405057-40700652.html" target=_blank><img src="/NMediaFile/2026/0414/MAIN17761250446801WZFKS12Y2.jpg" width="310" height="146"/></a></dt>
+						<dd><h6><a https://www.chinawriter.com.cn/n1/2026/0414/c405057-40700652.html
+" target="_blank">叶延滨：我总是在观察、吸收和发现
+</a></h6>		
+<p>
+“新书到手，放在书桌的左旁，先看，看不下去，则罢。若有所感所悟，甚至惊喜或惊奇，折上书页或做出标记，放到书案右侧。过些时间，静心无事之时，再看细品，或做笔记，或写下心得。此书可在书案上多放些时间了。”
+ </p></dd>
+					</dl>
+				</div>
+</div>
+			</div>
+        <div class="sz_news zx_news contJhC">
+				<h3 class="title_01 title_04"><span>文史</span> <a href="https://www.chinawriter.com.cn/404057/index.html" target="_blank" class="more_02"></a></h3>
+				<div class="left_news"><dl class="clearfix">
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0417/c419387-40702934.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776357551642L1UFK6DMEN.jpg" width="120" height="146"/></a></dt>
+						<dd><h6><a href="
+https://www.chinawriter.com.cn/n1/2026/0417/c419387-40702934.html
+" target="_blank">
+宋刻全本《金石录》“失而复得”记
+
+
+
+</a></h6>
+<p>赵明诚与李清照《金石录》三十卷，是中国金石学研究的经典之作。
+
+</p></dd>
+					</dl>
+					<ul class="clearfix">
+<li><a href='/n1/2026/0417/c442005-40702932.html' target=_blank>苏轼、黄庭坚的文艺批评</a></li>
+<li><a href='/n1/2026/0417/c404063-40702935.html' target=_blank>卢晓蓉：卢作孚与蔡元培</a></li>
+<li><a href='/n1/2026/0417/c404063-40702933.html' target=_blank>《野草》以外的鲁迅散文诗</a></li>
+<li><a href='/n1/2026/0417/c442005-40702931.html' target=_blank>陆游吃的茄子</a></li>
+<li><a href='/n1/2026/0417/c404063-40702936.html' target=_blank>陈忠实二三事</a></li>
+</ul>
+				</div>
+			</div>
+        <div class="sz_news zx_news contJhC">
+				<h3 class="title_01 title_04"><span>艺术</span> <a href="https://www.chinawriter.com.cn/404002/index.html" target="_blank" class="more_02"></a></h3>
+				<div class="left_news"><dl class="clearfix">
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404004-40703212.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776387307883FEIR2ZHPID.JPG" width="120" height="146"/></a></dt>
+						<dd><h6><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404004-40703212.html" target="_blank">《八千里路云和月》：自两端落笔，照见民族心魂</a></h6>
+<p>如何立足中华优秀传统文化书写战争与战争中的人？</p></dd>
+					</dl>
+					<ul class="clearfix">
+<li><a href='/n1/2026/0417/c404004-40703251.html' target=_blank>微短剧要立住，须重建对叙事的信任</a></li>
+<li><a href='/n1/2026/0417/c404004-40703200.html' target=_blank>《家事法庭》：法官能断家务事</a></li>
+<li><a href='/n1/2026/0417/c419389-40703230.html' target=_blank>当《百合花》在芭蕾舞台绽放……</a></li>
+<li><a href='/n1/2026/0416/c419388-40702349.html' target=_blank>让作品在现实中留下回声</a></li>
+<li><a href='/n1/2026/0416/c419390-40702333.html' target=_blank>展览不应“窄化”为社交网络的几个标签</a></li>
+</ul>
+				</div>
+			</div>
+    </div>
+    <!--contJh begin-->
+    <div class="inner contJh clearfix">
+        <div class="sz_news zx_news contJhC contJhL02">
+				<h3 class="title_01 title_04"><span>网络文学</span> <a href="https://www.chinawriter.com.cn/404022/index.html" target="_blank" class="more_02"></a></h3>
+				<div class="left_news"><dl class="clearfix">
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404027-40703072.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776385150111ZRIZ69M42I.jpeg" width="120" height="146"/></a></dt>
+						<dd><h6><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404027-40703072.html" target="_blank"> 当小红书成为网文网站的“推流系统”，新人作者何去何从？
+</a></h6>
+							<p> 与其定位、帖子形式和个性推荐有关 ......</p></dd>
+					</dl>
+					<ul class="clearfix">
+<li><a href='/n1/2026/0416/c404023-40702589.html' target=_blank>北京青年报网文榜（2026年4月榜）</a></li>
+<li><a href='/n1/2026/0414/c404023-40701225.html' target=_blank>网络文学成“新大众文艺”重要支点 </a></li>
+<li><a href='/n1/2026/0414/c404027-40701228.html' target=_blank>邱晓丹：网络文学的“平台—算法—资本”三维结构</a></li>
+<li><a href='/n1/2026/0414/c404023-40701010.html' target=_blank>网络文学一周动态</a></li>
+<li><a href='/n1/2026/0411/c404023-40699366.html' target=_blank>中国作协网络文学中心召开深化价值引领座谈会</a></li>
+</ul>
+				</div>
+			</div>
+        <div class="sz_news zx_news contJhC">
+				<h3 class="title_01 title_04"><span>儿童文学</span> <a href="https://www.chinawriter.com.cn/404059/index.html" target="_blank" class="more_02"></a></h3>
+				<div class="left_news"><dl class="clearfix">
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404071-40703421.html" target=_blank><img src="/NMediaFile/2026/0417/MAIN1776391230000TXDO7CFSE4.jpg" width="120" height="146"/></a></dt>
+						<dd><h6><a href="https://www.chinawriter.com.cn/n1/2026/0417/c404071-40703421.html" target="_blank">十年对话，双星辉映：曹文轩、蔡皋、陈晖等共话中国原创童书之美</a></h6>
+							<p>蔡皋：这个奖属于中国原创的集体力量</p></dd>
+					</dl>
+					<ul class="clearfix">
+<li><a href='/n1/2026/0415/c404071-40701441.html' target=_blank>以童心绘初心，把中国的美讲给世界听</a></li>
+<li><a href='/n1/2026/0414/c404071-40701160.html' target=_blank>儿童文学界祝贺蔡皋获奖：实至名归！</a></li>
+<li><a href='/n1/2026/0417/c404071-40703235.html' target=_blank>获奖之后：从月销0到加印破万，蔡皋终于抵达大众</a></li>
+<li><a href='/n1/2026/0417/c404071-40703068.html' target=_blank>中国元素闪耀博洛尼亚国际童书展</a></li>
+<li><a href='/n1/2026/0417/c404071-40703403.html' target=_blank>长篇儿童小说《青铜神树》作品研讨会在京举行</a></li>
+</ul>
+				</div>
+			</div>
+        <div class="sz_news zx_news contJhC">
+				<h3 class="title_01 title_04"><span>世界文坛</span> <a href="https://www.chinawriter.com.cn/404085/index.html" target="_blank" class="more_02"></a></h3>
+				<div class="left_news"><dl class="clearfix">
+						<dt><a href="https://www.chinawriter.com.cn/n1/2026/0416/c431803-40702608.html" target=_blank><img src="/NMediaFile/2026/0416/MAIN1776304215390IRWP4KORC3.jpeg" width="120" height="146"/></a></dt>
+						<dd><h6><a href="
+https://www.chinawriter.com.cn/n1/2026/0416/c431803-40702608.html
+" target="_blank">
+唐传奇西渡：述文章之美，译要妙之情
+
+</a></h6>
+<p>
+百余年来，这一文学体裁的译介发展迅速……</p></dd>
+					</dl>
+					<ul class="clearfix">
+<li><a href='/n1/2026/0416/c404091-40702637.html' target=_blank>亨利·詹姆斯笔下的男人不是神经病，却是他笔下女性的对立面</a></li>
+<li><a href='/n1/2026/0415/c404091-40701802.html' target=_blank>托尔斯泰与契诃夫，两位文豪的惺惺相惜</a></li>
+<li><a href='/n1/2026/0414/c404091-40701038.html' target=_blank>略萨逝世一周年｜激情的语言</a></li>
+<li><a href='/n1/2026/0409/c404090-40698295.html' target=_blank>马来西亚中国文学读者俱乐部举办刘震云读者交流系列活动</a></li>
+<li><a href='/n1/2026/0410/c404090-40698521.html' target=_blank>二〇二五年葡语文学：边界的重构</a></li>
+</ul>
+				</div>
+			</div>
+    </div>
+    <!--wenxuehd begin-->
+    <div class="inner wenxuehd clearfix">
+        <div class="wenxuehdL">
+            <h3 class="title_01 clearfix"><span>本网原创精选</span><a href="https://www.chinawriter.com.cn/403990/429168/index.html" target="_blank" class="more_01"></a></h3>
+            <div class="exhibit_list clearfix">
+                <a href="https://www.chinawriter.com.cn/404087/404988/445738/index.html" target=_blank><img src="/NMediaFile/2026/0127/MAIN1769483184615B2010IYWC3.png" width="310" height="205" alt="【专题】优选中短篇"/><p>【专题】优选中短篇</p></a>
+
+                <a href="https://www.chinawriter.com.cn/404087/404988/458638/" target=_blank><img src="/NMediaFile/2024/0301/MAIN1709282582331SE6C2UZC99.jpg" width="138" height="104" alt="【专题】短长书"/><p>【专题】短长书</p></a>
+<a href="https://www.chinawriter.com.cn/403982/403988/" target=_blank><img src="/NMediaFile/2023/0128/MAIN202301281144226908774010596.jpg" width="138" height="104" alt="征文，看过来"/><p>征文，看过来</p></a>
+
+            </div>
+            <div class="wxhdList">
+				<ul><li><a href='/n1/2026/0330/c404057-40691839.html' target=_blank>【温故】三月，“她”的传奇，在春天</a></li>
+<li><a href='/n1/2026/0308/c404080-40677253.html' target=_blank>妇女节|女性科幻特辑：Women在创造未来</a></li>
+<li><a href='/n1/2026/0210/c419388-40663428.html' target=_blank>独家 | 是什么让故事被一再讲述</a></li>
+<li><a href='/n1/2026/0114/c460776-40645404.html' target=_blank>艺术书单 | 与立在月光里的苏轼，隔着千年，相视而笑</a></li>
+<li><a href='/n1/2026/0109/c403928-40642227.html' target=_blank>文学理论评论新著列锦（第十期）</a></li>
+<li><a href='/n1/2026/0109/c429168-40642224.html' target=_blank>人物 | 周晓枫：逆鳞悄然生长</a></li>
+<li><a href='/n1/2026/0108/c429168-40641638.html' target=_blank>2025我的文学生活（四）</a></li>
+<li><a href='/n1/2026/0107/c429168-40640879.html' target=_blank>2025我的文学生活（三）</a></li>
+<li><a href='/n1/2026/0106/c429168-40640098.html' target=_blank>2025我的文学生活（二）</a></li>
+</ul>
+			</div>
+        </div>
+        <div class="wenxuehdR">
+            <h3 class="title_01 title_03"><span>专题</span> <a href="https://www.chinawriter.com.cn/404087/index.html" target="_blank" class="more_01"></a></h3>
+				<div class="rCont"><dl>
+						<dt><a href="http://www.chinawriter.com.cn/404087/404988/460620/" target=_blank><img src="/NMediaFile/2025/1229/MAIN1766993364904KOAQBAKOXQ.png" width="80" height="80" alt="纪念中国人民抗日战争暨世界反法西斯战争胜利80周年"/></a></dt>
+						<dd><a href="http://www.chinawriter.com.cn/404087/404988/460620/" target=_blank>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年</a></dd>
+					</dl>
+<dl>
+						<dt><a href="https://www.chinawriter.com.cn/404087/404988/457584/index.html" target=_blank><img src="/NMediaFile/2023/0607/MAIN1686105293902V5OP7PUJIP.jpg" width="80" height="80" alt="中国作协“作家活动周”系列专题"/></a></dt>
+						<dd><a href="https://www.chinawriter.com.cn/404087/404988/457584/index.html" target=_blank>中国作协“作家活动周”系列专题</a></dd>
+					</dl>
+</div>
+            <!-- begin-->
+            <div class="slDiv">
+  					<span class="btnSelect">中国作协所属单位</span>  
+  					<div class="ulDiv names_block">  
+    					<ul><li><a href="https://www.chinawriter.com.cn/404040/index.html" target="_blank">鲁迅文学院</a></li>
+
+<li><a href="http://www.wxg.org.cn/" target="_blank">中国现代文学馆</a>
+</a></li>
+
+<li><a href="https://www.chinawriter.com.cn/n1/2018/1022/c403959-30354882.html" target="_blank">中国作家出版集团</a>
+</li>  
+      						  
+<li><a href="http://wyb.chinawriter.com.cn" target="_blank">文艺报社</a></li>      					
+
+<li><a href="http://blog.sina.com.cn/u/1716856101" target="_blank">人民文学杂志社</a></li> 
+
+<li><a href="http://blog.sina.com.cn/u/1766810633" target="_blank">诗刊社</a></li> 
+
+<li><a href="https://www.chinawriter.com.cn/n1/2018/0906/c403959-30276669.html" target="_blank">民族文学杂志社</a></li> 
+
+
+<li><a href="http://www.zgzjzzs.com/" target="_blank">中国作家杂志社</a></li>
+
+<li><a href="https://www.chinawriter.com.cn/n1/2019/0904/c403959-31334918.html" target="_blank">小说选刊杂志社</a></li> 
+  
+
+<li><a href="http://www.zuojiachubanshe.com/" target="_blank">作家出版社有限公司</a></li> 
+
+<li><a href="http://www.chinalf.net.cn/" target="_blank">中华文学基金会</a>
+</li>  						</ul>  
+  					</div> 
+				</div>
+            <div class="slDiv">
+  					<span class="btnSelect">中国作协团体会员</span>  
+  					<div class="ulDiv names_block">  
+    					<ul><li><a href="http://www.bjwl.org.cn/wwwroot/bjzjw/publish/article/index.shtml" target="_blank">北京市作家协会</a></li>
+<li><a href="http://www.tjwriter.cn/" target="_blank">天津市作家协会</a></li>
+<li><a href="http://www.hbzuojia.com/" target="_blank">河北省作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534884.html" target="_blank">山西省作家协会</a></li>
+<li><a href="#" target="_blank">内蒙古自治区作家协会</a></li>
+<li><a href="http://www.liaoningwriter.org.cn/" target="_blank">辽宁省作家协会</a></li>
+<li><a href="https://www.beifangwriter.com.cn/" target="_blank">吉林省作家协会</a></li>
+<li><a href="http://www.hljzjw.gov.cn/" target="_blank">黑龙江省作家协会</a></li>
+<li><a href="http://www.shzuojia.cn/" target="_blank">上海市作家协会</a></li>
+<li><a href="http://www.jszjw.com/" target="_blank">江苏省作家协会</a></li>
+<li><a href="http://www.zjzj.org/" target="_blank">浙江省作家协会</a></li>
+<li><a href="http://www.ahwriter.com/" target="_blank">安徽省作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2024/0229/c403961-40185965.html" target="_blank">福建省作家协会</a></li>
+<li><a href="#" target="_blank">江西省作家协会</a></li>
+<li><a href="http://www.sdzj.org/" target="_blank">山东省作家协会</a></li>
+<li><a href="#" target="_blank">河南省作家协会</a></li>
+<li><a href="http://www.hbzjw.org.cn/" target="_blank">湖北省作家协会</a></li>
+<li><a href="http://www.frguo.com/" target="_blank">湖南省作家协会</a></li>
+<li><a href="http://www.gdzuoxie.com/?gdxzid=1" target="_blank">广东省作家协会</a></li>
+<li><a href="#" target="_blank">广西壮族自治区作家协会</a></li>
+<li><a href="#" target="_blank">海南省作家协会</a></li>
+<li><a href="http://www.cqwriter.com/" target="_blank">重庆市作家协会</a></li>
+<li><a href="https://www.sczjw.net.cn/" target="_blank">四川省作家协会</a></li>
+<li><a href="#">贵州省作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534888.html" target="_blank">云南省作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534889.html" target="_blank">西藏自治区作家协会</a></li>
+<li><a href="#" target="_blank">陕西省作家协会</a></li>
+<li><a href="#" target="_blank">甘肃省作家协会</a></li>
+<li><a href="#" target="_blank">青海省作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534890.html" target="_blank">宁夏回族自治区作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534891.html" target="_blank">新疆维吾尔自治区作协</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534892.html" target="_blank">新疆生产建设兵团作协</a></li>
+<li><a href="#" target="_blank">延边作家协会</a></li>
+<li><a href="#" target="_blank">中国石油作家协会</a></li>
+<li><a href="#" target="_blank">中国铁路作家协会</a></li>
+<li><a href="#" target="_blank">中国煤矿作家协会</a></li>
+<li><a href="http://www.zrzyzjw.com/" target="_blank">中国自然资源作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534894.html" target="_blank">中国电力作家协会</a></li>
+<li><a href="#" target="_blank">中国冶金作家协会</a></li>
+<li><a href="#" target="_blank">中国水利作家协会</a></li>
+<li><a href="#" target="_blank">中国石化作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0905/c403961-28691732.html" target="_blank">中国化工作家协会</a></li>
+<li><a href="https://www.chinawriter.com.cn/n1/2016/0707/c403961-28534898.html" target="_blank">全国公安作家协会</a></li>
+<li><a href="#" target="_blank">中国金融作家协会</a></li>
+<li><a href="http://www.kpcswa.org.cn/index.html" target="_blank">中国科普作家协会</a></li></ul>  
+  					</div> 
+				</div>
+        </div>
+    </div>
+    <!--xinshuTj begin-->
+    <div class="inner clearfix xinshuTj">
+			<h3 class="title_01"><span>新书推荐</span> <a href="https://www.chinawriter.com.cn/404058/index.html" target="_blank" class="more_01"></a></h3>
+			<div class="contMar">
+			<div class="owl-carousel" id="newbook"><div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0413/c405080-40700245.html" target=_blank><img src="/NMediaFile/2026/0413/MAIN1776044885840URVECBLR5L.jpeg" width="101" height="144"/><p>《三重思想家》</p>					<span>[美]埃德蒙·威尔逊  著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0413/c405074-40700239.html" target=_blank><img src="/NMediaFile/2026/0413/MAIN1776044810152HRYGQOJDRD.jpeg" width="101" height="144"/><p>《冒牌货》</p>					<span>扎迪·史密斯 著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0407/c405065-40696424.html" target=_blank><img src="/NMediaFile/2026/0407/MAIN1775527534649GR5I8855NE.jpeg" width="101" height="144"/><p>《大厂小民》</p>					<span>张小满  著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0403/c405063-40694820.html" target=_blank><img src="/NMediaFile/2026/0403/MAIN177518086487960JVO0YDO7.jpeg" width="101" height="144"/><p>《薄暮时分》 </p>					<span>吴心越 著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0331/c405065-40692453.html" target=_blank><img src="/NMediaFile/2026/0331/MAIN1774922829395OCNVOY0AHZ.jpeg" width="101" height="144"/><p>《东坡在人间》</p>		<span>阿来 著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0331/c405074-40692389.html" target=_blank><img src="/NMediaFile/2026/0331/MAIN177492278194868QBVDQCV3.jpeg" width="101" height="144"/><p>《马孔多在下雨》</p>					<span>加西亚·马尔克斯 著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0331/c405080-40692614.html" target=_blank><img src="/NMediaFile/2026/0331/MAIN1774944164555KN8YO516K8.jpeg" width="101" height="144"/><p>《水天辽阔——周承强生态小小说选集》</p>					<span>周承强 著</span>
+</a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0330/c405062-40691630.html" target=_blank><img src="/NMediaFile/2026/0330/MAIN1774860171424CL9O7GNV5C.jpeg" width="101" height="144"/><p>《暗河》</p>					<span>苏菲·玛索
+ 著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0330/c405069-40691633.html" target=_blank><img src="/NMediaFile/2026/0330/MAIN1774860356147MBMJ1PW0LY.jpeg" width="101" height="144"/><p>《湖边书》 </p>					<span>乔洪涛  著</span></a></div>
+<div class="item"><a href="https://www.chinawriter.com.cn/n1/2026/0330/c405084-40691760.html" target=_blank><img src="/NMediaFile/2026/0330/MAIN17748604642038JPVFILU6L.jpeg" width="101" height="144"/><p>《每个人在各自的夜晚》</p>					<span>[乌拉圭]伊达·维塔莱  著</span></a></div>
+</div>
+			</div>
+		</div>
+    <!--youqingLink begin-->
+    <div class="inner youqingLink_inner clearfix">
+			<h3><span>友情链接</span></h3>
+			<div class="link_img clearfix"><a href="https://www.gov.cn/" target=_blank><img src="/NMediaFile/2021/0122/MAIN202101220930092788648124092.jpg" width="60" height="40" alt="中国政府网"/></a>
+<a href="http://www.wenming.cn/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141631310348450604166.png" width="60" height="40"/></a>
+<a href="http://www.scio.gov.cn/" target=_blank><img src="/NMediaFile/2021/0122/MAIN202101220953304569772499592.jpg" width="60" height="40" alt="国务院新闻办"/></a>
+<a href="http://www.cac.gov.cn/" target=_blank><img src="/NMediaFile/2018/1204/MAIN201812041030263514332023605.jpg" width="60" height="40" alt="中华人民共和国国家互联网信息办公室"/></a>
+<a href="http://www.people.com.cn/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526046418887737602.jpg" width="60" height="40"/></a>
+<a href="http://www.xinhuanet.com/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526132684155063518.jpg" width="60" height="40"/></a>
+<a href="http://www.gmw.cn/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526048340197970151.jpg" width="60" height="40"/></a>
+<a href="https://www.xuexi.cn/" target=_blank><img src="/NMediaFile/2021/0122/MAIN202101220958248239112903034.jpg" width="60" height="40" alt="学习强国"/></a>
+<a href="http://www.cflac.org.cn/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141551269144948459213.png" width="60" height="40"/></a>
+<a href="http://culture.ifeng.com/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526176212853705039.jpg" width="60" height="40"/></a>
+<a href="http://www.nlc.cn/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526085537389349489.jpg" width="60" height="40"/></a>
+<a href="http://epaper.ccdy.cn" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526136738731286093.jpg" width="60" height="40"/></a>
+<a href="http://wxb.whb.cn/" target=_blank><img src="/NMediaFile/2018/0801/MAIN201808011435008515922323019.png" width="60" height="40"/></a>
+<a href="http://www.cflac.org.cn/zgysb/dz/ysb/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526131405571134243.jpg" width="60" height="40"/></a>
+<a href="http://www.wxg.org.cn/" target=_blank><img src="/NMediaFile/2021/0122/MAIN202101221012507066920667994.jpg" width="60" height="40" alt="中国现代文学馆"/></a>
+<a href="http://www.chinalf.net.cn/" target=_blank><img src="/NMediaFile/2021/0325/MAIN202103251839274449287482281.jpg" width="60" height="40" alt="中华文学基金会"/></a>
+<a href="http://www.zgshige.com" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526143352277256972.jpg" width="60" height="40"/></a>
+<a href="https://www.eduwx.com/?from=singlemessage&isappinstalled=0" target=_blank><img src="/NMediaFile/2020/0609/MAIN202006091551181526061417854.jpg" width="60" height="40" alt="中国校园文学"/></a>
+<a href="http://www.cssn.cn/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526138051908449780.jpg" width="60" height="40"/></a>
+<a href="http://cul.qq.com/" target=_blank><img src="/NMediaFile/2018/0514/MAIN201805141526166085023986135.jpg" width="60" height="40"/></a>
+<a href="http://www.chinanews.com/" target=_blank><img src="/NMediaFile/2021/0122/MAIN202101221050017072159489318.jpg" width="60" height="40" alt="中国新闻网"/></a>
+<a href="http://www.zhscxh.com/" target=_blank><img src="/NMediaFile/2021/0913/MAIN202109131524145691534152247.jpg" width="60" height="40" alt="中华诗词学会"/></a>
+<a href="https://www.globalpeople.com.cn/" target=_blank><img src="/NMediaFile/2022/0422/MAIN202204221204419624284633175.jpg" width="60" height="40" alt="环球人物网"/></a>
+</div>
+		</div>
+</main>
+<!--footer begin-->
+<footer>
+		<div class="inner footer_inner clearfix"><p>文艺报社版权所有 |    
+<a href="http://beian.miit.gov.cn/" target="_blank">京ICP备16044554号</a> | 京公网安备110402440007号 | <a href="https://www.chinawriter.com.cn/n1/2019/0130/c403928-30600339.html" target="_blank">互联网新闻信息服务许可证（10120180023）</a></p>
+<p>地址：北京市朝阳区农展馆南里10号15层  联系电话：010-65389115  邮箱：cnwriter@126.com 违法和不良信息举报电话：010-65389115</p><p>本网站有部分内容来自互联网，如媒体、公司、企业或个人对该部分主张知识产权，请来电或致函告之，本网站将采取适当措施，否则，与之有关的知识产权纠纷本网站不承担任何责任。</p></div>
+	</footer>
+<div class="goTop"><div class="erweima"><img src="/NMediaFile/2018/0510/MAIN201805101635526610551558369.jpg"></div>
+	<div class="TopBtn"><img src="/img/MAIN/2018/04/118229/img/top.jpg"></div></div>
+<script>
+	$(function(){
+	var numselect;
+	var cishu=0;
+	$('.btnSelect').on("click",function(){
+		var index= $(".btnSelect").index(this);		
+		$(".ulDiv").removeClass("ulShow");  
+  		$(this).siblings(".ulDiv").toggleClass("ulShow");
+		if(numselect == index){
+			$(this).siblings(".ulDiv").removeClass("ulShow");
+			cishu++;
+			if(cishu%2==0 && cishu > 0){
+				$(this).siblings(".ulDiv").toggleClass("ulShow");
+			}
+			else{
+				$(this).siblings(".ulDiv").removeClass("ulShow");
+			}
+		}
+		else{
+			numselect=index;
+			cishu=0;
+		}		
+	});  
+	$(".ulDiv ul li").on("click",function(){ 
+  	$(".ulDiv").removeClass("ulShow");  
+	}); 
+})
+</script>
+<script src="https://tools.people.com.cn/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript" async></script>
+<script src="https://www.chinawriter.com.cn/img/2016wb/jweixin-1.0.0.js" type="text/javascript"></script><script type="text/javascript">      
+	var wxData = {
+		"imgUrl": "https://www.chinawriter.com.cn/NMediaFile/2018/0514/MAIN201805141407539113754086100.jpg",
+		"link": window.location.href,
+		"desc": "汇聚作家信息，发出作家声音，展示文学魅力……",
+		"title": "中国作家网"
+	};
+</script>
+<script src="https://www.chinawriter.com.cn/img/2016wb/WeiXinDatatit2020zjw.js" type="text/javascript"></script>
+</body>
+</html>

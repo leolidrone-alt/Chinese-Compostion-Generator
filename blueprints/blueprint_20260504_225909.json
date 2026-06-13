@@ -1,0 +1,189 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "祖父的钟",
+    "overall_emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          }
+        ]
+      },
+      {
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          }
+        ]
+      },
+      {
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          }
+        ]
+      },
+      {
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          }
+        ]
+      },
+      {
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "祖父的钟停在童年记忆里",
+            "must_contain": [
+              "祖父",
+              "钟",
+              "童年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260504_225909"
+}

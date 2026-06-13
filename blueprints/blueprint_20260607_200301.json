@@ -1,0 +1,785 @@
+{
+  "user_input": {
+    "topic": "“日月不失其体，故蔽而复明；江汉不失其源，故穷而复通。”在个人成长、社会发展乃至文明演进中，总会出现困顿、挫折，甚至会有风高浪急、惊涛骇浪的考验。然而，日月虽有被遮蔽之时，只要本体未失，终能重放光明；江河即使遭遇险阻，只要源头不竭，终能贯通入海。以上材料引发了你怎样的联想和思考？请写一篇文章。",
+    "emotion": "中性",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "源流不竭，光明终至",
+    "emotional_baseline": 0.2,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "引用材料中的日月江河，引出核心意象江河",
+            "must_contain": [
+              "日月",
+              "江河",
+              "蔽而复明",
+              "穷而复通"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "quote"
+          },
+          {
+            "core_fact": "提出江河象征源流与恒久",
+            "must_contain": [
+              "江河",
+              "源流",
+              "恒久"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "指出个人与文明也会面临困顿",
+            "must_contain": [
+              "困顿",
+              "挫折",
+              "考验"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "但只要有本源，终会重光",
+            "must_contain": [
+              "本源",
+              "重光",
+              "复明"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "以江河隐喻中华文明五千年不断",
+            "must_contain": [
+              "江河",
+              "中华文明",
+              "五千年"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "思考个体如何守住自身源流",
+            "must_contain": [
+              "个体",
+              "守住",
+              "源流"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "引出文章主旨：讨论困顿中如何不失本体",
+            "must_contain": [
+              "主旨",
+              "本体",
+              "困顿"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "描述江河虽遇险滩仍东流",
+            "must_contain": [
+              "险滩",
+              "东流",
+              "江河"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "类比个人逆境中坚守初心",
+            "must_contain": [
+              "坚守",
+              "初心",
+              "逆境"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "analogy"
+          },
+          {
+            "core_fact": "强调不失其体与源的重要性",
+            "must_contain": [
+              "体",
+              "源",
+              "重要"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "过渡到具体例证",
+            "must_contain": [
+              "例证",
+              "历史",
+              "人物"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "江河奔流象征生生不息",
+            "must_contain": [
+              "奔流",
+              "生生不息"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "人类历史亦如江河起伏",
+            "must_contain": [
+              "历史",
+              "起伏",
+              "江河"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "但优秀文明总能穿越黑暗",
+            "must_contain": [
+              "文明",
+              "穿越",
+              "黑暗"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "本段小结，为下文铺垫",
+            "must_contain": [
+              "小结",
+              "下文",
+              "铺垫"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "transition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "core_fact": "列举司马迁陷入绝境",
+            "must_contain": [
+              "司马迁",
+              "绝境",
+              "宫刑"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但他不失著史之志",
+            "must_contain": [
+              "著史",
+              "志",
+              "不失"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "以江河比喻他忍辱前行",
+            "must_contain": [
+              "江河",
+              "忍辱",
+              "前行"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "最终完成《史记》",
+            "must_contain": [
+              "史记",
+              "完成",
+              "不朽"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "江河至此冲破障碍",
+            "must_contain": [
+              "江河",
+              "冲破",
+              "障碍"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "体现个人失体而守源",
+            "must_contain": [
+              "失体",
+              "守源",
+              "个人"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "再举苏轼一生坎坷",
+            "must_contain": [
+              "苏轼",
+              "坎坷",
+              "乌台诗案"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他贬谪黄州仍豁达",
+            "must_contain": [
+              "贬谪",
+              "豁达",
+              "黄州"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "诗词如江河奔涌",
+            "must_contain": [
+              "诗词",
+              "江河",
+              "奔涌"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "他守住文心与民本",
+            "must_contain": [
+              "文心",
+              "民本",
+              "守住"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "与江河同流不竭",
+            "must_contain": [
+              "江河",
+              "同流",
+              "不竭"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "王阳明龙场悟道",
+            "must_contain": [
+              "王阳明",
+              "龙场",
+              "悟道"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "身处蛮荒心向光明",
+            "must_contain": [
+              "蛮荒",
+              "光明",
+              "心向"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "attribute"
+          },
+          {
+            "core_fact": "如江河找到新出海口",
+            "must_contain": [
+              "江河",
+              "出海口",
+              "新"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "致良知成后世源头",
+            "must_contain": [
+              "致良知",
+              "源头",
+              "后世"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "可见个体不失其本",
+            "must_contain": [
+              "个体",
+              "本",
+              "不失"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "枯木逢春犹可发",
+            "must_contain": [
+              "枯木",
+              "逢春",
+              "发"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "proverb"
+          },
+          {
+            "core_fact": "江河遇阻终入海",
+            "must_contain": [
+              "江河",
+              "遇阻",
+              "入海"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "这些人物皆以源流战胜困境",
+            "must_contain": [
+              "源流",
+              "战胜",
+              "困境"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "他们的精神如江河支流汇聚",
+            "must_contain": [
+              "精神",
+              "支流",
+              "汇聚"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "证明本体不失则希望永在",
+            "must_contain": [
+              "本体",
+              "希望",
+              "永在"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "过渡到文明层面",
+            "must_contain": [
+              "文明",
+              "层面",
+              "过渡"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "江河又现，象征文明长河",
+            "must_contain": [
+              "江河",
+              "文明",
+              "长河"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "metaphor"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "core_fact": "中华文明历经五胡乱华",
+            "must_contain": [
+              "五胡乱华",
+              "文明",
+              "劫难"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但文化传统未曾断绝",
+            "must_contain": [
+              "文化",
+              "传统",
+              "断绝"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "如江河虽浊而流不改",
+            "must_contain": [
+              "江河",
+              "浊",
+              "流不改"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "佛教传入与中国本土融合",
+            "must_contain": [
+              "佛教",
+              "传入",
+              "融合"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "成为中华文明新支流",
+            "must_contain": [
+              "支流",
+              "中华文明",
+              "新"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "元清两代少数民族统治",
+            "must_contain": [
+              "元",
+              "清",
+              "少数民族"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但汉文化反被吸收弘扬",
+            "must_contain": [
+              "汉文化",
+              "吸收",
+              "弘扬"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "江河不因改道而失源",
+            "must_contain": [
+              "改道",
+              "失源",
+              "江河"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "近代积贫积弱遭遇侵凌",
+            "must_contain": [
+              "近代",
+              "积贫积弱",
+              "侵凌"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但仁人志士寻源求变",
+            "must_contain": [
+              "仁人志士",
+              "寻源",
+              "求变"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "五四新文化运动如新流",
+            "must_contain": [
+              "五四",
+              "新文化",
+              "新流"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "根脉未断故能重生",
+            "must_contain": [
+              "根脉",
+              "未断",
+              "重生"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "如今中华民族伟大复兴",
+            "must_contain": [
+              "实现",
+              "伟大复兴",
+              "民族"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "正如江河奔涌入海",
+            "must_contain": [
+              "江河",
+              "奔涌",
+              "入海"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "坚持文化自信不失本体",
+            "must_contain": [
+              "文化自信",
+              "本体",
+              "坚持"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "历史证明文明源流不竭",
+            "must_contain": [
+              "历史",
+              "证明",
+              "源流不竭"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "天地之道循环往复",
+            "must_contain": [
+              "天地",
+              "循环",
+              "往复"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "philosophy"
+          },
+          {
+            "core_fact": "日月食后复明",
+            "must_contain": [
+              "日月",
+              "食",
+              "复明"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "quote"
+          },
+          {
+            "core_fact": "江汉旱后复通",
+            "must_contain": [
+              "江汉",
+              "旱",
+              "复通"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "quote"
+          },
+          {
+            "core_fact": "文明亦然",
+            "must_contain": [
+              "文明",
+              "亦然"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "只要源头在心",
+            "must_contain": [
+              "源头",
+              "在心"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "便能跨越一切鸿沟",
+            "must_contain": [
+              "跨越",
+              "鸿沟"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "江河再次作为象征总结",
+            "must_contain": [
+              "江河",
+              "象征",
+              "总结"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "transition"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "回归个人与文明的江河意象",
+            "must_contain": [
+              "江河",
+              "个人",
+              "文明"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "recap"
+          },
+          {
+            "core_fact": "困顿是常态但非终点",
+            "must_contain": [
+              "困顿",
+              "常态",
+              "终点"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "守住源流便存希望",
+            "must_contain": [
+              "守住",
+              "源流",
+              "希望"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "无论个人还是民族",
+            "must_contain": [
+              "个人",
+              "民族"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "只要不失其体其源",
+            "must_contain": [
+              "体",
+              "源",
+              "不失"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "终能复明复通",
+            "must_contain": [
+              "复明",
+              "复通"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "江河奔流不息见证一切",
+            "must_contain": [
+              "江河",
+              "奔流不息",
+              "见证"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "我们当如江河不为险阻所断",
+            "must_contain": [
+              "如江河",
+              "险阻",
+              "断"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "exhortation"
+          },
+          {
+            "core_fact": "在逆境中找到源头活水",
+            "must_contain": [
+              "逆境",
+              "源头活水"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "exhortation"
+          },
+          {
+            "core_fact": "如此方能生生不息",
+            "must_contain": [
+              "生生不息"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "呼应开头日月江河之言",
+            "must_contain": [
+              "日月",
+              "江河",
+              "首尾呼应"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "conclusion"
+          },
+          {
+            "core_fact": "点明失体而不失本",
+            "must_contain": [
+              "失体",
+              "不失本"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "光明终究会来",
+            "must_contain": [
+              "光明",
+              "终究",
+              "来"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "assertion"
+          },
+          {
+            "core_fact": "如江河终归大海",
+            "must_contain": [
+              "江河",
+              "归",
+              "大海"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "以此结尾升华主题",
+            "must_contain": [
+              "结尾",
+              "升华",
+              "主题"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "transition"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_200301"
+}

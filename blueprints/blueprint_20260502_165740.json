@@ -1,0 +1,1058 @@
+{
+  "user_input": {
+    "topic": "离开家乡上学时，父亲翻阅铁道给我买橘子的背影",
+    "emotion": "怀念，感激，父爱，感伤，温暖",
+    "target_words": 1400
+  },
+  "blueprint": {
+    "title": "铁轨边的橘子香",
+    "emotional_baseline": 0.4,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "秋晨微凉，车站熙攘。",
+            "must_contain": [
+              "清晨",
+              "车站",
+              "薄雾",
+              "熙攘",
+              "离别"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我立在车窗旁，望着月台。",
+            "must_contain": [
+              "车窗",
+              "站台",
+              "身影",
+              "模糊",
+              "涌动"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲担忧我的远行。",
+            "must_contain": [
+              "父亲",
+              "担忧",
+              "旅途",
+              "嘱咐",
+              "反复"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他坚持要为我送行。",
+            "must_contain": [
+              "坚持",
+              "送行",
+              "蹒跚",
+              "行李",
+              "清晨"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他的背影微微佝偻。",
+            "must_contain": [
+              "背影",
+              "微驼",
+              "深蓝色",
+              "棉袍",
+              "褶皱"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我突然为自己刚才的不耐烦感到愧疚。",
+            "must_contain": [
+              "愧疚",
+              "不耐烦",
+              "催促",
+              "沉默",
+              "转头"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "他说要去买些橘子。",
+            "must_contain": [
+              "橘子",
+              "月台",
+              "翻越",
+              "铁道",
+              "蹒跚"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我注视着他向铁轨走去。",
+            "must_contain": [
+              "注视",
+              "脚步",
+              "缓缓",
+              "穿过",
+              "人群"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "远方传来汽笛声。",
+            "must_contain": [
+              "汽笛",
+              "远方",
+              "震颤",
+              "空气",
+              "催促"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "他回头望了一眼，面色平静。",
+            "must_contain": [
+              "回头",
+              "面容",
+              "平静",
+              "眼神",
+              "深意"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我记起他曾用发皱的拇指翻旧书给我听。",
+            "must_contain": [
+              "旧书",
+              "发皱",
+              "拇指",
+              "沙沙声",
+              "密语"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "泛黄的书页满是尘土与时光的气味。",
+            "must_contain": [
+              "书页",
+              "泛黄",
+              "灰尘",
+              "时光",
+              "记忆"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "如今他的拇指更加粗糙了。",
+            "must_contain": [
+              "拇指",
+              "粗糙",
+              "年岁",
+              "操劳",
+              "纹路"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他走到月台边缘。",
+            "must_contain": [
+              "月台",
+              "边缘",
+              "铁道",
+              "碎石",
+              "站定"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我知道他必定会穿过去。",
+            "must_contain": [
+              "知晓",
+              "跨越",
+              "必然",
+              "担忧",
+              "凝望"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "他缓缓踏下铁道。",
+            "must_contain": [
+              "慢慢",
+              "走下",
+              "铁道",
+              "碎石",
+              "小心"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "深蓝棉袍被风掀起一角。",
+            "must_contain": [
+              "棉袍",
+              "下摆",
+              "风",
+              "掀起",
+              "深蓝"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他步履蹒跚，略带跛行。",
+            "must_contain": [
+              "步履",
+              "蹒跚",
+              "左脚",
+              "拖曳",
+              "艰难"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我想喊他，却哽住了。",
+            "must_contain": [
+              "呼唤",
+              "嘴边",
+              "哽咽",
+              "停住",
+              "喉咙"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "晨光勾勒出他孤单而坚定的轮廓。",
+            "must_contain": [
+              "晨光",
+              "勾勒",
+              "轮廓",
+              "孤单",
+              "坚定"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "他攀上对面的月台。",
+            "must_contain": [
+              "攀爬",
+              "对面",
+              "月台",
+              "双手",
+              "用力"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他的身体因费力而前倾颤抖。",
+            "must_contain": [
+              "身体",
+              "前倾",
+              "颤抖",
+              "吃力",
+              "动作"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那一刻他显得如此脆弱。",
+            "must_contain": [
+              "脆弱",
+              "衰老",
+              "无助",
+              "瞬间",
+              "揪心"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "卖橘子的小贩就在近旁。",
+            "must_contain": [
+              "小贩",
+              "橘子",
+              "竹筐",
+              "金黄",
+              "吆喝"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲仔细地挑拣着橘子。",
+            "must_contain": [
+              "挑选",
+              "橘子",
+              "手指",
+              "轻捏",
+              "仔细"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他用皱巴巴的纸币付了钱。",
+            "must_contain": [
+              "掏钱",
+              "褶皱",
+              "纸币",
+              "零钱",
+              "递出"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "小贩用旧报纸将橘子包好。",
+            "must_contain": [
+              "旧报纸",
+              "包裹",
+              "麻绳",
+              "捆扎",
+              "熟练"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "父亲捧着纸包，郑重其事。",
+            "must_contain": [
+              "捧着",
+              "纸包",
+              "郑重",
+              "如宝",
+              "转身"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他望向我，目光温暖而短暂。",
+            "must_contain": [
+              "目光",
+              "相遇",
+              "温暖",
+              "鼓励",
+              "短暂"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "返程的路似乎更加艰难。",
+            "must_contain": [
+              "更加",
+              "吃力",
+              "疲惫",
+              "脚步",
+              "沉重"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他得再一次小心地往下走。",
+            "must_contain": [
+              "下坡",
+              "小心",
+              "摸索",
+              "扶住",
+              "碎石"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他沉重的喘息远远传来。",
+            "must_contain": [
+              "喘息",
+              "胸口",
+              "起伏",
+              "遥远",
+              "清晰"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "sensory_detail"
+          }
+        ]
+      },
+      {
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "core_fact": "他终于回到这边的月台。",
+            "must_contain": [
+              "终于",
+              "回到",
+              "月台",
+              "汗水",
+              "额角"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我赶紧上前搀扶。",
+            "must_contain": [
+              "快步",
+              "上前",
+              "扶住",
+              "手臂",
+              "颤抖"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他用颤抖的手把橘子递给我。",
+            "must_contain": [
+              "递过",
+              "橘子",
+              "双手",
+              "颤抖",
+              "粗糙"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "橘子的温热透过纸包传到掌心。",
+            "must_contain": [
+              "温热",
+              "透过",
+              "纸包",
+              "掌心",
+              "传递"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我看见他的手指布满老茧和污渍。",
+            "must_contain": [
+              "手指",
+              "老茧",
+              "污渍",
+              "岁月",
+              "劳苦"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "忽然想起他签献血证时的力度。",
+            "must_contain": [
+              "献血证",
+              "签名",
+              "力度",
+              "血缘",
+              "证明"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那笔尖仿佛要刻下父子的牵绊。",
+            "must_contain": [
+              "签字",
+              "用力",
+              "笔尖",
+              "刻入",
+              "亲子"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "core_fact": "正是这只手，此刻递来橘子。",
+            "must_contain": [
+              "相同",
+              "手掌",
+              "递来",
+              "橘子",
+              "连接"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我的眼泪再也忍不住了。",
+            "must_contain": [
+              "泪水",
+              "眼眶",
+              "模糊",
+              "强忍",
+              "扭过头"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他察觉了，匆忙转过身去。",
+            "must_contain": [
+              "察觉",
+              "转身",
+              "匆匆",
+              "掩饰",
+              "沉默"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他的背影渐渐融入人潮。",
+            "must_contain": [
+              "背影",
+              "离去",
+              "渐远",
+              "融进",
+              "人潮"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description",
+            "atmosphere_hint": "离别的沉重与父爱的深沉"
+          },
+          {
+            "core_fact": "阳光为他佝偻的轮廓镀上孤寂的光。",
+            "must_contain": [
+              "阳光",
+              "勾勒",
+              "佝偻",
+              "孤独",
+              "轮廓"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我看见他用袖口擦了一下眼角。",
+            "must_contain": [
+              "擦眼",
+              "袖口",
+              "动作",
+              "细微",
+              "看见"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我的心如刀绞。",
+            "must_contain": [
+              "心口",
+              "绞痛",
+              "压抑",
+              "呼喊",
+              "无声"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue",
+            "atmosphere_hint": "心碎的瞬间"
+          },
+          {
+            "core_fact": "他再没有回头。",
+            "must_contain": [
+              "不再",
+              "回头",
+              "决然",
+              "沉重",
+              "步伐"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "火车缓缓开动。",
+            "must_contain": [
+              "火车",
+              "启动",
+              "车轮",
+              "轰隆",
+              "离别"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我将橘子紧紧抱在胸前。",
+            "must_contain": [
+              "抱紧",
+              "橘子",
+              "贴近",
+              "胸口",
+              "温度"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "橘香弥漫在狭小的车厢里。",
+            "must_contain": [
+              "橘香",
+              "弥漫",
+              "狭小",
+              "车厢",
+              "陪伴"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "窗外，月台空荡，余温散尽。",
+            "must_contain": [
+              "窗外",
+              "站台",
+              "空荡",
+              "余温",
+              "消失"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "description",
+            "atmosphere_hint": "空落落的怅惘"
+          },
+          {
+            "core_fact": "父亲的背影消失了，却刻在我的目光里。",
+            "must_contain": [
+              "背影",
+              "消失",
+              "眼前",
+              "残留",
+              "记忆"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection",
+            "atmosphere_hint": "永恒的凝视"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "火车摇晃着驶离故乡。",
+            "must_contain": [
+              "列车",
+              "摇晃",
+              "驶离",
+              "故乡",
+              "远方"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我独自坐在座位上。",
+            "must_contain": [
+              "独自",
+              "座位",
+              "沉默",
+              "窗外",
+              "飞逝"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那包橘子静静搁在小桌上。",
+            "must_contain": [
+              "橘子",
+              "纸包",
+              "小桌",
+              "安静",
+              "金黄"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我解开粗糙的麻绳。",
+            "must_contain": [
+              "解开",
+              "麻绳",
+              "粗糙",
+              "指间",
+              "磨损"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "旧报纸沙沙展开。",
+            "must_contain": [
+              "报纸",
+              "展开",
+              "沙沙",
+              "声响",
+              "熟悉"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我忆起父亲用拇指翻书的沙沙声。",
+            "must_contain": [
+              "记忆",
+              "拇指",
+              "翻书",
+              "沙沙声",
+              "密语"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "那声音仿佛藏着他没说出口的话。",
+            "must_contain": [
+              "纸声",
+              "隐藏",
+              "话语",
+              "粗糙",
+              "听懂"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "我拿起一个橘子。",
+            "must_contain": [
+              "拿起",
+              "一个",
+              "橘子",
+              "饱满",
+              "微凉"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "表皮清凉，但我知道内里藏着温暖。",
+            "must_contain": [
+              "表皮",
+              "清凉",
+              "内里",
+              "温暖",
+              "父爱"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我慢慢剥开橘皮，香气迸发。",
+            "must_contain": [
+              "剥开",
+              "橘皮",
+              "香气",
+              "迸发",
+              "车厢"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "清香充盈，如同一个拥抱。",
+            "must_contain": [
+              "清香",
+              "充盈",
+              "怀抱",
+              "类似",
+              "慰藉"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我尝了一瓣，酸甜交织。",
+            "must_contain": [
+              "一瓣",
+              "放入",
+              "口中",
+              "酸甜",
+              "汁液"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "那味道让我想起家的后园。",
+            "must_contain": [
+              "味道",
+              "想起",
+              "家",
+              "后园",
+              "橘树"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我细细品尝，泪水混着汁液咽下。",
+            "must_contain": [
+              "细细",
+              "品尝",
+              "泪水",
+              "混合",
+              "咽下"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "窗外，田野绵延至远方。",
+            "must_contain": [
+              "窗外",
+              "田野",
+              "连绵",
+              "远方",
+              "未知"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "多年过去了。",
+            "must_contain": [
+              "多年",
+              "过去",
+              "辗转",
+              "他乡",
+              "漂泊"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我在车站见过无数背影。",
+            "must_contain": [
+              "背影",
+              "车站",
+              "无数",
+              "离别",
+              "重逢"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "但哪一个都比不上那个蹒跚的深蓝身影。",
+            "must_contain": [
+              "唯独",
+              "那个",
+              "蹒跚",
+              "深蓝色",
+              "刻入"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "每当我吃橘子，就会想起父亲。",
+            "must_contain": [
+              "每当",
+              "橘子",
+              "想起",
+              "父亲",
+              "味道"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "甜味总带着一丝刺痛。",
+            "must_contain": [
+              "甜味",
+              "总是",
+              "带着",
+              "刺痛",
+              "思念"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "上周我回老家探望他。",
+            "must_contain": [
+              "上周",
+              "探望",
+              "老家",
+              "步履",
+              "蹒跚"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他坐在旧椅上翻着旧书。",
+            "must_contain": [
+              "旧椅",
+              "坐着",
+              "翻阅",
+              "旧书",
+              "安静"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "房间里有灰尘和书页的气味。",
+            "must_contain": [
+              "房间",
+              "灰尘",
+              "书页",
+              "味道",
+              "熟悉"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我看见他粗糙的拇指翻动纸页，沙沙作响。",
+            "must_contain": [
+              "拇指",
+              "粗糙",
+              "翻动",
+              "纸页",
+              "沙沙"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那声音低语着他从未说出的爱。",
+            "must_contain": [
+              "声音",
+              "低语",
+              "爱",
+              "未曾",
+              "说出"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "core_fact": "我递给他一个橘子。",
+            "must_contain": [
+              "递过",
+              "橘子",
+              "他手",
+              "微颤",
+              "接住"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他笑了，眼角皱纹深如铁道。",
+            "must_contain": [
+              "微笑",
+              "眼角",
+              "皱纹",
+              "深如",
+              "铁道"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我们一起剥开橘皮，分享橘瓣。",
+            "must_contain": [
+              "一起",
+              "剥开",
+              "橘皮",
+              "分享",
+              "安静"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "无需言语，默契在橘香里流淌。",
+            "must_contain": [
+              "无需",
+              "言语",
+              "默契",
+              "流淌",
+              "橘香"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "傍晚的光落在他斑白的发上。",
+            "must_contain": [
+              "傍晚",
+              "光线",
+              "照在",
+              "白发",
+              "斑驳"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "他转身去取杯子，背影依然微驼。",
+            "must_contain": [
+              "转身",
+              "背影",
+              "取杯",
+              "依然",
+              "微驼"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那一幅影像，将永远停在我心中。",
+            "must_contain": [
+              "影像",
+              "停留",
+              "永远",
+              "心中",
+              "不灭"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_165740"
+}

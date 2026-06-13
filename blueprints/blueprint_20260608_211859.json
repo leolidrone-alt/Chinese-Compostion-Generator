@@ -1,0 +1,458 @@
+{
+  "user_input": {
+    "topic": "一把螺丝刀，一台电脑，构成了一个工程师的一生。一个工程师铸就了一架架翱翔的飞机，一辆辆奔驰的赛车和一支支挺立的信号灯。对此你有什么感想，请结合生活实际写一篇记叙文。",
+    "emotion": "中性",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "螺丝刀与信号灯",
+    "emotional_baseline": 0.2,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "父亲是一名工程师，一生与螺丝刀和电脑为伴。",
+            "must_contain": [
+              "父亲",
+              "工程师",
+              "螺丝刀",
+              "电脑"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他握着那把老旧的螺丝刀，指尖在冰冷的把手上摩挲了三秒，才猛地撬开合同封条——像撬开一道缝合好的伤口。",
+            "must_contain": [
+              "螺丝刀",
+              "摩挲",
+              "撬开",
+              "封条",
+              "伤口"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那是他职业生涯的第一个项目，为偏远山区安装信号灯。",
+            "must_contain": [
+              "项目",
+              "信号灯",
+              "山区"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他带着团队扛着设备，在泥泞的山路上跋涉了三天。",
+            "must_contain": [
+              "团队",
+              "设备",
+              "泥泞",
+              "山路",
+              "跋涉"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "螺丝刀在他手中旋转，拧紧每一颗螺丝，信号灯终于亮起。",
+            "must_contain": [
+              "螺丝刀",
+              "旋转",
+              "拧紧",
+              "螺丝",
+              "信号灯"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "那一刻，他感到自己与这片土地连接在了一起。",
+            "must_contain": [
+              "感到",
+              "土地",
+              "连接"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "core_fact": "后来他参与设计飞机部件，螺丝刀成了他延伸的手指。",
+            "must_contain": [
+              "飞机",
+              "部件",
+              "螺丝刀",
+              "手指"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他握着螺丝刀的手青筋暴起，刀尖顶住铁皮柜门的缝隙，每一次撬动都像在掰开统治者咬紧的牙关。",
+            "must_contain": [
+              "螺丝刀",
+              "青筋",
+              "铁皮柜",
+              "撬动",
+              "牙关"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那是他第一次面对技术封锁，图纸被锁在铁皮柜里。",
+            "must_contain": [
+              "技术封锁",
+              "图纸",
+              "铁皮柜"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他凭借记忆和计算，硬是用螺丝刀撬开了柜门。",
+            "must_contain": [
+              "记忆",
+              "计算",
+              "螺丝刀",
+              "撬开",
+              "柜门"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那晚，他对着电脑屏幕，将数据一一录入。",
+            "must_contain": [
+              "电脑",
+              "屏幕",
+              "数据",
+              "录入"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "螺丝刀和电脑，成了他攻克难关的武器。",
+            "must_contain": [
+              "螺丝刀",
+              "电脑",
+              "攻克",
+              "难关",
+              "武器"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "多年后，他设计的飞机翱翔蓝天，赛车在赛道上飞驰。",
+            "must_contain": [
+              "飞机",
+              "翱翔",
+              "赛车",
+              "赛道",
+              "飞驰"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他站在跑道边，看着自己的作品，螺丝刀在口袋里沉甸甸的。",
+            "must_contain": [
+              "跑道",
+              "作品",
+              "螺丝刀",
+              "口袋",
+              "沉甸甸"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他想起那些不眠之夜，电脑屏幕的蓝光映在脸上。",
+            "must_contain": [
+              "不眠之夜",
+              "电脑",
+              "蓝光",
+              "脸上"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "螺丝刀见证了他从青涩到成熟的每一步。",
+            "must_contain": [
+              "螺丝刀",
+              "见证",
+              "青涩",
+              "成熟"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "退休前，他最后一次用螺丝刀调试信号灯。",
+            "must_contain": [
+              "退休",
+              "螺丝刀",
+              "调试",
+              "信号灯"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他爬上灯杆，螺丝刀在夕阳下闪着光。",
+            "must_contain": [
+              "灯杆",
+              "螺丝刀",
+              "夕阳",
+              "闪光"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他拧紧最后一颗螺丝，信号灯亮起，照亮了归途。",
+            "must_contain": [
+              "拧紧",
+              "螺丝",
+              "信号灯",
+              "照亮",
+              "归途"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "他想起四十年前，同样的动作，同样的螺丝刀。",
+            "must_contain": [
+              "四十年前",
+              "动作",
+              "螺丝刀"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "岁月改变了容颜，但没改变他手中的工具。",
+            "must_contain": [
+              "岁月",
+              "容颜",
+              "工具"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他走下灯杆，把螺丝刀递给年轻的徒弟。",
+            "must_contain": [
+              "灯杆",
+              "螺丝刀",
+              "递给",
+              "徒弟"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "徒弟接过，指尖在冰冷的把手上摩挲了三秒。",
+            "must_contain": [
+              "徒弟",
+              "接过",
+              "指尖",
+              "摩挲",
+              "三秒"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "父亲说：“这把螺丝刀，陪我走过了一生。”",
+            "must_contain": [
+              "父亲",
+              "螺丝刀",
+              "一生"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "徒弟点点头，眼神坚定。",
+            "must_contain": [
+              "徒弟",
+              "点头",
+              "眼神",
+              "坚定"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "如今，父亲已经离世，但他的螺丝刀还在。",
+            "must_contain": [
+              "父亲",
+              "离世",
+              "螺丝刀"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "我打开他的工具箱，螺丝刀静静地躺在里面。",
+            "must_contain": [
+              "工具箱",
+              "螺丝刀",
+              "静静",
+              "里面"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我拿起它，仿佛能感受到父亲的温度。",
+            "must_contain": [
+              "拿起",
+              "感受",
+              "父亲",
+              "温度"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "螺丝刀上布满了划痕，那是岁月的印记。",
+            "must_contain": [
+              "螺丝刀",
+              "划痕",
+              "岁月",
+              "印记"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "我走到阳台，那里有一盏坏掉的信号灯。",
+            "must_contain": [
+              "阳台",
+              "坏掉",
+              "信号灯"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "我学着父亲的样子，用螺丝刀拧开螺丝。",
+            "must_contain": [
+              "学着",
+              "父亲",
+              "螺丝刀",
+              "拧开",
+              "螺丝"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "刀尖顶住缝隙，我用力一撬，盖子打开了。",
+            "must_contain": [
+              "刀尖",
+              "缝隙",
+              "撬",
+              "盖子"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我更换了线路，信号灯重新亮起。",
+            "must_contain": [
+              "更换",
+              "线路",
+              "信号灯",
+              "亮起"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那一刻，我明白了父亲的一生。",
+            "must_contain": [
+              "明白",
+              "父亲",
+              "一生"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "螺丝刀和电脑，不仅仅是工具，更是他生命的延伸。",
+            "must_contain": [
+              "螺丝刀",
+              "电脑",
+              "工具",
+              "生命",
+              "延伸"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他用它们创造了飞翔的梦想、奔驰的速度和指引的光明。",
+            "must_contain": [
+              "飞翔",
+              "梦想",
+              "奔驰",
+              "速度",
+              "光明"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我终于明白，真正的工程师，是用双手和智慧改变世界的人。",
+            "must_contain": [
+              "工程师",
+              "双手",
+              "智慧",
+              "改变",
+              "世界"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "而螺丝刀，就是那把开启未来的钥匙。",
+            "must_contain": [
+              "螺丝刀",
+              "开启",
+              "未来",
+              "钥匙"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ],
+    "ending_style": "explicit"
+  },
+  "generated_at": "20260608_211859"
+}

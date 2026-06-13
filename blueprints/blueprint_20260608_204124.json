@@ -1,0 +1,453 @@
+{
+  "user_input": {
+    "topic": "某科普向博主曾说“远方不再是到不了的世界，家乡不再是回不去的故居”，科技巨龙在腾飞，明日达，三小时速递，保证生活用品永不缺席。高铁直达，飞机直飞，亲人之间的情感不再依赖于一张张旧照，大家的距离在缩短。不过也有人说距离产生美感，只有淡淡的冷漠才有生活的样子。对此你有什么感想，请结合生活实际写一篇记叙文",
+    "emotion": "中性",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "距离的刻度",
+    "emotional_baseline": 0.2,
+    "paragraphs": [
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "老钟是爷爷留下的，摆在外公老屋的堂屋里，是我童年记忆的起点。",
+            "must_contain": [
+              "老钟",
+              "童年",
+              "记忆"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "小时候，我总爱趴在桌上看钟摆摇晃，听它发出沉闷的滴答声。",
+            "must_contain": [
+              "钟摆",
+              "滴答",
+              "摇晃"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "外公说，这钟从太爷爷那辈就传下来了，走了一百多年，从没停过。",
+            "must_contain": [
+              "外公",
+              "太爷爷",
+              "一百年"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那时我觉得，老钟就是家的象征，它永远在那里，不急不慢。",
+            "must_contain": [
+              "老钟",
+              "家",
+              "象征"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "后来我随父母搬到了城市，老钟留在了老屋，只有过年才回去看它。",
+            "must_contain": [
+              "搬",
+              "城市",
+              "过年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "城市里一切都是快的，高铁、快递、外卖，三小时就能跨越千里。",
+            "must_contain": [
+              "高铁",
+              "快递",
+              "三小时"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "我习惯了这种速度，觉得距离不再是问题，想见谁随时可以见。",
+            "must_contain": [
+              "速度",
+              "距离",
+              "随时"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "但奇怪的是，我和外公的通话却越来越短，从半小时变成三分钟。",
+            "must_contain": [
+              "通话",
+              "外公",
+              "变短"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "contrast"
+          },
+          {
+            "core_fact": "有一次我问他老钟还好吗，他说钟走得准，就是没人上弦了。",
+            "must_contain": [
+              "老钟",
+              "上弦",
+              "准"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "高二那年，外公病重，我连夜坐高铁赶回，三小时就到了县城。",
+            "must_contain": [
+              "高铁",
+              "三小时",
+              "病重"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "可下了车，我却在家门口徘徊了很久，不敢推门。",
+            "must_contain": [
+              "徘徊",
+              "不敢",
+              "推门"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我害怕看到外公消瘦的样子，也害怕老钟停了。",
+            "must_contain": [
+              "害怕",
+              "外公",
+              "老钟"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "最终我还是进去了，外公躺在床上，老钟还在走，但声音很轻。",
+            "must_contain": [
+              "外公",
+              "老钟",
+              "轻"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "他看见我，笑了笑，说：“钟快停了，你给它上上弦吧。”",
+            "must_contain": [
+              "上弦",
+              "钟",
+              "外公"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我笨拙地打开钟门，转动钥匙，一圈，两圈，直到发条拧紧。",
+            "must_contain": [
+              "钥匙",
+              "发条",
+              "拧紧"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟声重新变得洪亮，滴答滴答，像心跳一样有力。",
+            "must_contain": [
+              "钟声",
+              "洪亮",
+              "心跳"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "外公说：“这钟啊，走得再快，也得有人上弦。人也是一样。”",
+            "must_contain": [
+              "上弦",
+              "人",
+              "一样"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那一刻我忽然明白，科技缩短了物理距离，却拉长了心理距离。",
+            "must_contain": [
+              "科技",
+              "物理",
+              "心理"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我们能用三小时到达任何地方，却可能用三年都没走进一个人的心。",
+            "must_contain": [
+              "三小时",
+              "三年",
+              "心"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "外公出院后，我每周都给他打电话，聊老钟，聊他的菜园，聊很久。",
+            "must_contain": [
+              "每周",
+              "电话",
+              "老钟"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我发现，当我不再追求速度，时间反而变慢了，情感也变浓了。",
+            "must_contain": [
+              "速度",
+              "时间",
+              "情感"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "高三寒假，我独自回老屋住了一周，每天给老钟上弦。",
+            "must_contain": [
+              "寒假",
+              "老屋",
+              "上弦"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我学着外公的样子，用软布擦拭钟面，看铜摆来回晃动。",
+            "must_contain": [
+              "擦拭",
+              "铜摆",
+              "晃动"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "邻居张奶奶路过，说：“你外公以前也是这么擦的，一模一样。”",
+            "must_contain": [
+              "邻居",
+              "外公",
+              "一模一样"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我突然意识到，老钟不仅记录时间，更承载着几代人的记忆。",
+            "must_contain": [
+              "老钟",
+              "记录",
+              "记忆"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "科技让远方不再遥远，但家乡的意义，从来不是距离能定义的。",
+            "must_contain": [
+              "科技",
+              "远方",
+              "家乡"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "那些说距离产生美感的人，或许只是害怕亲密带来的麻烦。",
+            "must_contain": [
+              "距离",
+              "美感",
+              "亲密"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "comment"
+          },
+          {
+            "core_fact": "但真正的美，是在日复一日的相处中，在每一次上弦的仪式里。",
+            "must_contain": [
+              "美",
+              "相处",
+              "上弦"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我拍了一张老钟的照片发给外公，他回了一个竖大拇指的表情。",
+            "must_contain": [
+              "照片",
+              "外公",
+              "大拇指"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那一刻，手机屏幕两端的我们，都笑了。",
+            "must_contain": [
+              "手机",
+              "两端",
+              "笑"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "科技缩短了空间，但情感需要时间来浇灌，就像老钟需要上弦。",
+            "must_contain": [
+              "科技",
+              "情感",
+              "上弦"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我们不能因为有了高铁，就忘了回家的路；不能因为有了快递，就忘了写信的慢。",
+            "must_contain": [
+              "高铁",
+              "快递",
+              "慢"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 220,
+        "sentences": [
+          {
+            "core_fact": "今年春节，我教表弟给老钟上弦，他笨手笨脚的样子像极了我当年。",
+            "must_contain": [
+              "表弟",
+              "上弦",
+              "笨手笨脚"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "外公坐在一旁，笑着说：“以后这钟就交给你了。”",
+            "must_contain": [
+              "外公",
+              "以后",
+              "交给你"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我点点头，心里涌起一种从未有过的责任感。",
+            "must_contain": [
+              "点头",
+              "责任感"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟的滴答声，仿佛在提醒我：无论走多远，都要记得回来上弦。",
+            "must_contain": [
+              "滴答",
+              "回来",
+              "上弦"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我终于明白，远方和家乡从来不是对立的两端。",
+            "must_contain": [
+              "远方",
+              "家乡",
+              "对立"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "科技让远方触手可及，但真正让家乡成为家乡的，是那些需要亲手去做的仪式。",
+            "must_contain": [
+              "科技",
+              "家乡",
+              "仪式"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "比如给老钟上弦，比如陪外公聊天，比如在除夕夜吃一顿团圆饭。",
+            "must_contain": [
+              "上弦",
+              "聊天",
+              "团圆饭"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "这些看似琐碎的小事，才是连接我们与家乡的纽带。",
+            "must_contain": [
+              "琐碎",
+              "小事",
+              "纽带"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "因此，距离不是问题，冷漠才是。",
+            "must_contain": [
+              "距离",
+              "冷漠"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "conclusion"
+          },
+          {
+            "core_fact": "这就是老钟教给我的：用行动去爱，用时间去证明。",
+            "must_contain": [
+              "老钟",
+              "行动",
+              "时间"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "conclusion"
+          }
+        ]
+      }
+    ],
+    "ending_style": "explicit"
+  },
+  "generated_at": "20260608_204124"
+}

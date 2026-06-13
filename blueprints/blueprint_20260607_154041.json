@@ -1,0 +1,1020 @@
+{
+  "user_input": {
+    "topic": "“昨夜闲潭梦落花”“我欲因之梦吴越”“铁马冰河入梦来”……梦往往以一种独特的方式呈现我们的感受和期冀，为我们打开更浩瀚的天空。我们也常常向别人讲述自己的梦，用文字记录自己的梦，以行动实现自己的梦。如果有一天，我们能够将梦赠予他人……以上材料引发了你怎样的联想和思考？请写一篇文章。",
+    "emotion": "中性",
+    "target_words": 1100
+  },
+  "blueprint": {
+    "title": "梦之舟",
+    "overall_sentiment_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 220,
+        "sentences": [
+          {
+            "core_fact": "爷爷坐在老屋廊下，手中折着纸船。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "老屋"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "纸船是他唯一会折的样式，方头方尾，线条简单。",
+            "must_contain": [
+              "纸船",
+              "样式",
+              "简单"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "我问他为什么总折纸船，他目光飘向远方。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "远方"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他说纸船能载着他的梦，漂到山外。",
+            "must_contain": [
+              "纸船",
+              "梦",
+              "山外"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我那时不懂，只觉纸船好看。",
+            "must_contain": [
+              "纸船",
+              "好看"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "爷爷年轻时，山里不通电，夜晚只有煤油灯。",
+            "must_contain": [
+              "爷爷",
+              "山里",
+              "不通电",
+              "煤油灯"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "他最大的梦想就是让村子亮起来。",
+            "must_contain": [
+              "梦想",
+              "村子",
+              "亮"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "可村里穷，没人信他能做到。",
+            "must_contain": [
+              "村里",
+              "穷",
+              "不信"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "爷爷便每天折一只纸船，放入溪中。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "溪中"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他说船会带他的梦去县城，去省城。",
+            "must_contain": [
+              "纸船",
+              "梦",
+              "县城",
+              "省城"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我渐渐长大，开始理解爷爷的纸船。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "理解"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它不只是纸，更是希望的载体。",
+            "must_contain": [
+              "纸船",
+              "希望",
+              "载体"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "爷爷的纸船折了三十年，从未停歇。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "三十年"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "直到他头发花白，脊背佝偻。",
+            "must_contain": [
+              "头发花白",
+              "脊背佝偻"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那天他把我叫到身边，将一只纸船递进我手心。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "递",
+              "手心"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "climax",
+            "atmosphere_hint": "庄重而温暖"
+          },
+          {
+            "core_fact": "他说这只船是折得最用心的一只，边角都压得整齐。",
+            "must_contain": [
+              "纸船",
+              "用心",
+              "边角",
+              "整齐"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他把梦赠予了我，希望我能替他完成。",
+            "must_contain": [
+              "梦",
+              "赠予",
+              "完成"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我点头，第一次感到纸船沉甸甸的。",
+            "must_contain": [
+              "纸船",
+              "沉甸甸"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那一刻，纸船不再是玩具，而是使命。",
+            "must_contain": [
+              "纸船",
+              "玩具",
+              "使命"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "symbol"
+          },
+          {
+            "core_fact": "我把它小心夹在课本里，带着上学。",
+            "must_contain": [
+              "纸船",
+              "课本",
+              "上学"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 280,
+        "sentences": [
+          {
+            "core_fact": "我发愤读书，纸船在书页间见证我的努力。",
+            "must_contain": [
+              "纸船",
+              "书页",
+              "努力"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "每当我懈怠，就掏出纸船看看。",
+            "must_contain": [
+              "纸船",
+              "懈怠",
+              "看看"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "它像爷爷的眼睛，默默注视着我。",
+            "must_contain": [
+              "纸船",
+              "爷爷",
+              "眼睛"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "高考后，我填报了电力工程专业。",
+            "must_contain": [
+              "高考",
+              "电力工程",
+              "专业"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "离家那天，爷爷又折了一只纸船给我。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "离家"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他说这只船更大，能装下更多的梦。",
+            "must_contain": [
+              "纸船",
+              "更大",
+              "梦"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "大学四年，我刻苦钻研，周末也泡在实验室。",
+            "must_contain": [
+              "大学",
+              "刻苦",
+              "实验室"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我把爷爷的故事讲给同学听，他们都感动不已。",
+            "must_contain": [
+              "爷爷",
+              "故事",
+              "同学",
+              "感动"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "一个同学说，他也有一个纸船梦。",
+            "must_contain": [
+              "同学",
+              "纸船",
+              "梦"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "原来梦想可以传染，纸船可以赠予多人。",
+            "must_contain": [
+              "梦想",
+              "传染",
+              "纸船",
+              "赠予"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "毕业后，我回到家乡，成为一名电力工程师。",
+            "must_contain": [
+              "毕业",
+              "家乡",
+              "电力工程师"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "纸船一直在我口袋，陪我走过山路。",
+            "must_contain": [
+              "纸船",
+              "口袋",
+              "山路"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "勘测、设计、架线，每一步都艰难。",
+            "must_contain": [
+              "勘测",
+              "设计",
+              "架线",
+              "艰难"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "村民不解，说何必折腾。",
+            "must_contain": [
+              "村民",
+              "不解",
+              "折腾"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我拿出纸船，跟他们讲爷爷的故事。",
+            "must_contain": [
+              "纸船",
+              "爷爷",
+              "故事"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "有人被感动，开始帮忙。",
+            "must_contain": [
+              "感动",
+              "帮忙"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "纸船成了村里人的希望符号。",
+            "must_contain": [
+              "纸船",
+              "村里",
+              "希望",
+              "符号"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "symbol"
+          },
+          {
+            "core_fact": "我每天睡前都看看纸船，仿佛看到爷爷的笑脸。",
+            "must_contain": [
+              "纸船",
+              "爷爷",
+              "笑脸"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "它提醒我：梦不能只是梦，要变成现实。",
+            "must_contain": [
+              "纸船",
+              "梦",
+              "现实"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "三年后，电线杆终于立到了山顶。",
+            "must_contain": [
+              "电线杆",
+              "山顶"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax",
+            "atmosphere_hint": "激动而欣慰"
+          },
+          {
+            "core_fact": "合闸的那一刻，村子亮了。",
+            "must_contain": [
+              "合闸",
+              "村子",
+              "亮"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "爷爷已经去世，但他托人带给我一封信。",
+            "must_contain": [
+              "爷爷",
+              "去世",
+              "信"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "信里只有一只纸船，和一句话：梦已赠予你，你实现了。",
+            "must_contain": [
+              "纸船",
+              "梦",
+              "赠予",
+              "实现"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我泪流满面，纸船被灯光映得泛黄。",
+            "must_contain": [
+              "泪流满面",
+              "纸船",
+              "灯光",
+              "泛黄"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那只纸船，从此被我珍藏在玻璃框里。",
+            "must_contain": [
+              "纸船",
+              "珍藏",
+              "玻璃框"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "几年后，我有了自己的孩子。",
+            "must_contain": [
+              "孩子"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我教他折纸船，就像爷爷教我那样。",
+            "must_contain": [
+              "折纸船",
+              "爷爷",
+              "教"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "孩子笨拙地折着，纸船歪歪扭扭。",
+            "must_contain": [
+              "孩子",
+              "纸船",
+              "歪歪扭扭"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "但他很开心，举着纸船满屋跑。",
+            "must_contain": [
+              "纸船",
+              "开心",
+              "满屋跑"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我告诉他，纸船可以载梦。",
+            "must_contain": [
+              "纸船",
+              "载梦"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他问：什么是梦？",
+            "must_contain": [
+              "梦"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我说：梦就是你想做的事情，比如让更多人亮起来。",
+            "must_contain": [
+              "梦",
+              "让更多人亮"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "孩子似懂非懂，但把纸船放在床头。",
+            "must_contain": [
+              "纸船",
+              "床头"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我想到爷爷，想到他递给我纸船时的眼神。",
+            "must_contain": [
+              "爷爷",
+              "纸船",
+              "眼神"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "如今，我也成了赠予者。",
+            "must_contain": [
+              "赠予者"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "纸船依旧简单，但承载的梦越来越重。",
+            "must_contain": [
+              "纸船",
+              "简单",
+              "梦",
+              "重"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "村里通电后，老屋翻新了，但爷爷的纸船还在。",
+            "must_contain": [
+              "通电",
+              "老屋",
+              "纸船"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "我把那只最旧的纸船放在村委会展览室。",
+            "must_contain": [
+              "纸船",
+              "村委会",
+              "展览室"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "很多孩子来看，听我讲梦的故事。",
+            "must_contain": [
+              "孩子",
+              "梦",
+              "故事"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他们也学折纸船，写下自己的愿望。",
+            "must_contain": [
+              "折纸船",
+              "愿望"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "有一个小女孩说，她想当医生。",
+            "must_contain": [
+              "小女孩",
+              "医生"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "她把纸船放在溪里，说漂到城市去。",
+            "must_contain": [
+              "纸船",
+              "溪里",
+              "漂到城市"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我看着她，仿佛看到当年的我。",
+            "must_contain": [
+              "我"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "纸船传递的不只是梦，更是勇气和坚持。",
+            "must_contain": [
+              "纸船",
+              "梦",
+              "勇气",
+              "坚持"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "symbol"
+          },
+          {
+            "core_fact": "它就像一条纽带，连接几代人。",
+            "must_contain": [
+              "纸船",
+              "纽带",
+              "几代人"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "如今，村子已经亮如白昼，但爷爷的纸船依然发光。",
+            "must_contain": [
+              "村子",
+              "亮如白昼",
+              "纸船",
+              "发光"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "它照亮了山路，也照亮了人心。",
+            "must_contain": [
+              "纸船",
+              "照亮",
+              "山路",
+              "人心"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "symbol"
+          },
+          {
+            "core_fact": "我时常想，梦是什么？",
+            "must_contain": [
+              "梦"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "question"
+          },
+          {
+            "core_fact": "梦是昨晚的星光，是明日的晨曦。",
+            "must_contain": [
+              "梦",
+              "星光",
+              "晨曦"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "但更重要的是，梦可以被赠予。",
+            "must_contain": [
+              "梦",
+              "赠予"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "赠予梦，就是赠予希望和力量。",
+            "must_contain": [
+              "赠予",
+              "梦",
+              "希望",
+              "力量"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "爷爷把梦赠予我，我又赠予孩子。",
+            "must_contain": [
+              "爷爷",
+              "梦",
+              "赠予",
+              "孩子"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "callback"
+          },
+          {
+            "core_fact": "这个梦还在继续，或许会传到更远。",
+            "must_contain": [
+              "梦",
+              "继续",
+              "更远"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "foreshadowing"
+          },
+          {
+            "core_fact": "就像纸船，虽然终会沉没，但梦不会。",
+            "must_contain": [
+              "纸船",
+              "沉没",
+              "梦"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它会在新的纸船上重新起航。",
+            "must_contain": [
+              "纸船",
+              "起航"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "昨夜闲潭梦落花，落花是爷爷的纸船吗？",
+            "must_contain": [
+              "梦落花",
+              "纸船"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "question"
+          },
+          {
+            "core_fact": "我欲因之梦吴越，梦中是灯火通明的村庄。",
+            "must_contain": [
+              "梦吴越",
+              "灯火通明"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "铁马冰河入梦来，那是爷爷当年奔波的身影。",
+            "must_contain": [
+              "铁马冰河",
+              "爷爷",
+              "奔波"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "梦是相同的，只是换了载体。",
+            "must_contain": [
+              "梦",
+              "相同",
+              "载体"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "从纸船到电灯，从电灯到更多可能。",
+            "must_contain": [
+              "纸船",
+              "电灯",
+              "可能"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "赠予梦，让梦变成种子，在他人心中发芽。",
+            "must_contain": [
+              "赠予",
+              "梦",
+              "种子",
+              "发芽"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "我祖父的梦，如今成了全村人的梦。",
+            "must_contain": [
+              "祖父",
+              "梦",
+              "全村人"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "我儿子的梦，也正在他自己的纸船上生长。",
+            "must_contain": [
+              "儿子",
+              "纸船",
+              "生长"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "foreshadowing"
+          },
+          {
+            "core_fact": "或许有一天，他会把梦赠予他的孩子。",
+            "must_contain": [
+              "梦",
+              "赠予",
+              "孩子"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "foreshadowing"
+          },
+          {
+            "core_fact": "就这样，梦在世间流转，永不熄灭。",
+            "must_contain": [
+              "梦",
+              "流转",
+              "永不熄灭"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "symbol"
+          }
+        ]
+      },
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "回到开头的场景，如今我教孙子折纸船。",
+            "must_contain": [
+              "孙子",
+              "折纸船"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "callback"
+          },
+          {
+            "core_fact": "他问我为什么折纸船，我像爷爷当年一样回答。",
+            "must_contain": [
+              "折纸船",
+              "爷爷"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "纸船载梦，梦会带你去想去的地方。",
+            "must_contain": [
+              "纸船",
+              "载梦",
+              "想去的地方"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他眨眨眼，把纸船放进水盆里。",
+            "must_contain": [
+              "纸船",
+              "水盆"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "水盆虽小，但纸船漂得很稳。",
+            "must_contain": [
+              "纸船",
+              "漂",
+              "稳"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我知道，梦的接力仍在继续。",
+            "must_contain": [
+              "梦",
+              "接力",
+              "继续"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "纸船就像时间的船，载着一个个梦前进。",
+            "must_contain": [
+              "纸船",
+              "时间",
+              "梦",
+              "前进"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "metaphor"
+          },
+          {
+            "core_fact": "从爷爷到我，到我儿子，再到孙子。",
+            "must_contain": [
+              "爷爷",
+              "儿子",
+              "孙子"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "纸船从未消失，只是换了折纸的人。",
+            "must_contain": [
+              "纸船",
+              "折纸的人"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "梦也从未消失，只是换了做梦的心。",
+            "must_contain": [
+              "梦",
+              "做梦的心"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "赠予梦，是让梦想生根，让希望开花。",
+            "must_contain": [
+              "赠予",
+              "梦",
+              "生根",
+              "开花"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "只要还有人折纸船，梦就永远年轻。",
+            "must_contain": [
+              "折纸船",
+              "梦",
+              "年轻"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "symbol"
+          },
+          {
+            "core_fact": "昨夜闲潭梦落花，今朝纸船寄天涯。",
+            "must_contain": [
+              "梦落花",
+              "纸船",
+              "天涯"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我愿将这只纸船，轻轻放在你的手心。",
+            "must_contain": [
+              "纸船",
+              "手心"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_154041"
+}

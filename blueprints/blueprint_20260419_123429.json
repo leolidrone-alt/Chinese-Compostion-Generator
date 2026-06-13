@@ -1,0 +1,380 @@
+{
+  "user_input": {
+    "topic": "高三毕业典礼我和好哥们道别，本以为是最后一次见面，没想到在香港大学上学时在校园里面偶遇了",
+    "emotion": "温暖，惊讶，喜悦",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "重逢在港大：毕业后的意外惊喜",
+    "overall_emotional_baseline": 0.7,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 137,
+        "sentences": [
+          {
+            "id": "s1_1",
+            "core_fact": "高三毕业典礼上，我和好哥们道别",
+            "must_contain": [
+              "毕业典礼",
+              "道别",
+              "最后一次",
+              "拥抱",
+              "祝福"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_2",
+            "core_fact": "我们以为这是最后一次见面，心中充满不舍",
+            "must_contain": [
+              "以为",
+              "最后一次见面",
+              "不舍",
+              "未来",
+              "遥远"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s1_3",
+            "core_fact": "我前往香港大学开始新生活，他留在内地",
+            "must_contain": [
+              "香港大学",
+              "新生活",
+              "内地",
+              "距离",
+              "变化"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_3_add1",
+            "core_fact": "（延伸）我前往香港大学开始新生活，他留在内地",
+            "must_contain": [
+              "香港大学",
+              "新生活",
+              "内地",
+              "距离",
+              "变化"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_3_add2",
+            "core_fact": "（延伸）我前往香港大学开始新生活，他留在内地",
+            "must_contain": [
+              "香港大学",
+              "新生活",
+              "内地",
+              "距离",
+              "变化"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_3_add3",
+            "core_fact": "（延伸）我前往香港大学开始新生活，他留在内地",
+            "must_contain": [
+              "香港大学",
+              "新生活",
+              "内地",
+              "距离",
+              "变化"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 365,
+        "sentences": [
+          {
+            "id": "s2_1",
+            "core_fact": "在香港大学适应新环境，偶尔想起高中时光",
+            "must_contain": [
+              "适应",
+              "新环境",
+              "高中时光",
+              "回忆",
+              "忙碌"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_2",
+            "core_fact": "一天在校园里匆匆赶路，突然看到一个熟悉的身影",
+            "must_contain": [
+              "校园",
+              "匆匆赶路",
+              "熟悉的身影",
+              "惊讶",
+              "停下"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_3",
+            "core_fact": "走近一看，竟然是我的好哥们，他也在港大上学",
+            "must_contain": [
+              "走近",
+              "竟然",
+              "好哥们",
+              "港大上学",
+              "巧合"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_4",
+            "core_fact": "我们激动地拥抱，分享各自的近况",
+            "must_contain": [
+              "激动",
+              "拥抱",
+              "分享",
+              "近况",
+              "笑声"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_5",
+            "core_fact": "原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5_add1",
+            "core_fact": "（延伸）原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5_add2",
+            "core_fact": "（延伸）原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5_add3",
+            "core_fact": "（延伸）原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5_add4",
+            "core_fact": "（延伸）原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5_add5",
+            "core_fact": "（延伸）原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5_add6",
+            "core_fact": "（延伸）原来他通过努力考上了港大，我们都没告诉对方",
+            "must_contain": [
+              "原来",
+              "努力",
+              "考上",
+              "没告诉",
+              "惊喜"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "climax",
+        "target_word_count": 182,
+        "sentences": [
+          {
+            "id": "s3_1",
+            "core_fact": "我们决定一起探索港大校园，重温友谊",
+            "must_contain": [
+              "决定",
+              "探索",
+              "港大校园",
+              "重温",
+              "友谊"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "s3_2",
+            "core_fact": "在图书馆聊天，笑声回荡，仿佛回到高中",
+            "must_contain": [
+              "图书馆",
+              "聊天",
+              "笑声回荡",
+              "仿佛",
+              "高中"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s3_3",
+            "core_fact": "这次偶遇让离别变得不再伤感，充满希望",
+            "must_contain": [
+              "偶遇",
+              "离别",
+              "不再伤感",
+              "充满希望",
+              "温暖"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_3_add1",
+            "core_fact": "（延伸）这次偶遇让离别变得不再伤感，充满希望",
+            "must_contain": [
+              "偶遇",
+              "离别",
+              "不再伤感",
+              "充满希望",
+              "温暖"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_3_add2",
+            "core_fact": "（延伸）这次偶遇让离别变得不再伤感，充满希望",
+            "must_contain": [
+              "偶遇",
+              "离别",
+              "不再伤感",
+              "充满希望",
+              "温暖"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_3_add3",
+            "core_fact": "（延伸）这次偶遇让离别变得不再伤感，充满希望",
+            "must_contain": [
+              "偶遇",
+              "离别",
+              "不再伤感",
+              "充满希望",
+              "温暖"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "closing",
+        "target_word_count": 114,
+        "sentences": [
+          {
+            "id": "s4_1",
+            "core_fact": "我们约定未来互相支持，珍惜这次重逢",
+            "must_contain": [
+              "约定",
+              "未来",
+              "互相支持",
+              "珍惜",
+              "重逢"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s4_2",
+            "core_fact": "生活充满意外惊喜，友谊跨越距离",
+            "must_contain": [
+              "生活",
+              "意外惊喜",
+              "友谊",
+              "跨越",
+              "距离"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_3",
+            "core_fact": "港大校园见证了我们从离别到重逢的温暖旅程",
+            "must_contain": [
+              "港大校园",
+              "见证",
+              "离别",
+              "重逢",
+              "温暖旅程"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene_setting"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260419_123429"
+}

@@ -1,0 +1,1171 @@
+{
+  "user_input": {
+    "topic": "写一篇文章讽刺一个只在乎蝇头小利不在乎大局的人",
+    "emotion": "中性",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "拾零者",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "介绍人物老周，一生痴迷于捡拾地上的铜板",
+            "must_contain": [
+              "老周",
+              "铜板",
+              "弯腰"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "铜板在他眼中比任何大事都重要",
+            "must_contain": [
+              "铜板",
+              "重要",
+              "大事"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他每天早起第一件事就是检查门前地面",
+            "must_contain": [
+              "早起",
+              "检查",
+              "地面"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "发现一个铜板就欣喜若狂",
+            "must_contain": [
+              "发现",
+              "铜板",
+              "欣喜"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "邻居笑他小气",
+            "must_contain": [
+              "邻居",
+              "笑",
+              "小气"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他不以为意，认为别人不懂积累",
+            "must_contain": [
+              "不以为意",
+              "积累"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "thought"
+          },
+          {
+            "core_fact": "口袋里总装满零钱，走路叮当响",
+            "must_contain": [
+              "口袋",
+              "零钱",
+              "叮当"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他从不坐车，为了省下几毛钱",
+            "must_contain": [
+              "不坐车",
+              "省",
+              "几毛"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "时间对他来说不值钱",
+            "must_contain": [
+              "时间",
+              "不值钱"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "铜板的光泽让他着迷",
+            "must_contain": [
+              "光泽",
+              "着迷"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他有一个铁盒专门存铜板",
+            "must_contain": [
+              "铁盒",
+              "存",
+              "铜板"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "铁盒越来越沉，他越来越满足",
+            "must_contain": [
+              "铁盒",
+              "沉",
+              "满足"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "同事聚餐他从不参加，怕花钱",
+            "must_contain": [
+              "聚餐",
+              "怕花钱"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "因此人际关系很差",
+            "must_contain": [
+              "人际关系",
+              "差"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他不在乎，有铜板就够了",
+            "must_contain": [
+              "不在乎",
+              "铜板",
+              "够"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "thought"
+          },
+          {
+            "core_fact": "每天数铜板是他的乐事",
+            "must_contain": [
+              "数",
+              "铜板",
+              "乐事"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板在他掌心冰凉而实在",
+            "must_contain": [
+              "掌心",
+              "冰凉",
+              "实在"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他相信积少成多",
+            "must_contain": [
+              "相信",
+              "积少成多"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "却不知错过多少机会",
+            "must_contain": [
+              "错过",
+              "机会"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "此为开篇，埋下讽刺基调",
+            "must_contain": [
+              "开篇",
+              "讽刺"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "一次公司有重要项目，需要有人出差",
+            "must_contain": [
+              "公司",
+              "项目",
+              "出差"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "出差补贴可观，但他嫌垫付车费太多",
+            "must_contain": [
+              "出差",
+              "垫付",
+              "车费"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "thought"
+          },
+          {
+            "core_fact": "他选择放弃，为了省下可能的风险",
+            "must_contain": [
+              "放弃",
+              "省",
+              "风险"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "同事劝他，机会难得",
+            "must_contain": [
+              "劝",
+              "机会",
+              "难得"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他摇头，说万一亏了怎么办",
+            "must_contain": [
+              "摇头",
+              "万一",
+              "亏"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "铜板在口袋里响，他心安",
+            "must_contain": [
+              "铜板",
+              "响",
+              "心安"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "最后项目大获成功，同事升职",
+            "must_contain": [
+              "成功",
+              "升职"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他后悔，但嘴上说不过是小利",
+            "must_contain": [
+              "后悔",
+              "小利"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "回到家继续数铜板自我安慰",
+            "must_contain": [
+              "数铜板",
+              "安慰"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板比升职更实在？他问自己",
+            "must_contain": [
+              "铜板",
+              "升职",
+              "实在"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "答案是铜板看得见摸得着",
+            "must_contain": [
+              "看得见",
+              "摸得着"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "thought"
+          },
+          {
+            "core_fact": "于是继续捡铜板，每天如此",
+            "must_contain": [
+              "捡",
+              "铜板",
+              "每天"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "一条街上所有铜板都被他搜刮干净",
+            "must_contain": [
+              "街上",
+              "铜板",
+              "搜刮"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "有人故意丢硬币看他捡，嘲笑他",
+            "must_contain": [
+              "丢硬币",
+              "嘲笑"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他捡起来还说谢谢",
+            "must_contain": [
+              "捡",
+              "谢谢"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板上沾着泥土，他仔细擦干净",
+            "must_contain": [
+              "泥土",
+              "擦干净"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "铁盒里铜板越来越多，他越来越抠门",
+            "must_contain": [
+              "铁盒",
+              "抠门"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "妻子抱怨他从不买礼物",
+            "must_contain": [
+              "妻子",
+              "抱怨",
+              "礼物"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他说礼物能当饭吃吗",
+            "must_contain": [
+              "礼物",
+              "饭"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "妻子离家出走，他只心疼铜板没被带走",
+            "must_contain": [
+              "离家",
+              "心疼",
+              "铜板"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他在空荡荡的房间里继续数铜板",
+            "must_contain": [
+              "空荡荡",
+              "数铜板"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板碰撞声掩盖了孤独",
+            "must_contain": [
+              "碰撞声",
+              "掩盖",
+              "孤独"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他觉得自己很富足",
+            "must_contain": [
+              "富足"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "殊不知格局越来越小",
+            "must_contain": [
+              "格局",
+              "小"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "铜板成了他的整个世界",
+            "must_contain": [
+              "铜板",
+              "整个世界"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "另一件大事：公司要提拔主管，看重综合能力",
+            "must_contain": [
+              "提拔",
+              "主管",
+              "综合"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "老周资历够，但人缘差",
+            "must_contain": [
+              "资历",
+              "人缘"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他为了省几块钱，从不请客吃饭",
+            "must_contain": [
+              "省",
+              "请客"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "同事们都对他敬而远之",
+            "must_contain": [
+              "同事",
+              "敬而远之"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "领导找他谈话，暗示要大方一点",
+            "must_contain": [
+              "领导",
+              "谈话",
+              "大方"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他听不懂暗示，或者装作听不懂",
+            "must_contain": [
+              "听不懂",
+              "暗示"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "回到家，他数铜板获得安慰",
+            "must_contain": [
+              "铜板",
+              "安慰"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板比领导的话更真实",
+            "must_contain": [
+              "铜板",
+              "领导",
+              "真实"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "thought"
+          },
+          {
+            "core_fact": "结果主管位置给了别人",
+            "must_contain": [
+              "主管",
+              "别人"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他愤愤不平，但认为至少省下了请客的钱",
+            "must_contain": [
+              "愤愤不平",
+              "省下",
+              "请客"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他算了一笔账，觉得不亏",
+            "must_contain": [
+              "算账",
+              "不亏"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "铜板数量又增加了几个",
+            "must_contain": [
+              "铜板",
+              "增加"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他开心地摩挲铁盒",
+            "must_contain": [
+              "开心",
+              "摩挲",
+              "铁盒"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铁盒已经生锈，但铜板仍亮",
+            "must_contain": [
+              "生锈",
+              "铜板",
+              "亮"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他以为这就是财富",
+            "must_contain": [
+              "以为",
+              "财富"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "然而铜板买不到尊重",
+            "must_contain": [
+              "买不到",
+              "尊重"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他越来越孤僻，铜板成了唯一朋友",
+            "must_contain": [
+              "孤僻",
+              "唯一",
+              "朋友"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "走在路上只低头看脚下",
+            "must_contain": [
+              "低头",
+              "看脚下"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "因此错过了头顶的晚霞",
+            "must_contain": [
+              "错过",
+              "晚霞"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "也错过了与人的相逢",
+            "must_contain": [
+              "错过",
+              "相逢"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "铜板让他失去整个世界",
+            "must_contain": [
+              "铜板",
+              "失去",
+              "世界"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他却浑然不觉",
+            "must_contain": [
+              "浑然不觉"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "继续捡拾，弯腰，放入口袋",
+            "must_contain": [
+              "捡拾",
+              "弯腰",
+              "口袋"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "口袋鼓鼓囊囊，全是铜板",
+            "must_contain": [
+              "口袋",
+              "鼓鼓",
+              "铜板"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他觉得自己赢了",
+            "must_contain": [
+              "赢了"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "老周老了，躺在病床上，还惦记着铜板",
+            "must_contain": [
+              "老",
+              "病床",
+              "铜板"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "儿女来看他，他问家里的铁盒是否安全",
+            "must_contain": [
+              "儿女",
+              "铁盒",
+              "安全"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "儿女叹气，说铜板值几个钱",
+            "must_contain": [
+              "叹气",
+              "值几个钱"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他生气，说那是他一生的积蓄",
+            "must_contain": [
+              "生气",
+              "一生",
+              "积蓄"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "实际上铜板的总和不过几百元",
+            "must_contain": [
+              "总和",
+              "几百元"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他要求把铁盒拿到病房",
+            "must_contain": [
+              "要求",
+              "铁盒",
+              "病房"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子不耐烦，还是拿来了",
+            "must_contain": [
+              "不耐烦",
+              "拿来"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "老周抱着铁盒，就像抱着命根子",
+            "must_contain": [
+              "抱着",
+              "铁盒",
+              "命根子"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他打开盖子，铜板哗啦作响",
+            "must_contain": [
+              "打开",
+              "哗啦",
+              "铜板"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他一个一个摸过去，冰凉光滑",
+            "must_contain": [
+              "摸",
+              "冰凉",
+              "光滑"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板上刻着年份，他记得每一个",
+            "must_contain": [
+              "刻着",
+              "年份",
+              "记得"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "医生进来查房，劝他多休息",
+            "must_contain": [
+              "医生",
+              "查房",
+              "休息"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他不理，继续数铜板",
+            "must_contain": [
+              "不理",
+              "数",
+              "铜板"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "数到一半，手颤抖了",
+            "must_contain": [
+              "手",
+              "颤抖"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "铜板掉在地上，滚到床底",
+            "must_contain": [
+              "掉",
+              "滚",
+              "床底"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他想去捡，但起不来",
+            "must_contain": [
+              "想捡",
+              "起不来"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子帮他捡起来，他紧紧攥住",
+            "must_contain": [
+              "儿子",
+              "捡",
+              "攥住"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "铜板硌得手心生疼",
+            "must_contain": [
+              "硌",
+              "手心",
+              "疼"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "他舍不得放下",
+            "must_contain": [
+              "舍不得",
+              "放下"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "眼角有泪，但他说是眼屎",
+            "must_contain": [
+              "泪",
+              "眼屎"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "生命最后时刻，他还在数铜板",
+            "must_contain": [
+              "最后",
+              "数铜板"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "数到第三十七个时，手不动了",
+            "must_contain": [
+              "第三十七",
+              "不动"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板从指间滑落",
+            "must_contain": [
+              "指间",
+              "滑落"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "铁盒翻倒，铜板洒了一地",
+            "must_contain": [
+              "铁盒",
+              "翻倒",
+              "洒"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "病房里静得只剩铜板滚动声",
+            "must_contain": [
+              "静",
+              "滚动声"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "detail"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "老周死后，儿子清理遗物",
+            "must_contain": [
+              "死后",
+              "清理",
+              "遗物"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "铁盒里的铜板大多已生锈",
+            "must_contain": [
+              "铁盒",
+              "生锈"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "有些铜板边缘磨损，面目模糊",
+            "must_contain": [
+              "边缘",
+              "磨损",
+              "模糊"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "儿子打算当废铁卖掉",
+            "must_contain": [
+              "废铁",
+              "卖掉"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但老周的孙子，一个小孩，拿起了铜板",
+            "must_contain": [
+              "孙子",
+              "小孩",
+              "拿起"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板在阳光下泛着暗淡的光",
+            "must_contain": [
+              "阳光下",
+              "暗淡",
+              "光"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "小孩把它当玩具，扔来扔去",
+            "must_contain": [
+              "玩具",
+              "扔来扔去"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板叮叮当当响",
+            "must_contain": [
+              "叮叮当当",
+              "响"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "老周曾视为生命的东西，不过如此",
+            "must_contain": [
+              "视为生命",
+              "不过如此"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "孩子不知道爷爷的执念",
+            "must_contain": [
+              "不知道",
+              "执念"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "铜板滚到墙角，无人再捡",
+            "must_contain": [
+              "滚",
+              "墙角",
+              "无人捡"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阳光照在铜板上，投下一个小圆影",
+            "must_contain": [
+              "阳光",
+              "圆影"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "影子慢慢移动，像指针",
+            "must_contain": [
+              "影子",
+              "移动",
+              "指针"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "最终消失在阴影里",
+            "must_contain": [
+              "消失",
+              "阴影"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "老周的一生，也如这铜板的光",
+            "must_contain": [
+              "一生",
+              "铜板",
+              "光"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "短暂却从未明亮",
+            "must_contain": [
+              "短暂",
+              "明亮"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "儿子关上门，铜板被遗忘",
+            "must_contain": [
+              "关门",
+              "遗忘"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "只有铁盒还在，锈迹斑斑",
+            "must_contain": [
+              "铁盒",
+              "锈迹"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "新的一天开始，街上照样有人丢硬币",
+            "must_contain": [
+              "新的一天",
+              "丢硬币"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但再也没有人为它弯腰",
+            "must_contain": [
+              "为它弯腰"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "铜板静静躺着，等待下一个拾零者",
+            "must_contain": [
+              "铜板",
+              "静静",
+              "下一个"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "而老周的故事，没人记得",
+            "must_contain": [
+              "故事",
+              "没人记得"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "讽刺的是，他攒了一辈子铜板",
+            "must_contain": [
+              "讽刺",
+              "攒",
+              "一辈子"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "最终连一个见证者都没有",
+            "must_contain": [
+              "见证者"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "铁盒被扔进垃圾桶，铜板散落",
+            "must_contain": [
+              "垃圾桶",
+              "散落"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "action"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_192502"
+}

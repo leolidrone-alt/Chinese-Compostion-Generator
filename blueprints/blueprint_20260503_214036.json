@@ -1,0 +1,592 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "钟声里的时光",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "core_fact": "老钟第一次出现在故事中，是祖父传下来的物件。",
+            "must_contain": [
+              "老钟",
+              "祖父",
+              "传递",
+              "时光",
+              "起点"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "老钟的钟摆摇晃着，发出沉闷的滴答声。",
+            "must_contain": [
+              "老钟",
+              "钟摆",
+              "滴答声",
+              "摇晃",
+              "沉闷"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sensory"
+          },
+          {
+            "core_fact": "主角小时候常把耳朵贴在钟面上听声音。",
+            "must_contain": [
+              "老钟",
+              "耳朵",
+              "钟面",
+              "声音",
+              "小时候"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那声音像是从另一个世界传来，让他感到安心。",
+            "must_contain": [
+              "老钟",
+              "声音",
+              "世界",
+              "安心",
+              "传来"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他记得祖父说过，这钟已经走了两百年。",
+            "must_contain": [
+              "老钟",
+              "祖父",
+              "两百年",
+              "记得",
+              "说过"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "主角每天给老钟上发条，成为习惯。",
+            "must_contain": [
+              "老钟",
+              "发条",
+              "每天",
+              "习惯",
+              "主角"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "老钟从未停歇，仿佛时间本身。",
+            "must_contain": [
+              "老钟",
+              "停歇",
+              "时间",
+              "仿佛",
+              "从未"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "core_fact": "主角成年后，老钟见证了他第一次远行。",
+            "must_contain": [
+              "老钟",
+              "见证",
+              "远行",
+              "成年",
+              "第一次"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "出发前，他调准了老钟的时间。",
+            "must_contain": [
+              "老钟",
+              "调准",
+              "时间",
+              "出发",
+              "准备"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "在异乡，他总想起老钟的滴答声。",
+            "must_contain": [
+              "老钟",
+              "滴答声",
+              "异乡",
+              "想起",
+              "总"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟的指针缓慢移动，如同他的归期。",
+            "must_contain": [
+              "老钟",
+              "指针",
+              "缓慢",
+              "归期",
+              "移动"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "多年后他回到家中，老钟仍在工作。",
+            "must_contain": [
+              "老钟",
+              "回到",
+              "家中",
+              "多年",
+              "工作"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "钟面上的漆已经斑驳，但走时依然精准。",
+            "must_contain": [
+              "老钟",
+              "钟面",
+              "斑驳",
+              "精准",
+              "走时"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他擦拭老钟的灰尘，像擦拭回忆。",
+            "must_contain": [
+              "老钟",
+              "灰尘",
+              "擦拭",
+              "回忆",
+              "像"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老钟的分针每跳一下，就带走一分钟。",
+            "must_contain": [
+              "老钟",
+              "分针",
+              "跳",
+              "带走",
+              "一分钟"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他意识到自己的生命也如这钟摆。",
+            "must_contain": [
+              "老钟",
+              "生命",
+              "钟摆",
+              "意识到",
+              "如"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "core_fact": "中年时，主角经历了事业危机。",
+            "must_contain": [
+              "老钟",
+              "中年",
+              "危机",
+              "事业",
+              "经历"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他每晚失眠，只有老钟的滴答声陪伴。",
+            "must_contain": [
+              "老钟",
+              "滴答声",
+              "失眠",
+              "每晚",
+              "陪伴"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "sensory"
+          },
+          {
+            "core_fact": "有一次他愤怒地砸了桌子，老钟却纹丝不动。",
+            "must_contain": [
+              "老钟",
+              "愤怒",
+              "砸",
+              "桌子",
+              "纹丝不动"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老钟的沉稳让他渐渐平静下来。",
+            "must_contain": [
+              "老钟",
+              "沉稳",
+              "平静",
+              "渐渐",
+              "让他"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他记起祖父说：钟停了，人就走了。",
+            "must_contain": [
+              "老钟",
+              "祖父",
+              "钟停了",
+              "走了",
+              "记起"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他重新振作，开始修理老钟作为寄托。",
+            "must_contain": [
+              "老钟",
+              "修理",
+              "振作",
+              "重新",
+              "寄托"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "打开钟壳，他看到齿轮仍完美咬合。",
+            "must_contain": [
+              "老钟",
+              "钟壳",
+              "齿轮",
+              "完美",
+              "咬合"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他似乎看到祖父的手也曾抚摸过这些零件。",
+            "must_contain": [
+              "老钟",
+              "祖父",
+              "手",
+              "抚摸",
+              "零件"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟不仅记录时间，更记录了他的家族史。",
+            "must_contain": [
+              "老钟",
+              "记录",
+              "时间",
+              "家族史",
+              "不仅"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "晚年，主角的身体日渐衰弱。",
+            "must_contain": [
+              "老钟",
+              "晚年",
+              "身体",
+              "衰弱",
+              "日渐"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他最后一次给老钟上发条时，手在颤抖。",
+            "must_contain": [
+              "老钟",
+              "最后一次",
+              "发条",
+              "颤抖",
+              "手"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action",
+            "atmosphere_hint": "黄昏"
+          },
+          {
+            "core_fact": "他看着钟面上的裂纹，像皱纹一样。",
+            "must_contain": [
+              "老钟",
+              "钟面",
+              "裂纹",
+              "皱纹",
+              "看着"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description",
+            "atmosphere_hint": "黄昏"
+          },
+          {
+            "core_fact": "他轻轻转动指针，校准到正确的时间。",
+            "must_contain": [
+              "老钟",
+              "指针",
+              "转动",
+              "校准",
+              "轻轻"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action",
+            "atmosphere_hint": "黄昏"
+          },
+          {
+            "core_fact": "那一刻，他感觉老钟的生命与自己的交融。",
+            "must_contain": [
+              "老钟",
+              "生命",
+              "交融",
+              "感觉",
+              "那一刻"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought",
+            "atmosphere_hint": "黄昏",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "钟摆还在摆动，但他的呼吸却越来越弱。",
+            "must_contain": [
+              "老钟",
+              "钟摆",
+              "摆动",
+              "呼吸",
+              "弱"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "sensory",
+            "atmosphere_hint": "黄昏"
+          },
+          {
+            "core_fact": "他闭上眼睛前，最后一眼看了一眼老钟。",
+            "must_contain": [
+              "老钟",
+              "闭上眼睛",
+              "最后一眼",
+              "看了",
+              "一眼"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action",
+            "atmosphere_hint": "黄昏"
+          },
+          {
+            "core_fact": "老钟的滴答声在空房间里回荡，直到停止。",
+            "must_contain": [
+              "老钟",
+              "滴答声",
+              "空房间",
+              "回荡",
+              "停止"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "sensory",
+            "atmosphere_hint": "黄昏"
+          }
+        ]
+      },
+      {
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "core_fact": "主角去世后，儿子整理遗物看到了老钟。",
+            "must_contain": [
+              "老钟",
+              "儿子",
+              "遗物",
+              "去世",
+              "看到"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "儿子想起父亲修钟的样子，决定保留它。",
+            "must_contain": [
+              "老钟",
+              "父亲",
+              "修钟",
+              "想起",
+              "决定"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他发现老钟的背面刻着一行小字：时间是礼物。",
+            "must_contain": [
+              "老钟",
+              "背面",
+              "刻着",
+              "小字",
+              "时间是礼物"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "儿子用手触摸那行字，仿佛触碰到父亲的心跳。",
+            "must_contain": [
+              "老钟",
+              "触摸",
+              "行字",
+              "触碰",
+              "心跳"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老钟从此放置在客厅中央，继续走动。",
+            "must_contain": [
+              "老钟",
+              "客厅",
+              "中央",
+              "继续",
+              "走动"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "儿子开始学习如何保养这口老钟。",
+            "must_contain": [
+              "老钟",
+              "儿子",
+              "学习",
+              "保养",
+              "如何"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老钟又陪伴了下一代，见证新生命的成长。",
+            "must_contain": [
+              "老钟",
+              "陪伴",
+              "下一代",
+              "见证",
+              "成长"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 90,
+        "sentences": [
+          {
+            "core_fact": "多年后，孙辈问起老钟的故事。",
+            "must_contain": [
+              "老钟",
+              "孙辈",
+              "问起",
+              "故事",
+              "多年后"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "儿子指着老钟说：这是爷爷的一生。",
+            "must_contain": [
+              "老钟",
+              "爷爷",
+              "一生",
+              "指着",
+              "说"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "孙辈伸出手，轻轻碰了一下钟摆。",
+            "must_contain": [
+              "老钟",
+              "钟摆",
+              "伸手",
+              "轻轻",
+              "碰"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "钟摆开始晃动，发出悠长的声音。",
+            "must_contain": [
+              "老钟",
+              "钟摆",
+              "晃动",
+              "悠长",
+              "声音"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "sensory"
+          },
+          {
+            "core_fact": "老钟的滴答声继续，像从未停止过。",
+            "must_contain": [
+              "老钟",
+              "滴答声",
+              "继续",
+              "从未",
+              "停止"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260503_214036"
+}

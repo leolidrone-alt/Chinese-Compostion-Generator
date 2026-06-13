@@ -1,0 +1,495 @@
+{
+  "user_input": {
+    "topic": "词语是表达思想情感的载体，也是展现社会生活变化的窗口。当前，世界之变、时代之变、历史之变正以前所未有的方式展开。青年是常为新的，在你的成长过程中，你对哪一个词语的理解发生了变化？这变化有你成长的印记，对你有特殊的意义……以上材料引发了你怎样的联想和思考？请写一篇文章。",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "老钟与责任",
+    "emotion_baseline": 0.3,
+    "paragraphs": [
+      {
+        "paragraph_id": 1,
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "老钟是祖父留下的，每天报时，我小时候觉得它只是一件老物件。",
+            "must_contain": [
+              "老钟",
+              "祖父",
+              "报时",
+              "老物件"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "我对责任的理解最初来自父母要求我按时起床，我觉得那是束缚。",
+            "must_contain": [
+              "责任",
+              "按时起床",
+              "束缚"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "钟声每天响起，我却从未认真听过，仿佛与我无关。",
+            "must_contain": [
+              "钟声",
+              "响起",
+              "无关"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "上学迟到时，我总是怪钟坏了，其实是我自己赖床。",
+            "must_contain": [
+              "迟到",
+              "怪钟",
+              "赖床"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "父亲修理老钟时，我问他为什么总修它，他只是笑了笑。",
+            "must_contain": [
+              "父亲",
+              "修理",
+              "老钟",
+              "笑"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "老钟的指针转动着，我总觉得那是祖父的时间，不是我的。",
+            "must_contain": [
+              "老钟",
+              "指针",
+              "祖父",
+              "时间"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 2,
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "进入青春期，我越来越叛逆，觉得责任都是别人强加给我的。",
+            "must_contain": [
+              "青春期",
+              "叛逆",
+              "责任",
+              "强加"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟的声音变得刺耳，我甚至想把它扔掉。",
+            "must_contain": [
+              "老钟",
+              "声音",
+              "刺耳",
+              "扔掉"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "一次与父亲争吵后，我冲进雨里，老钟在身后敲打，像是在追赶。",
+            "must_contain": [
+              "争吵",
+              "雨",
+              "老钟",
+              "追赶"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action",
+            "atmosphere_hint": "暴雨雷鸣"
+          },
+          {
+            "core_fact": "后来听说祖父曾是钟表匠，他用一生守护这座钟，就像守护家。",
+            "must_contain": [
+              "祖父",
+              "钟表匠",
+              "守护",
+              "家"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我开始好奇祖父的过往，觉得老钟也许藏着故事。",
+            "must_contain": [
+              "好奇",
+              "祖父",
+              "过往",
+              "老钟",
+              "故事"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "父亲身体不好，修钟时手抖，我帮忙扶着，第一次感到责任。",
+            "must_contain": [
+              "父亲",
+              "身体不好",
+              "修钟",
+              "扶",
+              "责任"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老钟的摆锤晃动，我的心也随之起伏。",
+            "must_contain": [
+              "老钟",
+              "摆锤",
+              "晃动",
+              "心",
+              "起伏"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我开始学着保养钟，觉得每一个零件都值得认真对待。",
+            "must_contain": [
+              "保养",
+              "钟",
+              "零件",
+              "认真对待"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "责任原来不是负担，是传承，就像老钟的齿轮紧紧咬合。",
+            "must_contain": [
+              "责任",
+              "负担",
+              "传承",
+              "齿轮",
+              "咬合"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "雨天时老钟走得慢，我需要调整，那是我第一次主动关心。",
+            "must_contain": [
+              "雨天",
+              "老钟",
+              "走得慢",
+              "调整",
+              "主动"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 3,
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "高考前夜，我焦虑失眠，走到老钟前听它滴答声。",
+            "must_contain": [
+              "高考前夜",
+              "焦虑",
+              "失眠",
+              "老钟",
+              "滴答声"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action",
+            "atmosphere_hint": "寂静深夜，只有钟声"
+          },
+          {
+            "core_fact": "我想起祖父年轻时每天校准钟，他的责任是让时间准确。",
+            "must_contain": [
+              "祖父",
+              "校准",
+              "时间准确"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我忽然明白，责任其实是对自己、对他人、对时间的承诺。",
+            "must_contain": [
+              "责任",
+              "自己",
+              "他人",
+              "时间",
+              "承诺"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "父亲说，当年祖父病重时，还爬下床调钟。",
+            "must_contain": [
+              "父亲",
+              "祖父",
+              "病重",
+              "调钟"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我轻轻上弦，听见齿轮重新转动，像生命在延续。",
+            "must_contain": [
+              "上弦",
+              "齿轮",
+              "转动",
+              "生命",
+              "延续"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "考试那天，我走得早，老钟刚好敲响七点。",
+            "must_contain": [
+              "考试",
+              "早",
+              "老钟",
+              "敲响七点"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "后来我上了大学，离家远，但每次电话总问老钟还好吗。",
+            "must_contain": [
+              "大学",
+              "离家",
+              "电话",
+              "老钟"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "寒假回家，我发现老钟停了，心里一紧。",
+            "must_contain": [
+              "寒假",
+              "回家",
+              "老钟",
+              "停了"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我和父亲一起拆开它，看到里面的铭文：'守时如守责'。",
+            "must_contain": [
+              "拆开",
+              "铭文",
+              "守时如守责"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我主动承担起修理任务，用了三天才让它重新走动。",
+            "must_contain": [
+              "主动承担",
+              "修理",
+              "三天",
+              "重新走动"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "当钟声重新响起时，我觉得自己真正长大了。",
+            "must_contain": [
+              "钟声",
+              "重新响起",
+              "真正长大"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "父亲拍拍我的肩，说从此老钟归我了。",
+            "must_contain": [
+              "父亲",
+              "拍拍肩",
+              "老钟",
+              "归我"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "dialogue"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 4,
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "如今我工作了，每天出门前都会给老钟上弦。",
+            "must_contain": [
+              "工作",
+              "出门前",
+              "老钟",
+              "上弦"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "同事觉得我怪，但我知道这是我与祖父、父亲之间的契约。",
+            "must_contain": [
+              "同事",
+              "怪",
+              "祖父",
+              "父亲",
+              "契约"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟不再只是一件物件，而是责任的象征。",
+            "must_contain": [
+              "老钟",
+              "物件",
+              "责任",
+              "象征"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "每次钟声响起，我都提醒自己：对工作尽责，对家庭尽责。",
+            "must_contain": [
+              "钟声",
+              "提醒",
+              "工作",
+              "家庭",
+              "尽责"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "女友第一次来我家，我教她听老钟的报时。",
+            "must_contain": [
+              "女友",
+              "第一次",
+              "教",
+              "老钟",
+              "报时"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她问为什么老钟这么重要，我讲了祖父的故事。",
+            "must_contain": [
+              "为什么",
+              "重要",
+              "祖父",
+              "故事"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "她沉默了一会儿，说：'你身上有祖父的印记。'",
+            "must_contain": [
+              "沉默",
+              "祖父",
+              "印记"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那一刻，我明白老钟早已融入我的生命，成为我的一部分。",
+            "must_contain": [
+              "那一刻",
+              "老钟",
+              "融入",
+              "生命",
+              "一部分"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 5,
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "将来我有孩子，我会把老钟和它的故事传下去。",
+            "must_contain": [
+              "将来",
+              "孩子",
+              "老钟",
+              "故事",
+              "传下去"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "责任不是枷锁，而是让时间有温度的契约。",
+            "must_contain": [
+              "责任",
+              "枷锁",
+              "时间",
+              "温度",
+              "契约"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "老钟依旧在走，正如责任在一代代人的手中延续。",
+            "must_contain": [
+              "老钟",
+              "依旧在走",
+              "责任",
+              "一代代",
+              "延续"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "closing"
+          },
+          {
+            "core_fact": "我关灯时，钟声敲响，像祖父在说：'好好干。'",
+            "must_contain": [
+              "关灯",
+              "钟声",
+              "祖父",
+              "好好干"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action",
+            "atmosphere_hint": "深夜，灯光熄灭，钟声悠长"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_150308"
+}

@@ -1,0 +1,890 @@
+{
+  "user_input": {
+    "topic": "离开家乡上学时，父亲翻过铁道给我买橘子的背影,现在父亲离世我很感伤",
+    "emotion": "怀念，感激，父爱，感伤，温暖",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "铁道旁的橘子",
+    "overall_emotional_baseline": 0.4,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "id": "s1_1",
+            "core_fact": "多年后想起离家上学那天",
+            "must_contain": [
+              "离别",
+              "站台",
+              "秋天",
+              "阳光"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_2",
+            "core_fact": "父亲送我到火车站",
+            "must_contain": [
+              "父亲",
+              "沉默",
+              "行李",
+              "叮嘱"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_3",
+            "core_fact": "我突然想吃橘子",
+            "must_contain": [
+              "我",
+              "橘子",
+              "馋",
+              "随口"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s1_4",
+            "core_fact": "父亲走向铁道对面",
+            "must_contain": [
+              "父亲",
+              "铁道",
+              "月台",
+              "栅栏"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_5",
+            "core_fact": "父亲翻过铁道的背影",
+            "must_contain": [
+              "背影",
+              "蹒跚",
+              "黑布马褂",
+              "深青布棉袍"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_6",
+            "core_fact": "我看着他努力攀爬",
+            "must_contain": [
+              "努力",
+              "向上",
+              "缩",
+              "微倾"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_7",
+            "core_fact": "橘子被父亲买回来了",
+            "must_contain": [
+              "橘子",
+              "朱红",
+              "抱着",
+              "汗珠"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s1_8",
+            "core_fact": "父亲给我橘子时的面容",
+            "must_contain": [
+              "微笑",
+              "皱纹",
+              "满足",
+              "眼神"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue_and_reaction"
+          },
+          {
+            "id": "s1_9",
+            "core_fact": "我接过橘子时的感动",
+            "must_contain": [
+              "接过",
+              "沉重",
+              "温暖",
+              "心酸"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s1_10",
+            "core_fact": "火车即将开动",
+            "must_contain": [
+              "汽笛",
+              "催促",
+              "告别",
+              "窗"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "s1_11",
+            "core_fact": "父亲叮嘱的话",
+            "must_contain": [
+              "放心",
+              "写信",
+              "照顾好",
+              "自己"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s1_12",
+            "core_fact": "火车启动，父亲背影渐远",
+            "must_contain": [
+              "开动",
+              "背影",
+              "模糊",
+              "挥手"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 600,
+        "sentences": [
+          {
+            "id": "s2_1",
+            "core_fact": "火车上我打开橘子",
+            "must_contain": [
+              "剥开",
+              "清香",
+              "汁水",
+              "甜"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_2",
+            "core_fact": "橘子的味道像父爱",
+            "must_contain": [
+              "味道",
+              "甘甜",
+              "涩",
+              "温暖"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_3",
+            "core_fact": "窗外的风景不断后退",
+            "must_contain": [
+              "田野",
+              "村庄",
+              "故乡",
+              "远去"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_4",
+            "core_fact": "我想起父亲平日的不易",
+            "must_contain": [
+              "辛苦",
+              "操劳",
+              "沉默寡言",
+              "节俭"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_5",
+            "core_fact": "父亲总是把最好的给我",
+            "must_contain": [
+              "最好的",
+              "留给",
+              "无私",
+              "关怀"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_6",
+            "core_fact": "离家后父亲的信件不断",
+            "must_contain": [
+              "信",
+              "叮嘱",
+              "字迹",
+              "牵挂"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_7",
+            "core_fact": "每封信都提到那天的橘子",
+            "must_contain": [
+              "提到",
+              "橘子",
+              "记得",
+              "甜不甜"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_8",
+            "core_fact": "后来父亲身体渐差",
+            "must_contain": [
+              "衰老",
+              "疾病",
+              "咳嗽",
+              "身影"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_9",
+            "core_fact": "最后一次见父亲",
+            "must_contain": [
+              "医院",
+              "瘦弱",
+              "握着",
+              "手"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_10",
+            "core_fact": "父亲还提起翻铁道的事",
+            "must_contain": [
+              "铁道",
+              "橘子",
+              "笑",
+              "值得"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_11",
+            "core_fact": "我强忍泪水",
+            "must_contain": [
+              "泪水",
+              "忍住",
+              "心",
+              "痛"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_12",
+            "core_fact": "父亲最终离世",
+            "must_contain": [
+              "离世",
+              "平静",
+              "安详",
+              "永远"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_13",
+            "core_fact": "我赶回家奔丧",
+            "must_contain": [
+              "奔丧",
+              "灵堂",
+              "遗照",
+              "白花"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_14",
+            "core_fact": "遗照上父亲的眼神",
+            "must_contain": [
+              "眼神",
+              "慈祥",
+              "遗憾",
+              "定格"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_15",
+            "core_fact": "我后悔没能多陪伴",
+            "must_contain": [
+              "后悔",
+              "陪伴",
+              "遗憾",
+              "时光"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_16",
+            "core_fact": "整理遗物时发现旧信",
+            "must_contain": [
+              "遗物",
+              "信",
+              "泛黄",
+              "字迹"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_17",
+            "core_fact": "信中夹着干橘子皮",
+            "must_contain": [
+              "橘子皮",
+              "干枯",
+              "香味",
+              "存留"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "id": "s2_18",
+            "core_fact": "那是父亲留下的纪念",
+            "must_contain": [
+              "纪念",
+              "父爱",
+              "永恒",
+              "物件"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_19",
+            "core_fact": "橘子皮的纹理让我想起父亲的手",
+            "must_contain": [
+              "纹理",
+              "粗糙",
+              "手",
+              "温暖"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "id": "s2_20",
+            "core_fact": "父亲的手曾为我撑起一片天",
+            "must_contain": [
+              "撑起",
+              "天",
+              "保护",
+              "依靠"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_21",
+            "core_fact": "那个翻铁道的背影永远刻在我心里",
+            "must_contain": [
+              "背影",
+              "刻在",
+              "心里",
+              "永远"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_22",
+            "core_fact": "如今橘子依然常见",
+            "must_contain": [
+              "橘子",
+              "市场",
+              "普通",
+              "常见"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_23",
+            "core_fact": "但再也没有那种味道",
+            "must_contain": [
+              "没有",
+              "味道",
+              "相似",
+              "缺失"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_24",
+            "core_fact": "我明白父爱独一无二",
+            "must_contain": [
+              "父爱",
+              "独一无二",
+              "深沉",
+              "无法替代"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_25",
+            "core_fact": "父亲虽然走了，爱还在",
+            "must_contain": [
+              "走了",
+              "爱",
+              "留下",
+              "延续"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_26",
+            "core_fact": "我拿起那干橘子皮贴在脸颊",
+            "must_contain": [
+              "拿起",
+              "橘子皮",
+              "贴",
+              "脸颊"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_27",
+            "core_fact": "仿佛感受到父亲的温度",
+            "must_contain": [
+              "仿佛",
+              "温度",
+              "传递",
+              "触感"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_28",
+            "core_fact": "泪水终于涌出",
+            "must_contain": [
+              "泪水",
+              "涌出",
+              "咸",
+              "释放"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_29",
+            "core_fact": "这次是感激的泪水",
+            "must_contain": [
+              "感激",
+              "温暖",
+              "释怀",
+              "成长"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_30",
+            "core_fact": "父亲教会我爱的真谛",
+            "must_contain": [
+              "教会",
+              "爱",
+              "真谛",
+              "行动"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_31",
+            "core_fact": "我小心收藏橘子皮",
+            "must_contain": [
+              "收藏",
+              "宝贝",
+              "盒子",
+              "珍贵"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_32",
+            "core_fact": "就像收藏那份记忆",
+            "must_contain": [
+              "记忆",
+              "封存",
+              "时光",
+              "永恒"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_33",
+            "core_fact": "后来我带橘子皮到父亲墓前",
+            "must_contain": [
+              "墓前",
+              "摆放",
+              "鲜花",
+              "橘子"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_34",
+            "core_fact": "告诉父亲我过得很好",
+            "must_contain": [
+              "告诉",
+              "很好",
+              "放心",
+              "笑容"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_35",
+            "core_fact": "风吹过墓地的松树",
+            "must_contain": [
+              "风",
+              "松树",
+              "沙沙",
+              "回应"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_36",
+            "core_fact": "我感觉到父亲在天堂微笑",
+            "must_contain": [
+              "父亲",
+              "天堂",
+              "微笑",
+              "守护"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "climax",
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "id": "s3_1",
+            "core_fact": "站在墓前，我闭上眼睛",
+            "must_contain": [
+              "闭上眼睛",
+              "回忆",
+              "画面",
+              "清晰"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "s3_2",
+            "core_fact": "铁道的画面再次浮现",
+            "must_contain": [
+              "铁道",
+              "锈迹",
+              "枕木",
+              "碎石"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_3",
+            "core_fact": "父亲的黑布马褂在风中微动",
+            "must_contain": [
+              "黑布马褂",
+              "风",
+              "微动",
+              "瘦弱"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s3_4",
+            "core_fact": "他吃力地攀爬月台",
+            "must_contain": [
+              "攀爬",
+              "双手",
+              "用力",
+              "青筋"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_5",
+            "core_fact": "每一下都像在为我铺路",
+            "must_contain": [
+              "铺路",
+              "艰辛",
+              "付出",
+              "默默"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_6",
+            "core_fact": "橘子散落一地，他慌忙去捡",
+            "must_contain": [
+              "散落",
+              "朱红",
+              "弯腰",
+              "小心"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action",
+            "atmosphere_hint": "dialogue_and_reaction"
+          },
+          {
+            "id": "s3_7",
+            "core_fact": "他转身递给我橘子时满脸笑容",
+            "must_contain": [
+              "笑容",
+              "汗珠",
+              "满足",
+              "自豪"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "dialogue_and_reaction",
+            "atmosphere_hint": "dialogue_and_reaction"
+          },
+          {
+            "id": "s3_8",
+            "core_fact": "那笑容是为了让我安心",
+            "must_contain": [
+              "安心",
+              "隐藏",
+              "疲惫",
+              "不让我担心"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s3_9",
+            "core_fact": "我那时不懂，现在才明白",
+            "must_contain": [
+              "那时",
+              "不懂",
+              "现在",
+              "明白"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_10",
+            "core_fact": "父爱从来不在言语",
+            "must_contain": [
+              "父爱",
+              "言语",
+              "行动",
+              "深沉"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_11",
+            "core_fact": "那背影是一座山",
+            "must_contain": [
+              "背影",
+              "山",
+              "巍峨",
+              "坚实"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection",
+            "atmosphere_hint": "third_person_glimpse"
+          },
+          {
+            "id": "s3_12",
+            "core_fact": "我多想再让父亲摸摸头",
+            "must_contain": [
+              "摸摸头",
+              "温暖",
+              "粗糙",
+              "掌纹"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "inner_thought",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "id": "s3_13",
+            "core_fact": "泪水滑落，但心是暖的",
+            "must_contain": [
+              "泪水",
+              "暖",
+              "嘴角",
+              "上扬"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "s3_14",
+            "core_fact": "父亲用一生教我如何去爱",
+            "must_contain": [
+              "一生",
+              "教",
+              "爱",
+              "无私"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s3_15",
+            "core_fact": "我带走一枚松果作为纪念",
+            "must_contain": [
+              "松果",
+              "纪念",
+              "轮回",
+              "新生"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_16",
+            "core_fact": "转身离开时，阳光穿透云层",
+            "must_contain": [
+              "阳光",
+              "云层",
+              "温暖",
+              "前路"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "closing",
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "id": "s4_1",
+            "core_fact": "我回到城市，带着父亲的爱",
+            "must_contain": [
+              "城市",
+              "带着",
+              "爱",
+              "前行"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_2",
+            "core_fact": "办公桌上放着那干橘子皮",
+            "must_contain": [
+              "办公桌",
+              "橘子皮",
+              "相框",
+              "常看"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s4_3",
+            "core_fact": "每当疲惫时看到它，便有了力量",
+            "must_contain": [
+              "疲惫",
+              "力量",
+              "勇气",
+              "支撑"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_4",
+            "core_fact": "父亲的背影化作我心中的光",
+            "must_contain": [
+              "背影",
+              "光",
+              "指引",
+              "黑暗"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_5",
+            "core_fact": "一个周末，我买了橘子去公园",
+            "must_contain": [
+              "周末",
+              "买了",
+              "橘子",
+              "公园"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_6",
+            "core_fact": "把橘子分给玩耍的孩子，看他们笑",
+            "must_contain": [
+              "分给",
+              "孩子",
+              "笑",
+              "甜"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260425_134502"
+}

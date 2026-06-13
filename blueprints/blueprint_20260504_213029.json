@@ -1,0 +1,644 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "老槐树",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "老人回到村口，看到老槐树。",
+            "must_contain": [
+              "老槐树",
+              "村口",
+              "归来"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "老槐树的枝叶茂密，像一把大伞。",
+            "must_contain": [
+              "老槐树",
+              "枝叶",
+              "伞"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他伸手抚摸粗糙的树皮。",
+            "must_contain": [
+              "粗糙",
+              "树皮",
+              "抚摸"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "树皮上刻着模糊的字迹。",
+            "must_contain": [
+              "树皮",
+              "字迹",
+              "模糊"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那是他小时候刻下的名字。",
+            "must_contain": [
+              "名字",
+              "小时候",
+              "刻"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "树下曾是他和伙伴们玩耍的地方。",
+            "must_contain": [
+              "树下",
+              "伙伴",
+              "玩耍"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "他想起第一次爬树的笨拙。",
+            "must_contain": [
+              "爬树",
+              "笨拙",
+              "第一次"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "那时树冠遮住了整个天空。",
+            "must_contain": [
+              "树冠",
+              "天空",
+              "遮住"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "老人闭上眼睛，闻到树叶的气息。",
+            "must_contain": [
+              "树叶",
+              "气息",
+              "闭上眼睛"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "这气味让他感到平静。",
+            "must_contain": [
+              "气味",
+              "平静",
+              "感到"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他沿着树干坐下，背靠着树。",
+            "must_contain": [
+              "树干",
+              "坐下",
+              "靠着"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "仿佛回到了五十年前的午后。",
+            "must_contain": [
+              "五十年",
+              "午后",
+              "回到"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "flashback"
+          }
+        ]
+      },
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "那时他五岁，常来树下乘凉。",
+            "must_contain": [
+              "五岁",
+              "树下",
+              "乘凉"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "祖母在树下纳鞋底，讲古老的故事。",
+            "must_contain": [
+              "祖母",
+              "纳鞋底",
+              "故事"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "flashback"
+          },
+          {
+            "core_fact": "他趴在石头上听蝉鸣。",
+            "must_contain": [
+              "蝉鸣",
+              "石头",
+              "听"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "树上的鸟巢是他仰望的秘密。",
+            "must_contain": [
+              "鸟巢",
+              "仰望",
+              "秘密"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他曾经试图爬上去掏鸟蛋。",
+            "must_contain": [
+              "爬",
+              "掏",
+              "鸟蛋"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "结果摔下来，膝盖破了皮。",
+            "must_contain": [
+              "摔",
+              "膝盖",
+              "破皮"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "祖母用槐树叶子给他止血。",
+            "must_contain": [
+              "槐树叶子",
+              "止血",
+              "祖母"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他记得叶子的苦味。",
+            "must_contain": [
+              "叶子",
+              "苦味",
+              "记得"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那棵槐树几乎占据了他全部童年。",
+            "must_contain": [
+              "童年",
+              "槐树",
+              "占据"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "夏天傍晚，树下聚满了邻居。",
+            "must_contain": [
+              "夏天",
+              "傍晚",
+              "邻居"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "大人们聊天，孩子们追逐。",
+            "must_contain": [
+              "聊天",
+              "追逐",
+              "大人",
+              "孩子"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "风吹过，槐花纷纷扬扬落下。",
+            "must_contain": [
+              "槐花",
+              "风",
+              "落下"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "十六岁那年，他第一次离开村庄。",
+            "must_contain": [
+              "离开",
+              "村庄",
+              "十六岁"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他站在老槐树下等长途汽车。",
+            "must_contain": [
+              "老槐树",
+              "长途汽车",
+              "等"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲在树下挥手告别。",
+            "must_contain": [
+              "母亲",
+              "挥手",
+              "告别",
+              "树下"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他回头看见老槐树的轮廓越来越小。",
+            "must_contain": [
+              "回头",
+              "轮廓",
+              "变小"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "在外地的日子里，他时常想起槐花香。",
+            "must_contain": [
+              "槐花香",
+              "想起",
+              "外地"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他写信回家，问老槐树还好吗。",
+            "must_contain": [
+              "写信",
+              "老槐树",
+              "问"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "回信说槐树又粗了一圈。",
+            "must_contain": [
+              "回信",
+              "粗",
+              "一圈"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他在城市里打拼，很少回去。",
+            "must_contain": [
+              "城市",
+              "打拼",
+              "回去"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "但每年春节，他都会在树下停留片刻。",
+            "must_contain": [
+              "春节",
+              "树下",
+              "停留"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那棵树成了他回家的路标。",
+            "must_contain": [
+              "树",
+              "路标",
+              "回家"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他结婚那天，特意在树下拍了张照片。",
+            "must_contain": [
+              "结婚",
+              "照片",
+              "树下"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "妻子笑着说这棵树很特别。",
+            "must_contain": [
+              "妻子",
+              "笑",
+              "特别"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          }
+        ]
+      },
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "中年时，他成了城里人，有了房子车子。",
+            "must_contain": [
+              "中年",
+              "城里人",
+              "房子",
+              "车子"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "但心里总觉得缺少什么。",
+            "must_contain": [
+              "心里",
+              "缺少",
+              "觉得"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "一次出差路过老家，他特意绕道回村。",
+            "must_contain": [
+              "出差",
+              "老家",
+              "绕道"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老槐树还在，但周围盖起了楼房。",
+            "must_contain": [
+              "老槐树",
+              "楼房",
+              "周围"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "树下没了乘凉的人，只有落叶。",
+            "must_contain": [
+              "树下",
+              "乘凉",
+              "落叶"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他站在树前，觉得孤独。",
+            "must_contain": [
+              "树前",
+              "孤独",
+              "站"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "想起小时候树下的热闹，恍如隔世。",
+            "must_contain": [
+              "热闹",
+              "小时候",
+              "恍如隔世"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他捡起一片槐树叶，夹在书里。",
+            "must_contain": [
+              "槐树叶",
+              "捡起",
+              "夹在书里"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那本书是他离家时带的唯一东西。",
+            "must_contain": [
+              "书",
+              "离家",
+              "唯一"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他意识到，无论走多远，根还在树下。",
+            "must_contain": [
+              "根",
+              "树下",
+              "意识到"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "但生活还得继续，他回了城市。",
+            "must_contain": [
+              "生活",
+              "继续",
+              "回城市"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "老槐树的照片一直放在办公桌上。",
+            "must_contain": [
+              "照片",
+              "办公桌",
+              "老槐树"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "退休后，他决定回老家常住。",
+            "must_contain": [
+              "退休",
+              "老家",
+              "常住"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他每天都会去老槐树下坐一会儿。",
+            "must_contain": [
+              "老槐树",
+              "坐",
+              "每天"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "村里的小孩们又开始在树下玩耍。",
+            "must_contain": [
+              "小孩",
+              "玩耍",
+              "树下"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他教他们认识槐树的花和叶。",
+            "must_contain": [
+              "教",
+              "认识",
+              "花",
+              "叶"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "一个男孩问这棵树有多大年纪。",
+            "must_contain": [
+              "男孩",
+              "问",
+              "年纪"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他说比他爷爷还要老。",
+            "must_contain": [
+              "爷爷",
+              "老",
+              "比"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "男孩仰头看树冠，露出惊叹。",
+            "must_contain": [
+              "仰头",
+              "树冠",
+              "惊叹"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他仿佛看到当年的自己。",
+            "must_contain": [
+              "当年",
+              "自己",
+              "看到"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他把一片叶子递给男孩。",
+            "must_contain": [
+              "叶子",
+              "递给",
+              "男孩"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "男孩小心地接过，放进兜里。",
+            "must_contain": [
+              "接过",
+              "放进",
+              "兜里"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老槐树依旧沉默地站在村口。",
+            "must_contain": [
+              "老槐树",
+              "沉默",
+              "村口"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "风吹过，叶片沙沙响，像在低语。",
+            "must_contain": [
+              "风",
+              "叶片",
+              "沙沙",
+              "低语"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "closing_image"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260504_213029"
+}

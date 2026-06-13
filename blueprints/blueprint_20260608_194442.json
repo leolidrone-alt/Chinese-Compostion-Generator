@@ -1,0 +1,725 @@
+{
+  "user_input": {
+    "topic": "“发、拔、拨”是三个有类似偏旁的字，对此你有什么想法和启发？请结合实际情况写一篇记叙文",
+    "emotion": "中性",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "一字一世界",
+    "emotional_baseline": 0.2,
+    "paragraphs": [
+      {
+        "paragraph_type": "opening",
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "小明在暑假回到爷爷的老屋，书房里堆满旧书。",
+            "must_contains": [
+              "小明",
+              "爷爷",
+              "老屋",
+              "书房",
+              "旧书"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "他从书架上抽出一本泛黄的《说文解字》，封面用毛笔写着“发、拔、拨”。",
+            "must_contains": [
+              "《说文解字》",
+              "泛黄",
+              "发",
+              "拔",
+              "拨"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "爷爷走进来，看见他手中的书，笑着说：“这三个字，有故事。”",
+            "must_contains": [
+              "爷爷",
+              "故事",
+              "三个字",
+              "笑着说"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小明好奇地翻开，发现每个字旁都有小字批注，笔画遒劲。",
+            "must_contains": [
+              "翻开",
+              "批注",
+              "笔画",
+              "好奇"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他盯着“发”字，想到了邻居阿发，以为发就是发财。",
+            "must_contains": [
+              "发",
+              "阿发",
+              "邻居",
+              "发财"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "爷爷似乎看透他的心思，轻声道：“你慢慢看，字里有天地。”",
+            "must_contains": [
+              "爷爷",
+              "心思",
+              "字里",
+              "天地"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小明坐在藤椅上，重新打量这本旧字典，仿佛它藏着无数秘密。",
+            "must_contains": [
+              "藤椅",
+              "旧字典",
+              "打量",
+              "秘密"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "窗外蝉鸣，室内安静，只有翻页的沙沙声。",
+            "must_contains": [
+              "蝉鸣",
+              "安静",
+              "翻页",
+              "沙沙"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "setting"
+          }
+        ]
+      },
+      {
+        "paragraph_type": "body_first",
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "阿发是穷人家的孩子，父亲早逝，母亲体弱。",
+            "must_contains": [
+              "阿发",
+              "穷",
+              "父亲早逝",
+              "母亲体弱"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他每天清晨五点就起床，帮母亲磨豆腐。",
+            "must_contains": [
+              "清晨",
+              "磨豆腐",
+              "阿发",
+              "母亲"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "但阿发从不抱怨，他总说：“人就像草，发出来就需要阳光。”",
+            "must_contains": [
+              "阿发",
+              "草",
+              "发出来",
+              "阳光"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他的课本总是用旧报纸包着，边角卷起。",
+            "must_contains": [
+              "课本",
+              "旧报纸",
+              "卷起",
+              "阿发"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "放学后，他跑到田里帮着插秧，一身泥巴。",
+            "must_contains": [
+              "放学",
+              "田里",
+              "插秧",
+              "泥巴"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "小明曾问他累不累，阿发擦擦汗说：“地里的秧苗，也在发呢。”",
+            "must_contains": [
+              "小明",
+              "阿发",
+              "秧苗",
+              "发"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "后来阿发考上了省城的大学，全村人都来送他。",
+            "must_contains": [
+              "考上",
+              "大学",
+              "全村",
+              "送"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax_turning"
+          },
+          {
+            "core_fact": "小明想起旧字典里那个“发”字，下面批注道：“如春芽破土，不可阻挡。”",
+            "must_contains": [
+              "旧字典",
+              "发",
+              "春芽",
+              "破土"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他忽然明白，发不是凭空而发，是扎根之后的勃发。",
+            "must_contains": [
+              "明白",
+              "扎根",
+              "勃发",
+              "不是"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "paragraph_type": "body_second",
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "第二个字是“拔”，爷爷讲了个故事：村里王爷爷，一辈子种萝卜。",
+            "must_contains": [
+              "拔",
+              "王爷爷",
+              "萝卜",
+              "爷爷讲"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那年大旱，萝卜苗枯黄，王爷爷每天挑水浇地。",
+            "must_contains": [
+              "大旱",
+              "枯黄",
+              "挑水",
+              "浇地"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "邻居老张家的牛掉进深坑，王爷爷二话不说就帮忙拉。",
+            "must_contains": [
+              "邻居",
+              "牛",
+              "深坑",
+              "帮忙"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他说：“拔不是一个手的事，要大家伙儿一起使劲。”",
+            "must_contains": [
+              "拔",
+              "大家伙",
+              "使劲",
+              "手"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "王爷爷教小明拔萝卜，要先松土，再握住根部。",
+            "must_contains": [
+              "拔萝卜",
+              "松土",
+              "根部",
+              "小明"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "小明用力一拔，萝卜出土，带起一串泥土。",
+            "must_contains": [
+              "用力",
+              "拔",
+              "出土",
+              "泥土"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "王爷爷笑道：“看，拔出来了，可根须上还带着土呢。”",
+            "must_contains": [
+              "王爷爷",
+              "拔",
+              "根须",
+              "土"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小明翻开旧字典，“拔”字旁批注：“拔除苦难，亦需留根。”",
+            "must_contains": [
+              "旧字典",
+              "拔",
+              "拔除",
+              "留根"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他想到王爷爷帮人从不求回报，却赢得了全村敬重。",
+            "must_contains": [
+              "王爷爷",
+              "帮人",
+              "不求回报",
+              "敬重"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "paragraph_type": "body_third",
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "第三个字是“拨”，小明想起自己的数学老师李老师。",
+            "must_contains": [
+              "拨",
+              "李老师",
+              "数学",
+              "老师"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "李老师讲课总爱用一支旧毛笔在黑板画图，说拨开迷雾见真相。",
+            "must_contains": [
+              "旧毛笔",
+              "黑板",
+              "拨开",
+              "迷雾"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小明一度对几何证明题犯难，整天愁眉苦脸。",
+            "must_contains": [
+              "几何",
+              "证明",
+              "犯难",
+              "愁眉"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "李老师在他作业本上画了一个箭头，旁边写：“拨动思路。”",
+            "must_contains": [
+              "箭头",
+              "拨动",
+              "思路",
+              "作业本"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "下课后李老师单独教他，用圆规轻轻拨动尺子，说辅助线就是拨云见日。",
+            "must_contains": [
+              "圆规",
+              "拨动",
+              "辅助线",
+              "拨云见日"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小明豁然开朗，原来解题就像拨动钟摆，找对支点。",
+            "must_contains": [
+              "豁然开朗",
+              "拨动",
+              "钟摆",
+              "支点"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "旧字典里“拨”字批注：“拨者，调也，引也。”",
+            "must_contains": [
+              "旧字典",
+              "拨",
+              "调",
+              "引"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他想起李老师不仅教数学，还常帮同事解决教学难题。",
+            "must_contains": [
+              "李老师",
+              "教",
+              "同事",
+              "难题"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "小明感叹，拨是智慧，是四两拨千斤的巧劲。",
+            "must_contains": [
+              "拨",
+              "智慧",
+              "四两拨千斤",
+              "巧劲"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_type": "turning",
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "晚上小明坐在桌前，把旧字典翻到扉页，上面有祖父的题字。",
+            "must_contains": [
+              "晚上",
+              "旧字典",
+              "扉页",
+              "祖父",
+              "题字"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "题字写着：“发为始，拔为力，拨为智，三者相生。”",
+            "must_contains": [
+              "发",
+              "始",
+              "拔",
+              "力",
+              "拨",
+              "智"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "小明忽然意识到，阿发、王爷爷、李老师正是这三种品质的化身。",
+            "must_contains": [
+              "阿发",
+              "王爷爷",
+              "李老师",
+              "化身"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他拿起铅笔，在这三个字下画了横线，如同祖父当年。",
+            "must_contains": [
+              "铅笔",
+              "横线",
+              "祖父",
+              "三个字"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "窗外月光洒进，旧字典的纸页泛着柔和的光。",
+            "must_contains": [
+              "月光",
+              "旧字典",
+              "纸页",
+              "柔光"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "setting"
+          },
+          {
+            "core_fact": "他合上书，仿佛听到爷爷的轻语：“字里藏道。”",
+            "must_contains": [
+              "合上书",
+              "爷爷",
+              "轻语",
+              "字里藏道"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "小明决定第二天去学校把这份感悟分享给同桌。",
+            "must_contains": [
+              "第二天",
+              "学校",
+              "感悟",
+              "同桌"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他知道，这本旧字典将成为他新的起点。",
+            "must_contains": [
+              "旧字典",
+              "新起点",
+              "知道"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_type": "climax",
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "三年后小明考上重点高中，临行前他把旧字典送给弟弟。",
+            "must_contains": [
+              "三年后",
+              "重点高中",
+              "旧字典",
+              "弟弟"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax_turning",
+            "atmosphere_hint": "温暖而庄重"
+          },
+          {
+            "core_fact": "弟弟接过字典，翻开，看到那三个字和批注。",
+            "must_contains": [
+              "弟弟",
+              "翻开",
+              "三个字",
+              "批注"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "小明对弟弟说：“发、拔、拨，你慢慢体会。”",
+            "must_contains": [
+              "小明",
+              "弟弟",
+              "发",
+              "拔",
+              "拨",
+              "体会"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "弟弟似懂非懂，但郑重地把字典放进书包。",
+            "must_contains": [
+              "弟弟",
+              "郑重",
+              "字典",
+              "书包"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "小明看着弟弟的背影，想起当年自己也是这般接过爷爷的馈赠。",
+            "must_contains": [
+              "背影",
+              "当年",
+              "爷爷",
+              "馈赠"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他摸了摸旧字典留下的空位，觉得文字的生命真在传续。",
+            "must_contains": [
+              "旧字典",
+              "空位",
+              "文字",
+              "生命",
+              "传续"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那本泛黄的《说文解字》已经不在他手里，但字里的世界传承了下去。",
+            "must_contains": [
+              "泛黄",
+              "《说文解字》",
+              "字里",
+              "世界",
+              "传承"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "火车开动，小明望着窗外，心中默念：发，拔，拨，一生之伴。",
+            "must_contains": [
+              "火车",
+              "窗外",
+              "发",
+              "拔",
+              "拨",
+              "一生"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "paragraph_type": "closing",
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "多年以后，弟弟也成了老师，把字典传给自己的学生。",
+            "must_contains": [
+              "多年",
+              "弟弟",
+              "老师",
+              "字典",
+              "学生"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他总爱讲“发、拔、拨”的故事，就像当初爷爷讲给小明听。",
+            "must_contains": [
+              "发",
+              "拔",
+              "拨",
+              "故事",
+              "爷爷",
+              "小明"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那本旧字典已经破碎，但每个字仍清晰如初。",
+            "must_contains": [
+              "旧字典",
+              "破碎",
+              "字",
+              "清晰"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "三个偏旁相似的字，三个不同的人生智慧，汇聚成同一份文化血脉。",
+            "must_contains": [
+              "偏旁",
+              "相似",
+              "人生",
+              "智慧",
+              "文化血脉"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "小明和弟弟都知道，字典会旧，但字不会亡。",
+            "must_contains": [
+              "小明",
+              "弟弟",
+              "字典",
+              "旧",
+              "字",
+              "不亡"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "因为每一个翻开它的人，都在为自己的人生写下新的注释。",
+            "must_contains": [
+              "翻开",
+              "人生",
+              "注释"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "一字一世界，发之始，拔之力，拨之智，生生不息。",
+            "must_contains": [
+              "一字一世界",
+              "发",
+              "始",
+              "拔",
+              "力",
+              "拨",
+              "智",
+              "生生不息"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "旧字典静静躺在书架上，等待下一个清晨。",
+            "must_contains": [
+              "旧字典",
+              "书架",
+              "等待",
+              "清晨"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "setting"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260608_194442"
+}

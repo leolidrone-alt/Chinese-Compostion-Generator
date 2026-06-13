@@ -1,0 +1,966 @@
+{
+  "user_input": {
+    "topic": "离开家乡上学时，父亲翻过铁道给我买橘子的背影,现在父亲离世我很感伤",
+    "emotion": "怀念，感激，父爱，感伤，温暖",
+    "target_words": 1400
+  },
+  "blueprint": {
+    "title": "橘子的温度",
+    "emotional_baseline": 0.5,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "id": "p1_s1",
+            "core_fact": "桌上放着几个橘子",
+            "must_contain": [
+              "桌上",
+              "几个",
+              "橘子",
+              "安静"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s2",
+            "core_fact": "这景象瞬间勾起我的回忆",
+            "must_contain": [
+              "景象",
+              "瞬间",
+              "回忆",
+              "勾起"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p1_s3",
+            "core_fact": "父亲的身影浮现脑海",
+            "must_contain": [
+              "父亲",
+              "身影",
+              "脑海",
+              "浮现"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p1_s4",
+            "core_fact": "他已离世一个月了",
+            "must_contain": [
+              "离世",
+              "一个月",
+              "已经"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p1_s5",
+            "core_fact": "可回忆里他还活着",
+            "must_contain": [
+              "回忆",
+              "活着",
+              "他",
+              "仍"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p1_s6",
+            "core_fact": "尤其是送我去上大学的那个秋天",
+            "must_contain": [
+              "送",
+              "大学",
+              "秋天",
+              "尤其"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s7",
+            "core_fact": "火车站人潮涌动",
+            "must_contain": [
+              "火车站",
+              "人潮",
+              "涌动"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s8",
+            "core_fact": "父亲穿着深蓝色旧外套",
+            "must_contain": [
+              "父亲",
+              "深蓝色",
+              "旧外套",
+              "穿着"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s9",
+            "core_fact": "他的背有些佝了",
+            "must_contain": [
+              "背",
+              "佝偻",
+              "有些"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s10",
+            "core_fact": "他执意要给我买橘子",
+            "must_contain": [
+              "执意",
+              "买",
+              "橘子",
+              "他"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s11",
+            "core_fact": "我劝阻不住",
+            "must_contain": [
+              "劝阻",
+              "不住",
+              "我"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p1_s12",
+            "core_fact": "他转身朝铁道走去",
+            "must_contain": [
+              "转身",
+              "铁道",
+              "走去",
+              "他"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s13",
+            "core_fact": "铁道边栅栏挡着",
+            "must_contain": [
+              "铁道边",
+              "栅栏",
+              "挡着"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s14",
+            "core_fact": "他翻越的动作有些笨拙",
+            "must_contain": [
+              "翻越",
+              "动作",
+              "笨拙"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s15",
+            "core_fact": "看到这景，我心里一紧",
+            "must_contain": [
+              "心里",
+              "一紧",
+              "看到"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p1_s16",
+            "core_fact": "可那背影就此定格在记忆里",
+            "must_contain": [
+              "背影",
+              "定格",
+              "记忆"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "id": "p2_s1",
+            "core_fact": "火车的汽笛长鸣",
+            "must_contain": [
+              "火车的",
+              "汽笛",
+              "长鸣"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s2",
+            "core_fact": "父亲穿着黑布鞋",
+            "must_contain": [
+              "父亲",
+              "黑布鞋",
+              "穿着"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s3",
+            "core_fact": "他的脚步不太稳",
+            "must_contain": [
+              "脚步",
+              "不稳",
+              "他的"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s4",
+            "core_fact": "我担心他是否能安全过铁道",
+            "must_contain": [
+              "担心",
+              "安全",
+              "过",
+              "铁道"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p2_s5",
+            "core_fact": "可他头也不回地走",
+            "must_contain": [
+              "头也不回",
+              "地走",
+              "他"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s6",
+            "core_fact": "站台到铁轨落差很大",
+            "must_contain": [
+              "站台",
+              "落差",
+              "很大"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s7",
+            "core_fact": "他慢慢爬下碎石坡",
+            "must_contain": [
+              "爬下",
+              "碎石坡",
+              "慢慢"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s8",
+            "core_fact": "碎石子让他脚下打滑",
+            "must_contain": [
+              "碎石子",
+              "脚下",
+              "打滑"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s9",
+            "core_fact": "他停下喘了口气",
+            "must_contain": [
+              "停下",
+              "喘气",
+              "他"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s10",
+            "core_fact": "那一刻我觉他真老了",
+            "must_contain": [
+              "那一刻",
+              "老",
+              "真",
+              "觉"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "id": "p2_s11",
+            "core_fact": "铁轨冰冷地闪着光",
+            "must_contain": [
+              "铁轨",
+              "冰冷",
+              "闪着光"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s12",
+            "core_fact": "旁人行色匆匆没人注意",
+            "must_contain": [
+              "旁人",
+              "行色匆匆",
+              "没注意"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s13",
+            "core_fact": "他终于到了对面小摊",
+            "must_contain": [
+              "终于",
+              "对面",
+              "小摊"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s14",
+            "core_fact": "买了满满一袋橘子",
+            "must_contain": [
+              "买",
+              "一袋",
+              "橘子",
+              "满满"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s15",
+            "core_fact": "橘子在阳光下金黄灿烂",
+            "must_contain": [
+              "阳光下",
+              "金黄",
+              "灿烂",
+              "橘子"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s16",
+            "core_fact": "他小心抱着往回走",
+            "must_contain": [
+              "小心",
+              "抱着",
+              "往回走"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s17",
+            "core_fact": "上站台时他费力攀爬",
+            "must_contain": [
+              "上站台",
+              "费力",
+              "攀爬"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s18",
+            "core_fact": "我恨不得冲下去帮他",
+            "must_contain": [
+              "恨不得",
+              "帮",
+              "他",
+              "冲下去"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p2_s19",
+            "core_fact": "他的手抓着铁栏，粗糙发红",
+            "must_contain": [
+              "手",
+              "抓",
+              "铁栏",
+              "粗糙"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s20",
+            "core_fact": "看他挣扎我泪水满眶",
+            "must_contain": [
+              "挣扎",
+              "泪水",
+              "满眶",
+              "看"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "body",
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "id": "p3_s1",
+            "core_fact": "最终他攀上了站台",
+            "must_contain": [
+              "最终",
+              "攀上",
+              "站台"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s2",
+            "core_fact": "衣服沾了好多灰土",
+            "must_contain": [
+              "衣服",
+              "沾",
+              "灰土",
+              "好多"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s3",
+            "core_fact": "橘子被他护在怀里完好无损",
+            "must_contain": [
+              "护在怀里",
+              "完好无损",
+              "橘子"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s4",
+            "core_fact": "他朝我走来脸上带着笑",
+            "must_contain": [
+              "走来",
+              "笑",
+              "脸上",
+              "他"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s5",
+            "core_fact": "那笑容疲倦却真挚",
+            "must_contain": [
+              "笑容",
+              "疲倦",
+              "真挚"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s6",
+            "core_fact": "橘子被迅速塞进我行李",
+            "must_contain": [
+              "迅速",
+              "塞进",
+              "行李",
+              "橘子"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s7",
+            "core_fact": "“路上吃，不要省。”他说",
+            "must_contain": [
+              "他说",
+              "不要省",
+              "路上吃",
+              "叮嘱"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p3_s8",
+            "core_fact": "他的手指冰冷橘皮却暖",
+            "must_contain": [
+              "手指",
+              "冰冷",
+              "橘皮",
+              "暖"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p3_s9",
+            "core_fact": "我看着他布满皱纹的脸",
+            "must_contain": [
+              "皱纹",
+              "脸",
+              "布满",
+              "他"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s10",
+            "core_fact": "喉头发紧说不出话",
+            "must_contain": [
+              "喉头",
+              "发紧",
+              "说不出话"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "id": "p3_s11",
+            "core_fact": "发车的铃声响了",
+            "must_contain": [
+              "发车",
+              "铃声",
+              "响了"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s12",
+            "core_fact": "他拍了拍我的肩",
+            "must_contain": [
+              "拍了拍",
+              "肩",
+              "他"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s13",
+            "core_fact": "随即转身离开站台",
+            "must_contain": [
+              "随即",
+              "转身",
+              "离开",
+              "站台"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s14",
+            "core_fact": "他的背影又映入眼帘",
+            "must_contain": [
+              "背影",
+              "映入眼帘",
+              "又"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s15",
+            "core_fact": "在人群中渐行渐远",
+            "must_contain": [
+              "人群中",
+              "渐行渐远",
+              "背影"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s16",
+            "core_fact": "冬日阳光照在他花白的头发上",
+            "must_contain": [
+              "冬日阳光",
+              "花白头发",
+              "照"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p3_s17",
+            "core_fact": "那背影像一座山",
+            "must_contain": [
+              "背影",
+              "山",
+              "像",
+              "一座"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p3_s18",
+            "core_fact": "眼泪再也忍不住",
+            "must_contain": [
+              "眼泪",
+              "忍不住",
+              "再也"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p3_s19",
+            "core_fact": "包里的橘子沉甸甸的",
+            "must_contain": [
+              "包里",
+              "橘子",
+              "沉甸甸"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s20",
+            "core_fact": "那一刻我懂了什么是父爱",
+            "must_contain": [
+              "那一刻",
+              "懂",
+              "父爱",
+              "什么"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "climax",
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "id": "p4_s1",
+            "core_fact": "火车开动我依然探头望",
+            "must_contain": [
+              "火车开动",
+              "探头",
+              "望"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "p4_s2",
+            "core_fact": "父亲在站台上挥手",
+            "must_contain": [
+              "父亲",
+              "站台",
+              "挥手"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "p4_s3",
+            "core_fact": "他的身影越来越小",
+            "must_contain": [
+              "身影",
+              "越来越小"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p4_s4",
+            "core_fact": "但背影留在心里很大",
+            "must_contain": [
+              "背影",
+              "留心里",
+              "很大"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s5",
+            "core_fact": "那包橘子散发着清香",
+            "must_contain": [
+              "橘子",
+              "散发",
+              "清香"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p4_s6",
+            "core_fact": "我拿起一个，橘皮温热",
+            "must_contain": [
+              "拿起",
+              "橘皮",
+              "温热"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "action",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p4_s7",
+            "core_fact": "仿佛还残留他手心的温度",
+            "must_contain": [
+              "仿佛",
+              "手心",
+              "温度",
+              "残留"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s8",
+            "core_fact": "剥开橘子香气弥漫车厢",
+            "must_contain": [
+              "剥开",
+              "香气",
+              "弥漫",
+              "车厢"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p4_s9",
+            "core_fact": "橘瓣一瓣瓣像他的关爱",
+            "must_contain": [
+              "橘瓣",
+              "一瓣瓣",
+              "关爱",
+              "像"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s10",
+            "core_fact": "酸甜的汁水润了喉咙",
+            "must_contain": [
+              "酸甜",
+              "汁水",
+              "润",
+              "喉咙"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p4_s11",
+            "core_fact": "想起他买橘的艰难",
+            "must_contain": [
+              "想",
+              "买橘",
+              "艰难"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p4_s12",
+            "core_fact": "眼泪又涌了出来",
+            "must_contain": [
+              "眼泪",
+              "涌出",
+              "又"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p4_s13",
+            "core_fact": "窗外景色飞速后退",
+            "must_contain": [
+              "窗外",
+              "景色",
+              "飞速后退"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p4_s14",
+            "core_fact": "父亲的身影却像刻在玻璃上",
+            "must_contain": [
+              "身影",
+              "刻",
+              "玻璃上",
+              "像"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s15",
+            "core_fact": "那背影从此伴我远行",
+            "must_contain": [
+              "背影",
+              "伴",
+              "远行"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s16",
+            "core_fact": "橘子的味道永远难忘",
+            "must_contain": [
+              "橘子",
+              "味道",
+              "永远难忘"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "closing",
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "id": "p5_s1",
+            "core_fact": "今天再拿起橘子",
+            "must_contain": [
+              "今天",
+              "拿起",
+              "橘子"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "p5_s2",
+            "core_fact": "父亲已经不在了",
+            "must_contain": [
+              "父亲",
+              "不在",
+              "已经"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s3",
+            "core_fact": "可他的爱就是这橘子",
+            "must_contain": [
+              "爱",
+              "橘子",
+              "可",
+              "就是"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s4",
+            "core_fact": "朴素却滋养灵魂",
+            "must_contain": [
+              "朴素",
+              "滋养",
+              "灵魂"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s5",
+            "core_fact": "我想念他但也感激",
+            "must_contain": [
+              "想念",
+              "感激",
+              "他"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p5_s6",
+            "core_fact": "那背影教会我承受与付出",
+            "must_contain": [
+              "背影",
+              "教会",
+              "承受",
+              "付出"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s7",
+            "core_fact": "橘子的暖意永留记忆",
+            "must_contain": [
+              "暖意",
+              "永留",
+              "记忆"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s8",
+            "core_fact": "带着它我继续前行",
+            "must_contain": [
+              "带着",
+              "继续前行",
+              "它"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260425_083721"
+}

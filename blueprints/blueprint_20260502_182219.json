@@ -1,0 +1,1244 @@
+{
+  "user_input": {
+    "topic": "用一篇文章展示一个普通人到死的在人生中的三起三落,最好文章有一个线索贯穿全文",
+    "emotion": "中性",
+    "target_words": 1500
+  },
+  "blueprint": {
+    "title": "老槐树下的三起三落",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "村口老槐树粗壮，树冠如伞",
+            "must_contain": [
+              "老槐树",
+              "村口",
+              "树冠"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "树干上有刀刻的痕迹，见证岁月",
+            "must_contain": [
+              "树干",
+              "刀刻",
+              "岁月"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "树下石凳光滑，老人常坐",
+            "must_contain": [
+              "石凳",
+              "光滑",
+              "老人"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "清晨阳光透过树叶洒下光斑",
+            "must_contain": [
+              "阳光",
+              "树叶",
+              "光斑"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "婴儿啼哭从老屋传出，全家喜悦",
+            "must_contain": [
+              "婴儿",
+              "啼哭",
+              "老屋"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "父亲在树下种下一棵小槐树",
+            "must_contain": [
+              "父亲",
+              "种下",
+              "小槐树"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "孩子取名‘槐生’，与树同长",
+            "must_contain": [
+              "取名",
+              "槐生",
+              "同长"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生学会走路，扶着老槐树",
+            "must_contain": [
+              "走路",
+              "扶着",
+              "老槐树"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "夏日蝉鸣，槐生在树下玩泥巴",
+            "must_contain": [
+              "蝉鸣",
+              "玩泥巴",
+              "树下"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "爷爷讲老槐树的故事，说它通灵",
+            "must_contain": [
+              "爷爷",
+              "故事",
+              "通灵"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "槐生仰头，看树梢的鸟窝",
+            "must_contain": [
+              "仰头",
+              "树梢",
+              "鸟窝"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "秋天叶子金黄，槐生捡落叶做书签",
+            "must_contain": [
+              "金黄",
+              "落叶",
+              "书签"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "冬天树枝光秃，槐生堆雪人",
+            "must_contain": [
+              "光秃",
+              "堆雪人",
+              "树枝"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生六岁，背书包上学，经过树下",
+            "must_contain": [
+              "六岁",
+              "书包",
+              "上学"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "老槐树随风摇晃，像是挥手",
+            "must_contain": [
+              "摇晃",
+              "挥手",
+              "老槐树"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "槐生成绩优异，常坐在树下读书",
+            "must_contain": [
+              "成绩",
+              "优异",
+              "读书"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "母亲说，槐树保佑着你",
+            "must_contain": [
+              "母亲",
+              "保佑",
+              "槐树"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "槐生信以为真，摸树干许愿",
+            "must_contain": [
+              "信以为真",
+              "摸",
+              "许愿"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "放学后，他和伙伴在树下捉迷藏",
+            "must_contain": [
+              "伙伴",
+              "捉迷藏",
+              "树下"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "笑声惊飞麻雀，树叶沙沙响",
+            "must_contain": [
+              "笑声",
+              "惊飞",
+              "沙沙"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "core_fact": "槐生十六岁，考上县城高中",
+            "must_contain": [
+              "十六岁",
+              "考上",
+              "高中"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "离家那天，他在老槐树下站了很久",
+            "must_contain": [
+              "离家",
+              "老槐树",
+              "站"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他暗自发誓，要出人头地",
+            "must_contain": [
+              "发誓",
+              "出人头地",
+              "暗"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "高中三年，他刻苦学习，名列前茅",
+            "must_contain": [
+              "刻苦",
+              "名列前茅",
+              "高中"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "高考前夕，他梦见老槐树开花",
+            "must_contain": [
+              "高考",
+              "梦见",
+              "开花"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "但成绩出来，他落榜了，差三分",
+            "must_contain": [
+              "落榜",
+              "差三分",
+              "成绩"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他把自己关在屋里，不吃不喝",
+            "must_contain": [
+              "关在",
+              "不吃不喝",
+              "屋里"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "父亲叹气，母亲偷偷抹泪",
+            "must_contain": [
+              "父亲",
+              "叹气",
+              "抹泪"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "槐生走到树下，一拳砸在树干上",
+            "must_contain": [
+              "一拳",
+              "砸",
+              "树干"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "树皮划破手，血渗出来",
+            "must_contain": [
+              "树皮",
+              "划破",
+              "血"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他蹲下，抱头痛哭",
+            "must_contain": [
+              "蹲下",
+              "抱头",
+              "痛哭"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "母亲端来一碗面，放在石凳上",
+            "must_contain": [
+              "母亲",
+              "一碗面",
+              "石凳"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生擦干泪，决定复读",
+            "must_contain": [
+              "擦干",
+              "决定",
+              "复读"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "一年后，他考上省城大学",
+            "must_contain": [
+              "考上",
+              "省城",
+              "大学"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "全村人都来祝贺，老槐树下摆酒席",
+            "must_contain": [
+              "祝贺",
+              "摆酒席",
+              "老槐树"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "槐生喝着酒，眼睛发亮",
+            "must_contain": [
+              "喝酒",
+              "眼睛",
+              "发亮"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "大学四年，他意气风发",
+            "must_contain": [
+              "大学",
+              "意气风发",
+              "四年"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "毕业分配，他去了大城市",
+            "must_contain": [
+              "毕业",
+              "分配",
+              "大城市"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "但工作不顺，被裁员了",
+            "must_contain": [
+              "工作",
+              "不顺",
+              "裁员"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他不敢告诉家人，在出租屋发呆",
+            "must_contain": [
+              "不敢",
+              "告诉",
+              "出租屋"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他想起老槐树，决定回家",
+            "must_contain": [
+              "想起",
+              "老槐树",
+              "回家"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "回到村里，老槐树依然挺立",
+            "must_contain": [
+              "回到",
+              "依然",
+              "挺立"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "父亲没说什么，只拍了拍他的肩",
+            "must_contain": [
+              "父亲",
+              "拍肩",
+              "没说什么"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生开始种地，日出而作",
+            "must_contain": [
+              "种地",
+              "日出",
+              "劳作"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他看着老槐树，心里平静",
+            "must_contain": [
+              "看着",
+              "老槐树",
+              "平静"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "夏夜，他在树下乘凉，听蛐蛐叫",
+            "must_contain": [
+              "夏夜",
+              "乘凉",
+              "蛐蛐"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他思考人生，觉得不应放弃",
+            "must_contain": [
+              "思考",
+              "不应放弃",
+              "人生"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他借了钱，开始做小生意",
+            "must_contain": [
+              "借钱",
+              "小生意",
+              "开始"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "起初亏本，他咬牙坚持",
+            "must_contain": [
+              "亏本",
+              "咬牙",
+              "坚持"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "一年后，生意有了起色",
+            "must_contain": [
+              "起色",
+              "生意",
+              "一年后"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narration"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "core_fact": "他娶了邻村的姑娘，在树下办婚礼",
+            "must_contain": [
+              "娶妻",
+              "邻村",
+              "婚礼"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "新娘穿着红袄，槐树挂满红绸",
+            "must_contain": [
+              "红袄",
+              "红绸",
+              "槐树"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "婚后生活甜蜜，妻子贤惠",
+            "must_contain": [
+              "婚后",
+              "甜蜜",
+              "贤惠"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他们生了儿子，取名‘树根’",
+            "must_contain": [
+              "儿子",
+              "取名",
+              "树根"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生生意扩大，盖了新房",
+            "must_contain": [
+              "生意",
+              "扩大",
+              "新房"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他给老槐树浇水，感谢它",
+            "must_contain": [
+              "浇水",
+              "感谢",
+              "老槐树"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "孩子会走路后，常在树下玩",
+            "must_contain": [
+              "孩子",
+              "走路",
+              "树下玩"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生想起自己小时候，感慨万千",
+            "must_contain": [
+              "想起",
+              "小时候",
+              "感慨"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "但好景不长，市场变化，生意破产",
+            "must_contain": [
+              "市场",
+              "变化",
+              "破产"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "债主上门，槐生低声下气",
+            "must_contain": [
+              "债主",
+              "上门",
+              "低声下气"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "妻子病倒，需要住院",
+            "must_contain": [
+              "妻子",
+              "病倒",
+              "住院"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生四处借钱，受尽白眼",
+            "must_contain": [
+              "四处",
+              "借钱",
+              "白眼"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他深夜坐在树下，一根接一根抽烟",
+            "must_contain": [
+              "深夜",
+              "树下",
+              "抽烟"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "风把烟灰吹到树叶上，像灰烬",
+            "must_contain": [
+              "风",
+              "烟灰",
+              "树叶"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他抬头看树冠，月亮在枝丫间",
+            "must_contain": [
+              "抬头",
+              "树冠",
+              "月亮"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他想起爷爷的话，树有灵性",
+            "must_contain": [
+              "爷爷",
+              "灵性",
+              "树"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他对着树低声说话，泪流满面",
+            "must_contain": [
+              "低声",
+              "说话",
+              "泪流"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "第二天，他卖掉房子还债",
+            "must_contain": [
+              "卖掉",
+              "房子",
+              "还债"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "一家人搬到老屋，回到起点",
+            "must_contain": [
+              "搬到",
+              "老屋",
+              "起点"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "妻子病情好转，但需要长期吃药",
+            "must_contain": [
+              "病情",
+              "好转",
+              "长期吃药"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生去镇上打工，早出晚归",
+            "must_contain": [
+              "打工",
+              "早出晚归",
+              "镇上"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子学习刻苦，成绩优秀",
+            "must_contain": [
+              "儿子",
+              "刻苦",
+              "优秀"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生把希望放在儿子身上",
+            "must_contain": [
+              "希望",
+              "儿子",
+              "身上"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他每天经过老槐树，都摸一下树干",
+            "must_contain": [
+              "经过",
+              "摸",
+              "树干"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "树皮更加粗糙，像老人的手",
+            "must_contain": [
+              "粗糙",
+              "老人",
+              "手"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "儿子考上大学那天，槐生哭了",
+            "must_contain": [
+              "儿子",
+              "考上",
+              "哭了"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "他在树下摆酒，请全村人",
+            "must_begin": [
+              "摆酒",
+              "全村",
+              "树下"
+            ],
+            "must_contain": [
+              "摆酒",
+              "全村",
+              "树下"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子离家，槐生送他到车站",
+            "must_contain": [
+              "送",
+              "车站",
+              "儿子"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他转身，老槐树在夕阳下拉长影子",
+            "must_contain": [
+              "转身",
+              "夕阳",
+              "影子"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他觉得一切都会好起来",
+            "must_contain": [
+              "觉得",
+              "好起来",
+              "一切"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "core_fact": "儿子毕业后留在城市工作",
+            "must_contain": [
+              "儿子",
+              "毕业",
+              "城市"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生和妻子身体渐老",
+            "must_contain": [
+              "身体",
+              "渐老",
+              "妻子"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "老槐树却越来越粗壮",
+            "must_contain": [
+              "粗壮",
+              "老槐树",
+              "越来越"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "每年秋天，槐花落满院子",
+            "must_contain": [
+              "秋天",
+              "槐花",
+              "院子"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "儿子想接他们去城里，他们不去",
+            "must_contain": [
+              "接",
+              "城里",
+              "不去"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "槐生说，离不开老槐树",
+            "must_contain": [
+              "离不开",
+              "老槐树",
+              "说"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "妻子在树下种了花，栀子开得旺",
+            "must_contain": [
+              "种花",
+              "栀子",
+              "树下"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生每天在树下喝茶，看云",
+            "must_contain": [
+              "喝茶",
+              "看云",
+              "树下"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他想起过去的起伏，觉得平静",
+            "must_contain": [
+              "想起",
+              "起伏",
+              "平静"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "但妻子突然中风，偏瘫在床",
+            "must_contain": [
+              "中风",
+              "偏瘫",
+              "妻子"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生照顾她，端屎端尿",
+            "must_contain": [
+              "照顾",
+              "端屎端尿",
+              "槐生"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他推着轮椅，让她在树下晒太阳",
+            "must_contain": [
+              "轮椅",
+              "晒太阳",
+              "树下"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "妻子不能说话，只看着他笑",
+            "must_contain": [
+              "不能说话",
+              "看着",
+              "笑"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "三年后，妻子去世",
+            "must_contain": [
+              "去世",
+              "妻子",
+              "三年后"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "槐生把她埋在老槐树下",
+            "must_contain": [
+              "埋",
+              "老槐树",
+              "下"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他每天坐在墓旁，自言自语",
+            "must_contain": [
+              "墓旁",
+              "自言自语",
+              "每天"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子回来，劝他节哀",
+            "must_contain": [
+              "儿子",
+              "劝",
+              "节哀"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "槐生摇头，说树陪着他",
+            "must_contain": [
+              "摇头",
+              "树陪着",
+              "说"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "冬天，他感冒发烧，卧床不起",
+            "must_contain": [
+              "感冒",
+              "发烧",
+              "卧床"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "邻居送药，他勉强喝下",
+            "must_contain": [
+              "送药",
+              "勉强",
+              "喝下"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他梦见自己变成一棵树",
+            "must_contain": [
+              "梦见",
+              "变成",
+              "树"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "树枝伸向天空，根扎进土里",
+            "must_contain": [
+              "树枝",
+              "天空",
+              "根"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "醒来后，他让儿子扶他到树下",
+            "must_contain": [
+              "醒来",
+              "扶",
+              "树下"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他摸着树皮，像摸老朋友",
+            "must_contain": [
+              "摸着",
+              "树皮",
+              "老朋友"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子说，树会一直在这里",
+            "must_contain": [
+              "儿子",
+              "树",
+              "一直"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "槐生点头，微笑",
+            "must_contain": [
+              "点头",
+              "微笑",
+              "槐生"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那天晚上，他安静地走了",
+            "must_contain": [
+              "晚上",
+              "安静",
+              "走了"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narration"
+          },
+          {
+            "core_fact": "儿子把他葬在妻子旁边，树下",
+            "must_contain": [
+              "葬",
+              "妻子",
+              "旁边"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "第二年春天，老槐树开了满树花",
+            "must_contain": [
+              "春天",
+              "满树花",
+              "老槐树"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "花瓣飘落，盖在两座坟上",
+            "must_contain": [
+              "花瓣",
+              "飘落",
+              "坟"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "儿子带着孙子回来扫墓",
+            "must_contain": [
+              "扫墓",
+              "孙子",
+              "儿子"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "孙子在树下捡槐花，问爷爷在哪",
+            "must_contain": [
+              "捡槐花",
+              "问",
+              "爷爷"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "儿子说，爷爷变成了树",
+            "must_contain": [
+              "爷爷",
+              "变成",
+              "树"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "孙子抱住树干，说想爷爷",
+            "must_contain": [
+              "抱住",
+              "树干",
+              "想"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "风吹过，树叶沙沙响",
+            "must_contain": [
+              "风吹",
+              "树叶",
+              "沙沙"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "像是爷爷在回答",
+            "must_contain": [
+              "像是",
+              "爷爷",
+              "回答"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "黄昏的阳光斜照，树影斑驳",
+            "must_contain": [
+              "黄昏",
+              "阳光",
+              "树影"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "一只麻雀停在树梢，又飞走",
+            "must_contain": [
+              "麻雀",
+              "树梢",
+              "飞走"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "一切都安静下来",
+            "must_contain": [
+              "安静",
+              "下来",
+              "一切"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "老槐树在暮色中，沉默如初",
+            "must_contain": [
+              "暮色",
+              "沉默",
+              "老槐树"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_182219"
+}

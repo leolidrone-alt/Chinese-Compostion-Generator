@@ -1,0 +1,700 @@
+{
+  "user_input": {
+    "topic": "我们常说“存在”就是看得见、摸得着、能感知的事物。但你是否注意过：影子不是光，却因光而存在；空缺不是实物，却让实物有了位置；零不是正数也不是负数，却是一切数字的起点。马克思说，矛盾双方相互依存、相互转化。没有“不存在”，就没有“存在”的边界；没有“无”，我们就无法理解“有”。这段材料引发你什么样的思考？请结合实际写一写。",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "影之存在",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "paragraph_id": 1,
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "夏日的午后，我盯着墙上的影子发呆。",
+            "must_contain": [
+              "影子",
+              "午后",
+              "墙"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "opening"
+          },
+          {
+            "core_fact": "它没有实体，却因我挡住光而出现。",
+            "must_contain": [
+              "影子",
+              "实体",
+              "光"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "影子不是光，也不是黑暗，而是光被阻隔的痕迹。",
+            "must_contain": [
+              "影子",
+              "光",
+              "黑暗",
+              "阻隔"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "马克思说，矛盾双方相互依存、相互转化。",
+            "must_contain": [
+              "马克思",
+              "矛盾",
+              "依存",
+              "转化"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reference"
+          },
+          {
+            "core_fact": "影子正是这样的矛盾体——既不是存在，也不是不存在。",
+            "must_contain": [
+              "影子",
+              "矛盾体",
+              "存在",
+              "不存在"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它提醒我们，许多事物并非非黑即白。",
+            "must_contain": [
+              "影子",
+              "提醒",
+              "非黑即白"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "没有影子，我们对光的感知反而会不完整。",
+            "must_contain": [
+              "影子",
+              "光",
+              "感知",
+              "完整"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "这让我想到老子所言：有无相生，难易相成。",
+            "must_contain": [
+              "老子",
+              "有无相生",
+              "难易相成"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reference"
+          },
+          {
+            "core_fact": "存在的意义往往由不存在来界定。",
+            "must_contain": [
+              "存在",
+              "不存在",
+              "界定"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "影子的游移就像思想的边界，看似虚幻却真实。",
+            "must_contain": [
+              "影子",
+              "游移",
+              "思想",
+              "边界"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我开始思考，生活中哪些事物也如影子般矛盾？",
+            "must_contain": [
+              "思考",
+              "影子",
+              "矛盾"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "它们可能不是主流的焦点，却支撑着主流的轮廓。",
+            "must_contain": [
+              "主流",
+              "焦点",
+              "轮廓"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 2,
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "影子与光的关系，恰似暗物质与可见宇宙。",
+            "must_contain": [
+              "影子",
+              "光",
+              "暗物质",
+              "宇宙"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "科学家发现，暗物质虽不可见，却占据了宇宙质量的绝大部分。",
+            "must_contain": [
+              "暗物质",
+              "不可见",
+              "宇宙质量"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "没有暗物质，星系的引力无法解释，恒星就会散逸。",
+            "must_contain": [
+              "暗物质",
+              "引力",
+              "星系",
+              "恒星"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "conflict"
+          },
+          {
+            "core_fact": "这就像影子，虽然不被直接看见，却是光存在的证明。",
+            "must_contain": [
+              "影子",
+              "看见",
+              "光",
+              "证明"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "辩证法告诉我们，否定是事物发展的环节。",
+            "must_contain": [
+              "辩证法",
+              "否定",
+              "发展"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reference"
+          },
+          {
+            "core_fact": "影子作为光的否定，反而使光的意义更突出。",
+            "must_contain": [
+              "影子",
+              "否定",
+              "光",
+              "意义"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "在历史上，许多进步都源于对原有界限的突破。",
+            "must_contain": [
+              "历史",
+              "进步",
+              "界限"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "比如哥白尼否定地心说，才有了日心说的诞生。",
+            "must_contain": [
+              "哥白尼",
+              "否定",
+              "地心说",
+              "日心说"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "example"
+          },
+          {
+            "core_fact": "这些否定就像影子，起初不被接受，却拓展了认知的疆域。",
+            "must_contain": [
+              "否定",
+              "影子",
+              "接受",
+              "疆域"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "从个人成长看，失败与挫折也是另一种影子。",
+            "must_contain": [
+              "失败",
+              "挫折",
+              "影子"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "它们让我们看清自身不足，从而成为更好的自己。",
+            "must_contain": [
+              "不足",
+              "自身"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "resolution"
+          },
+          {
+            "core_fact": "影子在烈日下最清晰，矛盾在冲突才更深刻。",
+            "must_contain": [
+              "影子",
+              "烈日",
+              "矛盾",
+              "冲突"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "所以，不要惧怕影子，它恰恰是光的伙伴。",
+            "must_contain": [
+              "影子",
+              "惧怕",
+              "光",
+              "伙伴"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "conclusion"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 3,
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "除了影子，空缺也诠释着无中生有的哲学。",
+            "must_contain": [
+              "空缺",
+              "无中生有",
+              "哲学"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "数学中的零，最初被认为是没有意义的符号。",
+            "must_contain": [
+              "零",
+              "数学",
+              "符号"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "古印度数学家赋予零位值，才让十进位法成为可能。",
+            "must_contain": [
+              "古印度",
+              "零",
+              "位值",
+              "十进位"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "example"
+          },
+          {
+            "core_fact": "没有零，就没有代数和微积分，现代文明会完全不同。",
+            "must_contain": [
+              "零",
+              "代数",
+              "微积分",
+              "现代文明"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "零的存在，让负数也有了参照点。",
+            "must_contain": [
+              "零",
+              "负数",
+              "参照点"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "正如影子，零看似空无，却是所有数字的起点。",
+            "must_contain": [
+              "影子",
+              "零",
+              "空无",
+              "起点"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "在现实生活中，空白地带常孕育创新。",
+            "must_contain": [
+              "空白",
+              "创新"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "改革开放初期，深圳是南海边的一个小渔村，近乎空白。",
+            "must_contain": [
+              "改革开放",
+              "深圳",
+              "渔村",
+              "空白"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "example"
+          },
+          {
+            "core_fact": "但正是在这不存在的繁华之上，人们从零开始绘制蓝图。",
+            "must_contain": [
+              "不存在",
+              "繁华",
+              "零",
+              "蓝图"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "如今深圳的摩天大楼，每一寸都曾是对天空的空白想象。",
+            "must_contain": [
+              "深圳",
+              "摩天大楼",
+              "天空",
+              "空白"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "可见，不存在赋予存在以创造性。",
+            "must_contain": [
+              "不存在",
+              "存在",
+              "创造性"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我们的学习也是如此，从不懂到懂，中间有大量空白需要填充。",
+            "must_contain": [
+              "学习",
+              "不懂",
+              "空白"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "这些空白并非障碍，而是进步的空间。",
+            "must_contain": [
+              "空白",
+              "障碍",
+              "进步"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "resolution"
+          },
+          {
+            "core_fact": "影子在光照不到的地方现身，恰如问题在已知的边界浮现。",
+            "must_contain": [
+              "影子",
+              "光照",
+              "问题",
+              "边界"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 4,
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "现实中的改革者，往往从不存在处寻找出路。",
+            "must_contain": [
+              "改革者",
+              "不存在",
+              "出路"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "中国航天事业起步时，连基本理论都几乎空白。",
+            "must_contain": [
+              "航天",
+              "起步",
+              "理论",
+              "空白"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "但科学家们从零开始，攻克了无数技术难题。",
+            "must_contain": [
+              "零",
+              "科学家",
+              "技术"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "example"
+          },
+          {
+            "core_fact": "如今神舟飞船遨游太空，当初的不存在变成了辉煌存在。",
+            "must_contain": [
+              "神舟",
+              "太空",
+              "不存在",
+              "存在"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "影子的变化见证了这段历程：从微暗到浓重再到消融。",
+            "must_contain": [
+              "影子",
+              "变化",
+              "历程",
+              "微暗",
+              "消融"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "每一次技术突破，都像光线重新照射，影子也随之移动。",
+            "must_contain": [
+              "技术突破",
+              "光线",
+              "影子",
+              "移动"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "失败时影子拉长，成功时影子缩短。",
+            "must_contain": [
+              "失败",
+              "影子",
+              "拉长",
+              "成功",
+              "缩短"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "但影子始终存在，提醒我们必须正视困难。",
+            "must_contain": [
+              "影子",
+              "存在",
+              "正视",
+              "困难"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "马克思说，矛盾推动事物发展。",
+            "must_contain": [
+              "马克思",
+              "矛盾",
+              "发展"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reference"
+          },
+          {
+            "core_fact": "有与无的博弈，正是创新的源泉。",
+            "must_contain": [
+              "有",
+              "无",
+              "博弈",
+              "创新"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "我们青年一代，也应当拥抱这种辩证思维。",
+            "must_contain": [
+              "青年",
+              "辩证思维"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "transition"
+          },
+          {
+            "core_fact": "面对未知，不因虚无而恐惧，而应视为创造可能。",
+            "must_contain": [
+              "未知",
+              "虚无",
+              "恐惧",
+              "创造"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "resolution"
+          },
+          {
+            "core_fact": "就像影子，即便在正午最浓时，也预示着黄昏的来临。",
+            "must_contain": [
+              "影子",
+              "正午",
+              "黄昏"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "有与无的交替，构成了世界的韵律。",
+            "must_contain": [
+              "有",
+              "无",
+              "交替",
+              "韵律"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "paragraph_id": 5,
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "回到那个夏日的午后，影子依然贴在墙上。",
+            "must_contain": [
+              "影子",
+              "墙"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "opening"
+          },
+          {
+            "core_fact": "但我已不再困惑，而是心生敬畏。",
+            "must_contain": [
+              "困惑",
+              "敬畏"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "影子教会我：存在不只是实体的堆叠，更是关系的映照。",
+            "must_contain": [
+              "影子",
+              "存在",
+              "实体",
+              "关系"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "summary"
+          },
+          {
+            "core_fact": "每一寸影子背后，都有光的执着。",
+            "must_contain": [
+              "影子",
+              "光"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "正如每一笔零落墨，都铺垫了数字的奇迹。",
+            "must_contain": [
+              "零",
+              "数字"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "有与无，存在与不存在，它们不是对立而是伙伴。",
+            "must_contain": [
+              "有",
+              "无",
+              "存在",
+              "不存在",
+              "伙伴"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "resolution"
+          },
+          {
+            "core_fact": "懂得了这些，便懂了辩证法的温柔。",
+            "must_contain": [
+              "辩证法"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "conclusion"
+          },
+          {
+            "core_fact": "夕阳西下，影子的边界变得模糊，但我知道它还在。",
+            "must_contain": [
+              "夕阳",
+              "影子",
+              "边界"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "它和光融为一体，就像无和有共同构成完整的世界。",
+            "must_contain": [
+              "光",
+              "无",
+              "有",
+              "世界"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "这便是存在之谜的答案：不存在让存在成为可能。",
+            "must_contain": [
+              "存在",
+              "不存在",
+              "答案"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "conclusion"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_164658"
+}

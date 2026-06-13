@@ -1,0 +1,676 @@
+{
+  "user_input": {
+    "topic": "家里那张用了很多年的旧沙发，皮面裂了，坐上去会陷下去一块。它听过很多话——争吵、闲聊、沉默。后来搬家，它被留在老房子里。可以写一次你回去看它的经历，或者回忆它陪伴的那些夜晚。",
+    "emotion": "淡，可以有一点怀念，也可以只是陈述",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "旧沙发",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "沙发皮面裂开，露出海绵，坐下去陷一块。",
+            "must_contain": [
+              "皮面",
+              "裂开",
+              "海绵",
+              "陷"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "弹簧老化，发出吱呀声。",
+            "must_contain": [
+              "弹簧",
+              "吱呀"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sound_description"
+          },
+          {
+            "core_fact": "沙发颜色褪成灰黄。",
+            "must_contain": [
+              "褪色",
+              "灰黄"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "visual_description"
+          },
+          {
+            "core_fact": "夏天坐上去会粘皮肤。",
+            "must_contain": [
+              "夏天",
+              "粘",
+              "皮肤"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "沙发表面有烟头烫过的痕迹。",
+            "must_contain": [
+              "烟头",
+              "烫痕"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "我记得小时候常在上面跳。",
+            "must_contain": [
+              "记得",
+              "小时候",
+              "跳"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "memory"
+          },
+          {
+            "core_fact": "父亲骂我，说沙发会坏。",
+            "must_contain": [
+              "父亲",
+              "骂",
+              "坏"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue_memory"
+          },
+          {
+            "core_fact": "母亲织毛衣时总坐在同一个位置。",
+            "must_contain": [
+              "母亲",
+              "织毛衣",
+              "位置"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "habitual_action"
+          },
+          {
+            "core_fact": "那个位置被压得更深。",
+            "must_contain": [
+              "位置",
+              "压深"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "observation"
+          },
+          {
+            "core_fact": "沙发靠背上有块油渍，是父亲吃花生米时蹭的。",
+            "must_contain": [
+              "油渍",
+              "父亲",
+              "花生米"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "沙发的扶手被摸得发亮。",
+            "must_contain": [
+              "扶手",
+              "发亮"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "visual_detail"
+          },
+          {
+            "core_fact": "我有时会在上面午睡。",
+            "must_contain": [
+              "午睡"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "阳光透过窗户照在沙发上。",
+            "must_contain": [
+              "阳光",
+              "窗户",
+              "照"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "ambient"
+          },
+          {
+            "core_fact": "灰尘在光柱里浮动。",
+            "must_contain": [
+              "灰尘",
+              "光柱"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "visual_detail"
+          },
+          {
+            "core_fact": "我伸手去抓，却什么也抓不住。",
+            "must_contain": [
+              "伸手",
+              "抓不住"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "深夜父亲加班回来，坐在沙发上叹气。",
+            "must_contain": [
+              "深夜",
+              "父亲",
+              "加班",
+              "叹气"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他把沙发靠背当作闹钟的snooze键，每次翻身都按出半梦半醒的十分钟。",
+            "must_contain": [
+              "靠背",
+              "snooze键",
+              "翻身",
+              "半梦半醒",
+              "十分钟"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "habitual_action"
+          },
+          {
+            "core_fact": "我听见沙发吱呀吱呀地响。",
+            "must_contain": [
+              "听见",
+              "吱呀"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "sound_description"
+          },
+          {
+            "core_fact": "母亲从厨房探出头来看。",
+            "must_contain": [
+              "母亲",
+              "探出头"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "什么也没说，又缩回去了。",
+            "must_contain": [
+              "没说",
+              "缩回"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我在房间里写作业，笔尖沙沙声。",
+            "must_contain": [
+              "写作业",
+              "笔尖",
+              "沙沙"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "ambient"
+          },
+          {
+            "core_fact": "偶尔传来父母压低声音的争吵。",
+            "must_contain": [
+              "压低声音",
+              "争吵"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "dialogue_memory"
+          },
+          {
+            "core_fact": "沙发沉默地承受着一切。",
+            "must_contain": [
+              "沉默",
+              "承受"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "有一次母亲在沙发上哭。",
+            "must_contain": [
+              "母亲",
+              "哭"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "emotional_memory"
+          },
+          {
+            "core_fact": "我不知怎么安慰，就坐在她旁边。",
+            "must_contain": [
+              "不知",
+              "安慰",
+              "旁边"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "沙发垫子湿了一块。",
+            "must_contain": [
+              "垫子",
+              "湿"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "后来晾干了，留下一圈印子。",
+            "must_contain": [
+              "晾干",
+              "印子"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "observation"
+          },
+          {
+            "core_fact": "周末午后，一家人在沙发上看电视。",
+            "must_contain": [
+              "周末",
+              "一家人",
+              "看电视"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene"
+          },
+          {
+            "core_fact": "我挤在父母中间。",
+            "must_contain": [
+              "挤",
+              "中间"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "沙发很挤，但暖和。",
+            "must_contain": [
+              "挤",
+              "暖和"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "父亲的手搭在我肩上。",
+            "must_contain": [
+              "父亲",
+              "手",
+              "搭"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "physical_contact"
+          },
+          {
+            "core_fact": "我的腿麻了也不敢动。",
+            "must_contain": [
+              "腿麻",
+              "不敢动"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "茶几上放着瓜子壳和茶杯。",
+            "must_contain": [
+              "茶几",
+              "瓜子壳",
+              "茶杯"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "母亲磕瓜子的声音很轻。",
+            "must_contain": [
+              "磕瓜子",
+              "很轻"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "sound_description"
+          },
+          {
+            "core_fact": "茶几腿下垫着一块纸板。",
+            "must_contain": [
+              "茶几腿",
+              "纸板"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "detail"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "后来我上了大学，很少回家。",
+            "must_contain": [
+              "大学",
+              "很少回家"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "time_lapse"
+          },
+          {
+            "core_fact": "假期回来，沙发还在老地方。",
+            "must_contain": [
+              "假期",
+              "老地方"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "observation"
+          },
+          {
+            "core_fact": "它看起来更破了。",
+            "must_contain": [
+              "更破"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "observation"
+          },
+          {
+            "core_fact": "我坐上去，陷得更深。",
+            "must_contain": [
+              "坐",
+              "陷深"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "父母都有白发了。",
+            "must_contain": [
+              "白发"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "observation"
+          },
+          {
+            "core_fact": "他们还是坐在原来的位置。",
+            "must_contain": [
+              "原来",
+              "位置"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "habitual_action"
+          },
+          {
+            "core_fact": "聊天内容变成了我的工作和婚事。",
+            "must_contain": [
+              "聊天",
+              "工作",
+              "婚事"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "沙发听着，不再吱呀。",
+            "must_contain": [
+              "听着",
+              "不再",
+              "吱呀"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "personification"
+          },
+          {
+            "core_fact": "我靠在沙发扶手上，想起小时候。",
+            "must_contain": [
+              "靠",
+              "扶手",
+              "想起"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "memory"
+          },
+          {
+            "core_fact": "那时总觉得沙发很大。",
+            "must_contain": [
+              "那时",
+              "很大"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "现在却觉得它窄小了。",
+            "must_contain": [
+              "现在",
+              "窄小"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "contrast"
+          },
+          {
+            "core_fact": "我躺下试了试，脚伸了出去。",
+            "must_contain": [
+              "躺",
+              "脚",
+              "伸出"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "原来我已经长大了。",
+            "must_contain": [
+              "长大了"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "沙发却老了。",
+            "must_contain": [
+              "沙发",
+              "老了"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "父母决定搬家，买了新沙发。",
+            "must_contain": [
+              "搬家",
+              "新沙发"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "event"
+          },
+          {
+            "core_fact": "旧沙发没人要，只好留在老房子里。",
+            "must_contain": [
+              "旧沙发",
+              "留在",
+              "老房子"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "搬家那天，我最后看了它一眼。",
+            "must_contain": [
+              "搬家",
+              "最后",
+              "一眼"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "它孤零零地靠在墙角。",
+            "must_contain": [
+              "孤零零",
+              "墙角"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "visual_detail"
+          },
+          {
+            "core_fact": "阳光从窗子斜照进来。",
+            "must_contain": [
+              "阳光",
+              "窗子",
+              "斜照"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "ambient"
+          },
+          {
+            "core_fact": "灰尘在空气中飘。",
+            "must_contain": [
+              "灰尘",
+              "飘"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "visual_detail"
+          },
+          {
+            "core_fact": "我关上门，走了。",
+            "must_contain": [
+              "关上门",
+              "走了"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "几年后我回去看过一次。",
+            "must_contain": [
+              "回去",
+              "看过"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老房子已经空了。",
+            "must_contain": [
+              "房子",
+              "空"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "沙发还在那里。",
+            "must_contain": [
+              "沙发",
+              "还在"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "observation"
+          },
+          {
+            "core_fact": "它变得很脏，满是蛛网。",
+            "must_contain": [
+              "脏",
+              "蛛网"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "visual_detail"
+          },
+          {
+            "core_fact": "我伸手摸了摸扶手。",
+            "must_contain": [
+              "伸手",
+              "摸",
+              "扶手"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "灰尘簌簌落下。",
+            "must_contain": [
+              "灰尘",
+              "簌簌"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "sensory_detail"
+          },
+          {
+            "core_fact": "我坐下去，它已经塌了。",
+            "must_contain": [
+              "坐",
+              "塌"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "弹簧刺穿了坐垫。",
+            "must_contain": [
+              "弹簧",
+              "刺穿",
+              "坐垫"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "detail"
+          },
+          {
+            "core_fact": "我站起来，拍了拍灰。",
+            "must_contain": [
+              "站起来",
+              "拍灰"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "转身时，看见沙发上有一个凹陷。",
+            "must_contain": [
+              "转身",
+              "凹陷"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "visual_detail"
+          },
+          {
+            "core_fact": "是父母坐了几十年的位置。",
+            "must_contain": [
+              "父母",
+              "几十年",
+              "位置"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "凹陷还在，人已经不住这里了。",
+            "must_contain": [
+              "凹陷",
+              "还在",
+              "不住"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_162654"
+}

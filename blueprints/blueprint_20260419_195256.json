@@ -1,0 +1,568 @@
+{
+  "user_input": {
+    "topic": "老一辈的人的艰苦奋斗的故事给了我启发，并且在某件事上激励了我，你需要具体编出来这个故事，同时串联前面说的老一辈故事",
+    "emotion": "敬佩、震撼、感动、鼓舞人心、温暖、迷茫、低谷",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "爷爷的旧锄头与我的新起点",
+    "overall_emotional_baseline": 0.6,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "id": "s1_1",
+            "core_fact": "我整理旧物时发现爷爷的旧锄头",
+            "must_contain": [
+              "爷爷",
+              "旧锄头",
+              "整理",
+              "发现"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_2",
+            "core_fact": "锄头手柄光滑，布满岁月痕迹",
+            "must_contain": [
+              "手柄",
+              "光滑",
+              "岁月",
+              "痕迹"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_3",
+            "core_fact": "我回忆起爷爷曾用它开垦荒地",
+            "must_contain": [
+              "回忆",
+              "爷爷",
+              "开垦",
+              "荒地"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s1_4",
+            "core_fact": "妈妈讲述爷爷年轻时奋斗的故事",
+            "must_contain": [
+              "妈妈",
+              "讲述",
+              "爷爷",
+              "奋斗",
+              "故事"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s1_5",
+            "core_fact": "爷爷在艰苦年代养活一家人",
+            "must_contain": [
+              "艰苦",
+              "年代",
+              "养活",
+              "一家人"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s1_6",
+            "core_fact": "我心中涌起敬佩之情",
+            "must_contain": [
+              "心中",
+              "涌起",
+              "敬佩",
+              "之情"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s1_7",
+            "core_fact": "旧锄头象征老一辈的坚韧",
+            "must_contain": [
+              "旧锄头",
+              "象征",
+              "老一辈",
+              "坚韧"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s1_8",
+            "core_fact": "我决定保留这件传家宝",
+            "must_contain": [
+              "决定",
+              "保留",
+              "传家宝"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 400,
+        "sentences": [
+          {
+            "id": "s2_1",
+            "core_fact": "我面临工作上的巨大挑战",
+            "must_contain": [
+              "面临",
+              "工作",
+              "巨大",
+              "挑战"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_2",
+            "core_fact": "项目进展缓慢，团队士气低落",
+            "must_contain": [
+              "项目",
+              "进展",
+              "缓慢",
+              "团队",
+              "士气"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_3",
+            "core_fact": "我感到迷茫和焦虑",
+            "must_contain": [
+              "感到",
+              "迷茫",
+              "焦虑"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "id": "s2_4",
+            "core_fact": "深夜加班时想起爷爷的故事",
+            "must_contain": [
+              "深夜",
+              "加班",
+              "想起",
+              "爷爷",
+              "故事"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_5",
+            "core_fact": "爷爷在暴雨中坚持劳作",
+            "must_contain": [
+              "爷爷",
+              "暴雨",
+              "坚持",
+              "劳作"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_6",
+            "core_fact": "他常说困难是暂时的",
+            "must_contain": [
+              "常说",
+              "困难",
+              "暂时"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "s2_7",
+            "core_fact": "我对比自己的处境",
+            "must_contain": [
+              "对比",
+              "自己",
+              "处境"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_8",
+            "core_fact": "爷爷的坚韧让我羞愧",
+            "must_contain": [
+              "爷爷",
+              "坚韧",
+              "羞愧"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_9",
+            "core_fact": "我决定重新振作",
+            "must_contain": [
+              "决定",
+              "重新",
+              "振作"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_10",
+            "core_fact": "制定新的工作计划",
+            "must_contain": [
+              "制定",
+              "新的",
+              "工作计划"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_11",
+            "core_fact": "团队会议中分享爷爷的故事",
+            "must_contain": [
+              "团队",
+              "会议",
+              "分享",
+              "爷爷",
+              "故事"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_12",
+            "core_fact": "同事们被老一辈精神感动",
+            "must_contain": [
+              "同事们",
+              "老一辈",
+              "精神",
+              "感动"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_13",
+            "core_fact": "我们共同克服技术难题",
+            "must_contain": [
+              "共同",
+              "克服",
+              "技术",
+              "难题"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_14",
+            "core_fact": "项目逐渐有了起色",
+            "must_contain": [
+              "项目",
+              "逐渐",
+              "起色"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_15",
+            "core_fact": "爷爷的榜样力量显现",
+            "must_contain": [
+              "爷爷",
+              "榜样",
+              "力量",
+              "显现"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_16",
+            "core_fact": "我每天以更积极态度工作",
+            "must_contain": [
+              "每天",
+              "积极",
+              "态度",
+              "工作"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_17",
+            "core_fact": "旧锄头成为我的精神寄托",
+            "must_contain": [
+              "旧锄头",
+              "精神",
+              "寄托"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s2_18",
+            "core_fact": "团队凝聚力大大增强",
+            "must_contain": [
+              "团队",
+              "凝聚力",
+              "增强"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_19",
+            "core_fact": "我们提前完成项目阶段",
+            "must_contain": [
+              "提前",
+              "完成",
+              "项目",
+              "阶段"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_20",
+            "core_fact": "庆祝会上大家欢声笑语",
+            "must_contain": [
+              "庆祝会",
+              "欢声笑语"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "scene_setting"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "climax",
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "id": "s3_1",
+            "core_fact": "老板在庆功宴上表扬团队",
+            "must_contain": [
+              "老板",
+              "庆功宴",
+              "表扬",
+              "团队"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action",
+            "atmosphere_hint": "dialogue_and_reaction"
+          },
+          {
+            "id": "s3_2",
+            "core_fact": "他特别提到我的领导力",
+            "must_contain": [
+              "特别",
+              "提到",
+              "领导力"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "action",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_3",
+            "core_fact": "我站起来分享爷爷的故事",
+            "must_contain": [
+              "站起来",
+              "分享",
+              "爷爷",
+              "故事"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action",
+            "atmosphere_hint": "third_person_glimpse"
+          },
+          {
+            "id": "s3_4",
+            "core_fact": "讲述旧锄头如何激励我",
+            "must_contain": [
+              "讲述",
+              "旧锄头",
+              "激励"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "dialogue",
+            "atmosphere_hint": "dialogue_and_reaction"
+          },
+          {
+            "id": "s3_5",
+            "core_fact": "全场响起热烈掌声",
+            "must_contain": [
+              "全场",
+              "响起",
+              "热烈",
+              "掌声"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "s3_6",
+            "core_fact": "老板感动得眼眶湿润",
+            "must_contain": [
+              "老板",
+              "感动",
+              "眼眶",
+              "湿润"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "third_person_glimpse"
+          },
+          {
+            "id": "s3_7",
+            "core_fact": "他说老一辈精神值得传承",
+            "must_contain": [
+              "老一辈",
+              "精神",
+              "值得",
+              "传承"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "dialogue",
+            "atmosphere_hint": "dialogue_and_reaction"
+          },
+          {
+            "id": "s3_8",
+            "core_fact": "我心中充满震撼和温暖",
+            "must_contain": [
+              "心中",
+              "充满",
+              "震撼",
+              "温暖"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "inner_thought",
+            "psychological_hint": "exclamation"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "closing",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "id": "s4_1",
+            "core_fact": "庆功宴后我独自回家",
+            "must_contain": [
+              "庆功宴",
+              "独自",
+              "回家"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s4_2",
+            "core_fact": "月光下再次抚摸旧锄头",
+            "must_contain": [
+              "月光",
+              "抚摸",
+              "旧锄头"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_3",
+            "core_fact": "感觉与爷爷心灵相通",
+            "must_contain": [
+              "感觉",
+              "爷爷",
+              "心灵",
+              "相通"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s4_4",
+            "core_fact": "他的奋斗精神永存我心",
+            "must_contain": [
+              "奋斗",
+              "精神",
+              "永存",
+              "我心"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_5",
+            "core_fact": "我明白传承的真正意义",
+            "must_contain": [
+              "明白",
+              "传承",
+              "真正",
+              "意义"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_6",
+            "core_fact": "未来将以更坚定步伐前行",
+            "must_contain": [
+              "未来",
+              "坚定",
+              "步伐",
+              "前行"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_7",
+            "core_fact": "旧锄头不仅是工具，更是灯塔",
+            "must_contain": [
+              "旧锄头",
+              "不仅",
+              "工具",
+              "灯塔"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_8",
+            "core_fact": "感谢爷爷用一生教会我坚韧",
+            "must_contain": [
+              "感谢",
+              "爷爷",
+              "一生",
+              "教会",
+              "坚韧"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260419_195256"
+}

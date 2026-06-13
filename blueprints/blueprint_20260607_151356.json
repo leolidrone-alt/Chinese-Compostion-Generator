@@ -1,0 +1,1141 @@
+{
+  "user_input": {
+    "topic": "词语是表达思想情感的载体，也是展现社会生活变化的窗口。当前，世界之变化、时代之变革、历史之变正以前所未有的方式展开。青少年是日日新的，在你的18岁之前的成长过程中，你对哪一个词语的理解发生了变化？这变化有你成长的印记，对你有特殊的意义……以上材料引发了你怎样的联想和思考？请写一篇文章。",
+    "emotion": "中性",
+    "target_words": 1300
+  },
+  "blueprint": {
+    "title": "老钟的时针",
+    "emotional_baseline": 0.1,
+    "paragraphs": [
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "我家客厅墙上挂着一座老钟，是爷爷留下的。",
+            "must_contain": [
+              "老钟",
+              "爷爷",
+              "客厅"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "木壳漆色斑驳，钟摆左右摇晃，发出沉稳的声响。",
+            "must_contain": [
+              "木壳",
+              "钟摆",
+              "沉稳"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "小时候，我不知道什么是责任，只觉得老钟很有趣。",
+            "must_contain": [
+              "小时候",
+              "责任",
+              "有趣"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我常搬凳子站上去，拨弄那枚铜色分针。",
+            "must_contain": [
+              "凳子",
+              "分针",
+              "拨弄"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "母亲说，爷爷每天都给老钟上弦，从不间断。",
+            "must_contain": [
+              "母亲",
+              "上弦",
+              "从不间断"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我那时觉得责任就是像老钟一样，滴滴答答走个不停。",
+            "must_contain": [
+              "责任",
+              "滴滴答答",
+              "走个不停"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "这想法单纯而天真，没有压力，只有好奇。",
+            "must_contain": [
+              "单纯",
+              "天真",
+              "好奇"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我甚至学着爷爷的样子，踮脚给老钟上发条。",
+            "must_contain": [
+              "学着",
+              "上发条",
+              "踮脚"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "老钟的指针转了一圈又一圈，我的童年也随之流逝。",
+            "must_contain": [
+              "指针",
+              "一圈",
+              "童年"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "那时的我，并未真正理解责任的重量。",
+            "must_contain": [
+              "理解",
+              "责任",
+              "重量"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我只是单纯地喜欢老钟的韵律。",
+            "must_contain": [
+              "喜欢",
+              "老钟",
+              "韵律"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它像一首古老的歌谣，伴我入眠。",
+            "must_contain": [
+              "古老",
+              "歌谣",
+              "入眠"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "上了小学，作业和考试渐渐多了起来。",
+            "must_contain": [
+              "小学",
+              "作业",
+              "考试"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我开始觉得，责任是必须完成的任务，让人喘不过气。",
+            "must_contain": [
+              "责任",
+              "任务",
+              "喘不过气"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "core_fact": "每天放学后，我坐在书桌前，听着老钟的嘀嗒声，心烦意乱。",
+            "must_contain": [
+              "放学",
+              "书桌",
+              "嘀嗒声"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我觉得老钟就像监工，时刻提醒我时间流逝。",
+            "must_contain": [
+              "监工",
+              "提醒",
+              "时间流逝"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "一次我没完成作业，被老师批评。",
+            "must_contain": [
+              "没完成",
+              "作业",
+              "批评"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "回家后，我对着老钟哭了一通，觉得它在小声嘲笑我。",
+            "must_contain": [
+              "对着",
+              "老钟",
+              "嘲笑"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "母亲说，责任不是负担，而是成长的条件。",
+            "must_contain": [
+              "母亲",
+              "负担",
+              "成长"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "可我听不进去，只觉得世界灰蒙蒙一片。",
+            "must_contain": [
+              "听不进去",
+              "世界",
+              "灰蒙蒙"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "老钟依旧不紧不慢地走，仿佛在嘲笑我的急躁。",
+            "must_contain": [
+              "不紧不慢",
+              "嘲笑",
+              "急躁"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我开始厌恶责任这个词，连带讨厌老钟。",
+            "must_contain": [
+              "厌恶",
+              "责任",
+              "讨厌"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "我甚至用被子蒙住头，逃避那嘀嗒声。",
+            "must_contain": [
+              "被子",
+              "蒙住",
+              "逃避"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "那段时间，我成绩下滑，情绪低落。",
+            "must_contain": [
+              "成绩",
+              "下滑",
+              "情绪低落"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "narrative"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "升入初中，我开始观察父亲。",
+            "must_contain": [
+              "初中",
+              "观察",
+              "父亲"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他每天早晚，都会准时给老钟上弦。",
+            "must_contain": [
+              "早晚",
+              "准时",
+              "上弦"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他的动作轻柔而专注，像对待一件珍宝。",
+            "must_contain": [
+              "轻柔",
+              "专注",
+              "珍宝"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我问父亲，为什么坚持做这件单调的事？",
+            "must_contain": [
+              "父亲",
+              "坚持",
+              "单调"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "父亲说，这是爷爷传下来的责任，不能断。",
+            "must_contain": [
+              "传下来",
+              "责任",
+              "不能断"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "那一刻，我忽然觉得责任也有温度。",
+            "must_contain": [
+              "责任",
+              "温度",
+              "那一刻"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟在父亲手中，仿佛有了生命。",
+            "must_contain": [
+              "手中",
+              "生命",
+              "老钟"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "它不再只是计时器，而是一种守护。",
+            "must_contain": [
+              "计时器",
+              "守护",
+              "不再"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我开始反思自己对责任的态度。",
+            "must_contain": [
+              "反思",
+              "态度",
+              "责任"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "也许责任不是枷锁，而是连接过去的绳索。",
+            "must_contain": [
+              "枷锁",
+              "连接",
+              "绳索"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我试着像父亲一样，每天凝视老钟的指针。",
+            "must_contain": [
+              "试着",
+              "凝视",
+              "指针"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "心里那份厌恶，慢慢淡了些。",
+            "must_contain": [
+              "厌恶",
+              "慢慢",
+              "淡了"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narrative"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "初三那年，我面临中考，压力巨大。",
+            "must_contain": [
+              "初三",
+              "中考",
+              "压力"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我总想逃避复习，躲在房间里发呆。",
+            "must_contain": [
+              "逃避",
+              "复习",
+              "发呆"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "老钟的嘀嗒声变得刺耳，像在催促。",
+            "must_contain": [
+              "刺耳",
+              "催促",
+              "嘀嗒"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "我开始责怪父亲为什么要坚持上弦，让这声音不消失。",
+            "must_contain": [
+              "责怪",
+              "上弦",
+              "消失"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "一次模拟考失利后，我摔门跑出家门。",
+            "must_contain": [
+              "模拟考",
+              "失利",
+              "摔门"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "回到家，老钟依然在走，不因我的愤怒改变。",
+            "must_contain": [
+              "依然",
+              "走",
+              "愤怒"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我恨它的冷漠，也恨自己的软弱。",
+            "must_contain": [
+              "恨",
+              "冷漠",
+              "软弱"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "中考成绩出来，我离重点线差三分。",
+            "must_contain": [
+              "中考",
+              "成绩",
+              "差三分"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "那天晚上，我第一次见父亲叹气。",
+            "must_contain": [
+              "第一次",
+              "父亲",
+              "叹气"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "他默默走老钟前，上紧了发条。",
+            "must_contain": [
+              "默默",
+              "上紧",
+              "发条"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "没有说一句话，但那双有些粗糙的手，让我心头一颤。",
+            "must_contain": [
+              "一句话",
+              "粗糙",
+              "手",
+              "一颤"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我意识到逃避责任的代价。",
+            "must_contain": [
+              "逃避",
+              "代价",
+              "责任"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "高中，我竞选了班长，想改变自己。",
+            "must_contain": [
+              "高中",
+              "班长",
+              "改变"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "起初，我满怀热情，组织活动，管理纪律。",
+            "must_contain": [
+              "热情",
+              "组织",
+              "管理"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "同学们开始信任我，我感受到了责任的甜蜜。",
+            "must_contain": [
+              "信任",
+              "责任",
+              "甜蜜"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "老钟的嘀嗒声，听来竟有节奏感，像心跳。",
+            "must_contain": [
+              "节奏感",
+              "心跳",
+              "老钟"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我甚至觉得，我和老钟一样，在精准地运行。",
+            "must_contain": [
+              "精准",
+              "运行",
+              "一样"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "有一次，我因为公正处理矛盾，得到老师表扬。",
+            "must_contain": [
+              "公正",
+              "矛盾",
+              "表扬"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "回家后，我对着老钟笑了笑，觉得它也在为我开心。",
+            "must_contain": [
+              "对着",
+              "笑了笑",
+              "开心"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "那是久违的成就感。",
+            "must_contain": [
+              "久违",
+              "成就感"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我开始主动给老钟擦灰，像父亲一样细心。",
+            "must_contain": [
+              "主动",
+              "擦灰",
+              "细心"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "母亲说，你长大了。",
+            "must_contain": [
+              "母亲",
+              "长大"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我想，对责任的主动承担，就是成长吧。",
+            "must_contain": [
+              "主动承担",
+              "成长",
+              "责任"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "老钟见证着我的转变。",
+            "must_contain": [
+              "见证",
+              "转变"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "高三，学业和班级工作压得我喘不过气。",
+            "must_contain": [
+              "高三",
+              "班级",
+              "喘不过气"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "一次大考前，我因为筹备活动熬夜，第二天考试状态极差。",
+            "must_contain": [
+              "大考",
+              "熬夜",
+              "状态极差"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我开始怀疑，自己的责任是不是太多太重。",
+            "must_contain": [
+              "怀疑",
+              "太多",
+              "太重"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "我想辞去班长职务，退回舒适区。",
+            "must_contain": [
+              "辞去",
+              "班长",
+              "退回"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那天晚上，我独自坐在客厅，看着老钟发呆。",
+            "must_contain": [
+              "独自",
+              "客厅",
+              "发呆"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "老钟的秒针仍在坚定地走，不因任何事停歇。",
+            "must_contain": [
+              "秒针",
+              "坚定",
+              "停歇"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我突然想通，责任不是一次性的冲动，是持续地坚持。",
+            "must_contain": [
+              "想通",
+              "一次性",
+              "坚持"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "就像父亲每天上弦，风雨无阻。",
+            "must_contain": [
+              "每天",
+              "上弦",
+              "风雨无阻"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我放弃辞职的念头，重新振作。",
+            "must_contain": [
+              "放弃",
+              "辞职",
+              "振作"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我调整时间表，把学习放在首位，同时兼顾班级事务。",
+            "must_contain": [
+              "调整",
+              "学习",
+              "兼顾"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "高考前的夜晚，我最后一次给老钟上弦。",
+            "must_contain": [
+              "高考前",
+              "最后一次",
+              "上弦"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "手感温润，仿佛握住了爷爷的传承。",
+            "must_contain": [
+              "温润",
+              "握住",
+              "传承"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "高考结束，我考上了理想的大学。",
+            "must_contain": [
+              "高考",
+              "理想",
+              "大学"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "拿到录取通知书那天，我对着老钟深深鞠躬。",
+            "must_contain": [
+              "录取通知书",
+              "鞠躬",
+              "老钟"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "它陪伴了我整个青春，见证了我对责任认知的蜕变。",
+            "must_contain": [
+              "陪伴",
+              "青春",
+              "蜕变"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我明白，责任不是束缚，而是让人踏实的力量。",
+            "must_contain": [
+              "束缚",
+              "踏实",
+              "力量"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "就像老钟，每一秒都在完成自己的使命。",
+            "must_contain": [
+              "每一秒",
+              "完成",
+              "使命"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "临行前，我把老钟交给弟弟，让他照看。",
+            "must_contain": [
+              "临行",
+              "弟弟",
+              "照看"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "我告诉他，每天给老钟上弦，这是我们的家风。",
+            "must_contain": [
+              "告诉",
+              "上弦",
+              "家风"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "弟弟郑重地点头，像当年的我一样好奇。",
+            "must_contain": [
+              "郑重",
+              "点头",
+              "好奇"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但我知道，他会慢慢理解其中的深意。",
+            "must_contain": [
+              "慢慢",
+              "理解",
+              "深意"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "老钟还会继续走，穿过一代又一代。",
+            "must_contain": [
+              "继续走",
+              "一代",
+              "一代"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "责任像时针，永远在循环，却指向不同的刻度。",
+            "must_contain": [
+              "责任",
+              "时针",
+              "循环",
+              "刻度"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我带着这份领悟，走向新的天地。",
+            "must_contain": [
+              "领悟",
+              "走向",
+              "天地"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "narrative"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "如今，我大一了，宿舍里没有老钟。",
+            "must_contain": [
+              "大一",
+              "宿舍",
+              "没有老钟"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "但每到整点，我耳边仿佛响起那熟悉的嘀嗒声。",
+            "must_contain": [
+              "整点",
+              "耳边",
+              "嘀嗒声"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "atmosphere"
+          },
+          {
+            "core_fact": "它提醒我，有些事必须主动承担。",
+            "must_contain": [
+              "提醒",
+              "主动承担"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "我每周给弟弟打电话，问他上弦了没。",
+            "must_contain": [
+              "每周",
+              "电话",
+              "上弦"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "弟弟说，老钟走得依然很准。",
+            "must_contain": [
+              "弟弟",
+              "老钟",
+              "很准"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "我知道，那不仅是时间的准确，更是一种精神的延续。",
+            "must_contain": [
+              "时间",
+              "准确",
+              "精神",
+              "延续"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "责任从一件具体的事，变成了一种抽象的信念。",
+            "must_contain": [
+              "具体",
+              "抽象",
+              "信念"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "它不再让我害怕，反而让我坚定。",
+            "must_contain": [
+              "害怕",
+              "坚定",
+              "责任"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我想起爷爷，他可能也曾在某个夜晚，听着老钟思考人生。",
+            "must_contain": [
+              "爷爷",
+              "夜晚",
+              "思考"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "而父亲，用三十年的上弦教会了我坚持。",
+            "must_contain": [
+              "父亲",
+              "三十年",
+              "坚持"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "老钟成了我心中一个符号，关于传承与担当。",
+            "must_contain": [
+              "符号",
+              "传承",
+              "担当"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "未来的路很长，但我不再迷茫。",
+            "must_contain": [
+              "未来",
+              "路",
+              "不再迷茫"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "core_fact": "回到文章开头，词语“责任”在我心中彻底改写了。",
+            "must_contain": [
+              "词语",
+              "责任",
+              "改写"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "从最初的懵懂好奇，到厌弃逃避，再到接纳升华。",
+            "must_contain": [
+              "懵懂",
+              "厌弃",
+              "接纳"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "这变化里，有我的泪水、汗水和笑容。",
+            "must_contain": [
+              "变化",
+              "泪水",
+              "汗水",
+              "笑容"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "而那座老钟，始终沉默地记下了一切。",
+            "must_contain": [
+              "老钟",
+              "沉默",
+              "记下"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "narrative"
+          },
+          {
+            "core_fact": "它见证了18岁之前的我，如何一步步理解责任。",
+            "must_contain": [
+              "见证",
+              "18岁",
+              "理解"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "如今，责任于我，是主动的、温暖的、有根的生长。",
+            "must_contain": [
+              "主动",
+              "温暖",
+              "有根"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "像老钟的钟摆，左右摆动却始终围绕着中心。",
+            "must_contain": [
+              "钟摆",
+              "左右",
+              "中心"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "这个中心，就是家与传承。",
+            "must_contain": [
+              "中心",
+              "家",
+              "传承"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我相信，当弟弟长大，他会明白我今天所说的一切。",
+            "must_contain": [
+              "弟弟",
+              "长大",
+              "明白"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "老钟会继续，责任也会继续。",
+            "must_contain": [
+              "继续",
+              "责任",
+              "老钟"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "每一个青少年，都会在某个事物上找到成长的印记。",
+            "must_contain": [
+              "青少年",
+              "事物",
+              "成长印记"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "我的印记，就是那座嘀嗒作响的老钟。",
+            "must_contain": [
+              "印记",
+              "老钟",
+              "嘀嗒"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_151356"
+}

@@ -1,0 +1,1219 @@
+{
+  "user_input": {
+    "topic": "写一篇文章讽刺一个只在乎蝇头小利不在乎大局的人",
+    "emotion": "中性",
+    "target_words": 1200
+  },
+  "blueprint": {
+    "title": "一杆旧秤",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 200,
+        "number_of_sentences": 18,
+        "sentences": [
+          {
+            "core_fact": "旧秤挂在店墙上的铁钩上，被磨得发亮。",
+            "must_contain": [
+              "旧秤",
+              "店墙",
+              "铁钩",
+              "磨亮"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "王老五从父亲手里接过这杆秤，至今已有三十年。",
+            "must_contain": [
+              "王老五",
+              "父亲",
+              "接过",
+              "三十年"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他每天用它称菜，觉得这是世上最准的器具。",
+            "must_contain": [
+              "称菜",
+              "最准",
+              "器具"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "秤杆上的星花他闭着眼也能数清。",
+            "must_contain": [
+              "星花",
+              "闭着眼",
+              "数清"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "为了多赚几毛钱，他总把秤砣悄悄往右拨。",
+            "must_contain": [
+              "多赚",
+              "几毛",
+              "秤砣",
+              "右拨"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "顾客少了一两，他也不在乎，反正没人发现。",
+            "must_contain": [
+              "顾客",
+              "少一两",
+              "不在乎",
+              "发现"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "街对面的超市开业了，大喇叭放着优惠。",
+            "must_contain": [
+              "超市",
+              "开业",
+              "大喇叭",
+              "优惠"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他瞥了一眼，心想都是骗人的把戏。",
+            "must_contain": [
+              "瞥一眼",
+              "骗人",
+              "把戏"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他的菜摊前依然冷清，但秤上每天多出的几钱让他满足。",
+            "must_contain": [
+              "菜摊",
+              "冷清",
+              "多出",
+              "几钱",
+              "满足"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他从不考虑为什么老顾客越来越少。",
+            "must_contain": [
+              "从不考虑",
+              "老顾客",
+              "越来越少"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "妻子劝他换电子秤，他一口拒绝。",
+            "must_contain": [
+              "妻子",
+              "劝",
+              "电子秤",
+              "拒绝"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他说电子秤有电费，不如旧秤划算。",
+            "must_contain": [
+              "电子秤",
+              "电费",
+              "旧秤",
+              "划算"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "秤杆上的漆掉了大半，他拿黑漆补上。",
+            "must_contain": [
+              "漆掉",
+              "黑漆",
+              "补上"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "每次补完，他都会对着光亮仔细看。",
+            "must_contain": [
+              "补完",
+              "光亮",
+              "仔细看"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他相信这杆秤会传给他的儿子。",
+            "must_contain": [
+              "相信",
+              "传",
+              "儿子"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "孩子们都不愿学他卖菜，觉得没出息。",
+            "must_contain": [
+              "孩子",
+              "不愿学",
+              "卖菜",
+              "没出息"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他摇摇头，继续摆弄他的旧秤。",
+            "must_contain": [
+              "摇摇头",
+              "继续",
+              "摆弄",
+              "旧秤"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "秤砣在风里微微晃动，影子落在水泥地上。",
+            "must_contain": [
+              "秤砣",
+              "风里",
+              "晃动",
+              "影子",
+              "水泥地"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "number_of_sentences": 38,
+        "sentences": [
+          {
+            "core_fact": "清晨五点，他准时打开店门。",
+            "must_contain": [
+              "清晨",
+              "五点",
+              "准时",
+              "开门"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他把蔬菜一捆捆摆好，水珠还在叶子上。",
+            "must_contain": [
+              "蔬菜",
+              "捆捆",
+              "摆好",
+              "水珠",
+              "叶子"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他拿起旧秤，先自己试称一把葱。",
+            "must_contain": [
+              "旧秤",
+              "试称",
+              "一把葱"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "看到指针准准地指着一斤，他满意地点头。",
+            "must_contain": [
+              "指针",
+              "一斤",
+              "满意",
+              "点头"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "一个老太婆来买白菜，他特意多压了一点秤砣。",
+            "must_contain": [
+              "老太婆",
+              "白菜",
+              "多压",
+              "秤砣"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "老太婆没察觉，付了钱走了。",
+            "must_contain": [
+              "老太婆",
+              "察觉",
+              "付钱",
+              "走了"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他迅速把那两根葱塞进自己口袋。",
+            "must_contain": [
+              "迅速",
+              "两根葱",
+              "塞进",
+              "口袋"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "这样一天下来，他能多出三块钱。",
+            "must_contain": [
+              "一天下来",
+              "多出",
+              "三块钱"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "中午人流少了，他坐在小凳上数硬币。",
+            "must_contain": [
+              "中午",
+              "人流少",
+              "小凳",
+              "数硬币"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "硬币叮当作响，他听得很舒服。",
+            "must_contain": [
+              "硬币",
+              "叮当",
+              "作响",
+              "舒服"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "隔壁卖鱼的告诉他，现在流行扫码支付。",
+            "must_contain": [
+              "隔壁",
+              "卖鱼",
+              "流行",
+              "扫码支付"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他哼了一声，说现金才真实。",
+            "must_contain": [
+              "哼一声",
+              "现金",
+              "真实"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "下午来了一辆货车，卸下新鲜蔬菜。",
+            "must_contain": [
+              "下午",
+              "货车",
+              "新鲜蔬菜"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他仔细检查每一把，发现有一捆有虫眼。",
+            "must_contain": [
+              "仔细检查",
+              "每一把",
+              "一捆",
+              "虫眼"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他和送货人吵了一架，少付了五毛钱。",
+            "must_contain": [
+              "送货人",
+              "吵架",
+              "少付",
+              "五毛"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他得意地把那捆菜单独放，准备明天卖给不识货的。",
+            "must_contain": [
+              "得意",
+              "单独放",
+              "明天",
+              "不识货"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "但他没注意，整筐菜里混进了烂叶。",
+            "must_contain": [
+              "没注意",
+              "混进",
+              "烂叶"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "傍晚，一个年轻女孩来买番茄。",
+            "must_contain": [
+              "傍晚",
+              "年轻女孩",
+              "番茄"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "她把番茄放在他旧秤上，秤杆翘得老高。",
+            "must_contain": [
+              "番茄",
+              "旧秤",
+              "秤杆",
+              "翘得老高"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他赶紧用手肘压下，说刚好一斤。",
+            "must_contain": [
+              "手肘",
+              "压下",
+              "刚好一斤"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "女孩疑惑地看了看，还是付了钱。",
+            "must_contain": [
+              "疑惑",
+              "看了看",
+              "付钱"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他目送她走远，嘴角露出不易察觉的笑。",
+            "must_contain": [
+              "目送",
+              "走远",
+              "嘴角",
+              "不易察觉",
+              "笑"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他又赚了几毛，觉得今天很不错。",
+            "must_contain": [
+              "又赚",
+              "几毛",
+              "今天",
+              "不错"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "这时儿子打来电话，说学校要买电脑。",
+            "must_contain": [
+              "儿子",
+              "电话",
+              "学校",
+              "买电脑"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他皱眉道，电脑有什么用，还不如买杆新秤。",
+            "must_contain": [
+              "皱眉",
+              "电脑",
+              "不如",
+              "新秤"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "儿子生气地挂了电话。",
+            "must_contain": [
+              "儿子",
+              "生气",
+              "挂了电话"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他心里有点不舒服，但很快忘了。",
+            "must_contain": [
+              "心里",
+              "不舒服",
+              "很快忘了"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他继续整理菜摊，把旧秤擦了又擦。",
+            "must_contain": [
+              "整理菜摊",
+              "旧秤",
+              "擦了又擦"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "秤杆上的星花已经被磨得模糊了。",
+            "must_contain": [
+              "星花",
+              "磨得",
+              "模糊"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他却觉得这样才够老，够准。",
+            "must_contain": [
+              "觉得",
+              "够老",
+              "够准"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "收摊时，他把今天的收入又数了一遍。",
+            "must_contain": [
+              "收摊",
+              "收入",
+              "数了一遍"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "总共一百二十三块四毛，比昨天多出六毛。",
+            "must_contain": [
+              "一百二十三",
+              "四毛",
+              "多出",
+              "六毛"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他满意地把钱放进铁盒，锁好。",
+            "must_contain": [
+              "满意",
+              "钱",
+              "铁盒",
+              "锁好"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他提着旧秤回家，街上霓虹灯已经亮起。",
+            "must_contain": [
+              "提着旧秤",
+              "回家",
+              "霓虹灯",
+              "亮起"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "路过超市，他看到里面人头攒动。",
+            "must_contain": [
+              "路过",
+              "超市",
+              "人头攒动"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他心想，热闹有什么用，一斤菜贵两毛。",
+            "must_contain": [
+              "心想",
+              "热闹",
+              "一斤菜",
+              "贵两毛"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他回到家中，把旧秤挂在床头。",
+            "must_contain": [
+              "家中",
+              "旧秤",
+              "挂在床头"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "月光照在秤杆上，泛着幽暗的光。",
+            "must_contain": [
+              "月光",
+              "秤杆",
+              "幽暗",
+              "光"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 400,
+        "number_of_sentences": 38,
+        "sentences": [
+          {
+            "core_fact": "这天来了一个客人，西装革履，要买五百斤白菜。",
+            "must_contain": [
+              "客人",
+              "西装革履",
+              "五百斤",
+              "白菜"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "王老五心里一喜，但又立刻盘算起来。",
+            "must_contain": [
+              "王老五",
+              "一喜",
+              "盘算"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他问客人价格，客人说按市场价。",
+            "must_contain": [
+              "价格",
+              "客人",
+              "市场价"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他报价一块二一斤，客人没还价。",
+            "must_contain": [
+              "报价",
+              "一块二",
+              "一斤",
+              "没还价"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他开始用旧秤称菜，第一捆成色很好。",
+            "must_contain": [
+              "旧秤",
+              "称菜",
+              "第一捆",
+              "成色好"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "但称到一半，他发现秤砣有些松动。",
+            "must_contain": [
+              "一半",
+              "秤砣",
+              "松动"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他暗自调整，但客人眼尖，看到了。",
+            "must_contain": [
+              "暗自调整",
+              "客人",
+              "眼尖",
+              "看到"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "客人说，你这秤不准吧？",
+            "must_contain": [
+              "客人",
+              "秤不准"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他连忙赔笑，说这是老秤，最准的。",
+            "must_contain": [
+              "赔笑",
+              "老秤",
+              "最准"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "客人不信，拿出手机上的电子秤称了一下。",
+            "must_contain": [
+              "客人",
+              "不信",
+              "手机",
+              "电子秤"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "果然，少了三两。",
+            "must_contain": [
+              "果",
+              "少",
+              "三两"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他脸色煞白，坚持说旧秤没问题。",
+            "must_contain": [
+              "脸色煞白",
+              "坚持",
+              "旧秤",
+              "没问题"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "客人皱起眉头，说我原以为你老实。",
+            "must_contain": [
+              "客人",
+              "皱眉",
+              "原以为",
+              "老实"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他急了，说可以少收一点钱。",
+            "must_contain": [
+              "急了",
+              "少收",
+              "一点钱"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "客人生气地说，不是钱的问题！",
+            "must_contain": [
+              "生气",
+              "不是钱",
+              "问题"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "然后客人就走了，连影子都不剩。",
+            "must_contain": [
+              "走了",
+              "影子",
+              "不剩"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他愣在原地，手里还握着那杆旧秤。",
+            "must_contain": [
+              "愣住",
+              "手里",
+              "握着",
+              "旧秤"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他看看秤，又看看远去的背影，心里发空。",
+            "must_contain": [
+              "看看秤",
+              "背影",
+              "心里发空"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他把秤重重摔在桌上，发出巨响。",
+            "must_contain": [
+              "重重摔",
+              "桌上",
+              "巨响"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "秤杆弹了一下，滚到地上。",
+            "must_contain": [
+              "秤杆",
+              "弹",
+              "滚到地上"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他捡起来，发现秤纽断了。",
+            "must_contain": [
+              "捡起",
+              "秤纽",
+              "断了"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他急得满头大汗，试图用铁丝绑住。",
+            "must_contain": [
+              "急",
+              "满头大汗",
+              "铁丝",
+              "绑住"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "但怎么都绑不紧，秤砣来回滑。",
+            "must_contain": [
+              "绑不紧",
+              "秤砣",
+              "来回滑"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他颓然坐下，看着坏掉的秤。",
+            "must_contain": [
+              "颓然",
+              "坐下",
+              "坏掉",
+              "秤"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "这时儿子回来了，看到他的样子。",
+            "must_contain": [
+              "儿子",
+              "回来",
+              "看到"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "儿子说，爸，早就该换新秤了。",
+            "must_contain": [
+              "儿子",
+              "早就",
+              "换新秤"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他吼道，这秤跟了我一辈子！",
+            "must_contain": [
+              "吼道",
+              "跟了",
+              "一辈子"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "儿子不再说话，转身走了。",
+            "must_contain": [
+              "不再说话",
+              "转身",
+              "走了"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他独自对着旧秤，眼泪滑下来。",
+            "must_contain": [
+              "独自",
+              "旧秤",
+              "眼泪",
+              "滑下"
+            ],
+            "sentiment": -0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "他想起父亲传秤时的话：诚实为本。",
+            "must_contain": [
+              "想起",
+              "父亲",
+              "传秤",
+              "诚实为本"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "但他为了蝇头小利，早忘了。",
+            "must_contain": [
+              "蝇头小利",
+              "忘了"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他慢慢拿起旧秤，试图最后一次用它。",
+            "must_contain": [
+              "慢慢",
+              "拿起",
+              "旧秤",
+              "最后一次"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "但秤已经坏了，指针一动不动。",
+            "must_contain": [
+              "坏了",
+              "指针",
+              "一动不动"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他苦笑，把秤放回盒子里。",
+            "must_contain": [
+              "苦笑",
+              "放回",
+              "盒子"
+            ],
+            "sentiment": -0.8,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "关上盒盖，就像关上了自己的执着。",
+            "must_contain": [
+              "关",
+              "盒盖",
+              "关上",
+              "执着"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "窗外霓虹灯依旧闪烁，但他感觉黯淡。",
+            "must_contain": [
+              "窗外",
+              "霓虹灯",
+              "闪烁",
+              "黯淡"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他不会再计较几毛钱了，但为时已晚。",
+            "must_contain": [
+              "不计较",
+              "几毛钱",
+              "为时已晚"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "他叹了口气，把旧秤挂在墙上，不再用了。",
+            "must_contain": [
+              "叹气",
+              "旧秤",
+              "挂",
+              "墙上",
+              "不再用"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "number_of_sentences": 18,
+        "sentences": [
+          {
+            "core_fact": "几年后，王老五老了，再也搬不动菜筐。",
+            "must_contain": [
+              "几年后",
+              "王老五",
+              "老了",
+              "搬不动"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他把旧秤郑重地交给儿子。",
+            "must_contain": [
+              "旧秤",
+              "郑重",
+              "交给",
+              "儿子"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子接过，掂了掂，放在角落。",
+            "must_contain": [
+              "接过",
+              "掂了掂",
+              "角落"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "第二天，儿子买来一台电子秤，银光闪闪。",
+            "must_contain": [
+              "儿子",
+              "电子秤",
+              "银光闪闪"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他用电子秤，几秒就能称好一份菜。",
+            "must_contain": [
+              "电子秤",
+              "几秒",
+              "称好"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "顾客越来越多，生意红火起来。",
+            "must_contain": [
+              "顾客",
+              "越来越多",
+              "生意",
+              "红火"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "王老五坐在门口，看着儿子忙碌。",
+            "must_contain": [
+              "王老五",
+              "门口",
+              "儿子",
+              "忙碌"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "他注意到，儿子从不短斤缺两，但利润更高。",
+            "must_contain": [
+              "儿子",
+              "从不",
+              "短斤缺两",
+              "利润更高"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "exposition"
+          },
+          {
+            "core_fact": "他疑惑，但不敢多问。",
+            "must_contain": [
+              "疑惑",
+              "不敢",
+              "多问"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "有一天，儿子整理仓库，翻出那杆旧秤。",
+            "must_contain": [
+              "儿子",
+              "整理仓库",
+              "翻出",
+              "旧秤"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "儿子说，这秤都锈了，扔了吧。",
+            "must_contain": [
+              "儿子",
+              "锈了",
+              "扔了"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "王老五想阻止，但话到嘴边又咽下去。",
+            "must_contain": [
+              "想阻止",
+              "话到嘴边",
+              "咽下去"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "儿子把旧秤扔进门口的垃圾堆。",
+            "must_contain": [
+              "扔掉",
+              "垃圾堆"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "旧秤落在烂菜叶之间，秤杆沾满了泥。",
+            "must_contain": [
+              "旧秤",
+              "烂菜叶",
+              "秤杆",
+              "泥"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "王老五踱步过去，蹲下看着它。",
+            "must_contain": [
+              "踱步",
+              "蹲下",
+              "看着"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他伸手轻轻摸了摸秤杆上的锈迹。",
+            "must_contain": [
+              "伸手",
+              "轻轻",
+              "摸了摸",
+              "锈迹"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "然后他起身，拍了拍手上的灰。",
+            "must_contain": [
+              "起身",
+              "拍了拍",
+              "灰"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "转身时，夕阳正好照在旧秤上，铁钩挂着最后一点光。",
+            "must_contain": [
+              "转身",
+              "夕阳",
+              "旧秤",
+              "铁钩",
+              "最后一点光"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_192844"
+}

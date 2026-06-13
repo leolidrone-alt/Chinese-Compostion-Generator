@@ -1,0 +1,210 @@
+{
+  "user_input": {
+    "topic": "高三毕业典礼我和好哥们道别，本以为是最后一次见面，没想到在香港大学上学时在校园里面偶遇了",
+    "emotion": "温暖，惊讶，喜悦",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "重逢在港大：毕业后的意外惊喜",
+    "overall_emotional_baseline": 0.7,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "id": "s1_1",
+            "core_fact": "高三毕业典礼上，我和好哥们挥手道别",
+            "must_contain": [
+              "毕业典礼",
+              "挥手",
+              "道别",
+              "好哥们"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s1_2",
+            "core_fact": "我们以为这是最后一次见面，心中充满不舍",
+            "must_contain": [
+              "最后一次",
+              "见面",
+              "不舍",
+              "以为"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s1_3",
+            "core_fact": "典礼结束后，我们各自奔赴不同的大学",
+            "must_contain": [
+              "典礼",
+              "结束",
+              "奔赴",
+              "大学"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 320,
+        "sentences": [
+          {
+            "id": "s2_1",
+            "core_fact": "我在香港大学开始新生活，忙碌于学业和适应环境",
+            "must_contain": [
+              "香港大学",
+              "新生活",
+              "学业",
+              "适应"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "s2_2",
+            "core_fact": "偶尔会想起高中时光和好哥们，但联系渐少",
+            "must_contain": [
+              "高中时光",
+              "想起",
+              "联系",
+              "渐少"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "s2_3",
+            "core_fact": "一天下午，我在校园里匆匆赶往图书馆",
+            "must_contain": [
+              "下午",
+              "校园",
+              "匆匆",
+              "图书馆"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_4",
+            "core_fact": "突然，一个熟悉的身影从人群中闪过",
+            "must_contain": [
+              "突然",
+              "熟悉",
+              "身影",
+              "人群"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "s2_5",
+            "core_fact": "我停下脚步，不敢相信自己的眼睛",
+            "must_contain": [
+              "停下",
+              "脚步",
+              "不敢相信",
+              "眼睛"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "climax",
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "id": "s3_1",
+            "core_fact": "那正是我的好哥们，他也来港大上学了",
+            "must_contain": [
+              "好哥们",
+              "港大",
+              "上学",
+              "正是"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "s3_2",
+            "core_fact": "我们惊喜地拥抱，笑声在校园中回荡",
+            "must_contain": [
+              "惊喜",
+              "拥抱",
+              "笑声",
+              "回荡"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action"
+          },
+          {
+            "id": "s3_3",
+            "core_fact": "他笑着说：“没想到在这里遇见你！”",
+            "must_contain": [
+              "笑着",
+              "说",
+              "没想到",
+              "遇见"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "dialogue"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "closing",
+        "target_word_count": 120,
+        "sentences": [
+          {
+            "id": "s4_1",
+            "core_fact": "这次偶遇让我们的友谊重新点燃",
+            "must_contain": [
+              "偶遇",
+              "友谊",
+              "重新",
+              "点燃"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "s4_2",
+            "core_fact": "我们约定以后常常见面，分享大学生活",
+            "must_contain": [
+              "约定",
+              "常常",
+              "见面",
+              "分享"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "action"
+          },
+          {
+            "id": "s4_3",
+            "core_fact": "生活总是充满惊喜，珍惜每一次重逢",
+            "must_contain": [
+              "生活",
+              "惊喜",
+              "珍惜",
+              "重逢"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260419_120410"
+}

@@ -1,0 +1,461 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "title": "旧琴",
+    "emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 180,
+        "sentences": [
+          {
+            "core_fact": "祖父留下的一把旧琴挂在墙上，琴身布满裂痕。",
+            "must_contain": [
+              "旧琴",
+              "墙",
+              "裂痕"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我小时候常踮脚去摸琴弦，发出嗡鸣。",
+            "must_contain": [
+              "摸",
+              "琴弦",
+              "嗡鸣"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "祖父说这把琴从清朝传下来，曾祖父是乐师。",
+            "must_contain": [
+              "清朝",
+              "传",
+              "乐师"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "background"
+          },
+          {
+            "core_fact": "我学琴时总是按不准音位，手指流血。",
+            "must_contain": [
+              "音位",
+              "手指",
+              "血"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "祖父把琴放在我手里，教我用指甲抵弦。",
+            "must_contain": [
+              "手",
+              "指甲",
+              "抵弦"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "琴声像溪水在裂痕中流淌。",
+            "must_contain": [
+              "琴声",
+              "溪水",
+              "裂痕"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我梦见自己变成琴弦上的一个音符。",
+            "must_contain": [
+              "梦见",
+              "音符",
+              "琴弦"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "醒来后看见月光照亮琴身上的桐木纹路。",
+            "must_contain": [
+              "月光",
+              "桐木",
+              "纹路"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 250,
+        "sentences": [
+          {
+            "core_fact": "青年时我带着旧琴去省城求学，琴匣磨损。",
+            "must_contain": [
+              "省城",
+              "琴匣",
+              "磨损"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我在宿舍弹琴，室友嫌吵，我只好去天台。",
+            "must_contain": [
+              "宿舍",
+              "天台",
+              "嫌吵"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "天台上风大，琴音被吹散，如同落叶。",
+            "must_contain": [
+              "风",
+              "琴音",
+              "落叶"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我认识一个女孩，她喜欢听我弹《阳关三叠》。",
+            "must_contain": [
+              "女孩",
+              "阳关三叠",
+              "喜欢"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她走了以后，我对着空房间弹琴，琴弦忽然断裂。",
+            "must_contain": [
+              "空房间",
+              "弹琴",
+              "断弦"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "我用胶布接上断弦，音色变得沉闷。",
+            "must_contain": [
+              "胶布",
+              "接上",
+              "沉闷"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "毕业演出时，我弹了那首断弦的曲子，台下寂静。",
+            "must_contain": [
+              "毕业演出",
+              "断弦",
+              "寂静"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "散场后我把旧琴收进琴匣，不再轻易取出。",
+            "must_contain": [
+              "收进",
+              "琴匣",
+              "取出"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 300,
+        "sentences": [
+          {
+            "core_fact": "中年时我忙于生计，旧琴放在书架顶层积灰。",
+            "must_contain": [
+              "生计",
+              "书架",
+              "积灰"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "女儿出生后，我偶尔弹琴哄她入睡。",
+            "must_contain": [
+              "女儿",
+              "弹琴",
+              "入睡"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "妻子说琴声像老牛叫，女儿却笑。",
+            "must_contain": [
+              "妻子",
+              "老牛",
+              "笑"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我教女儿按弦，她怕疼，哭闹。",
+            "must_contain": [
+              "教",
+              "按弦",
+              "怕疼"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我把琴调成童谣的音高，她终于肯学。",
+            "must_contain": [
+              "童谣",
+              "音高",
+              "肯学"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "旧琴的琴颈开裂，我用木工胶修补。",
+            "must_contain": [
+              "琴颈",
+              "开裂",
+              "木工胶"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "修补后的琴像缝过线的伤口，凸起疤痕。",
+            "must_contain": [
+              "修补",
+              "伤口",
+              "疤痕"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "女儿十岁时，她能用旧琴完整弹下《小星星》。",
+            "must_contain": [
+              "十岁",
+              "完整",
+              "小星星"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我看着她的小手在琴弦上跑动，仿佛看见祖父的手。",
+            "must_contain": [
+              "小手",
+              "跑动",
+              "祖父"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "那晚我独自擦琴，琴木反射路灯暖光。",
+            "must_contain": [
+              "擦琴",
+              "路灯",
+              "暖光"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "晚年时我手指僵硬，弹不了曲子，只拨弄单音。",
+            "must_contain": [
+              "手指僵硬",
+              "拨弄",
+              "单音"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "女儿上大学后，旧琴又回到墙上的位置。",
+            "must_contain": [
+              "上大学",
+              "墙上",
+              "位置"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我每天给琴上松香，像给老友擦手。",
+            "must_contain": [
+              "松香",
+              "擦手",
+              "老友"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "外孙来玩时，我把琴递给他，他胡乱拨弦。",
+            "must_contain": [
+              "外孙",
+              "递",
+              "胡乱拨弦"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "琴声从歪扭的手指下漏出，像风穿过窗缝。",
+            "must_contain": [
+              "歪扭",
+              "漏出",
+              "窗缝"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "我教他认识琴码和岳山，他问这是什么。",
+            "must_contain": [
+              "琴码",
+              "岳山",
+              "这是什么"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我说这是爷爷的爷爷留下的木头。",
+            "must_contain": [
+              "爷爷",
+              "留下",
+              "木头"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "外孙走后，我看着旧琴琴面上映出的模糊人影。",
+            "must_contain": [
+              "琴面",
+              "映出",
+              "人影"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "人影随着夕阳移动，渐渐淡去，只余琴影。",
+            "must_contain": [
+              "夕阳",
+              "淡去",
+              "琴影"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 170,
+        "sentences": [
+          {
+            "core_fact": "那个冬天，我最后一次给琴调音。",
+            "must_contain": [
+              "冬天",
+              "最后",
+              "调音"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "琴弦一根根崩断，只剩下最低的那根。",
+            "must_contain": [
+              "崩断",
+              "剩下",
+              "最低"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "climax"
+          },
+          {
+            "core_fact": "女儿回来时，看见我坐在藤椅上，手里攥着断弦。",
+            "must_contain": [
+              "女儿",
+              "藤椅",
+              "攥着断弦"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她没有说话，轻轻把旧琴取下来，放在我腿上。",
+            "must_contain": [
+              "没说话",
+              "取下来",
+              "腿上"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "我摸到琴底刻着“光绪”二字，已经模糊。",
+            "must_contain": [
+              "琴底",
+              "光绪",
+              "模糊"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "那根孤弦被月光拉长，影子落在青砖地上。",
+            "must_contain": [
+              "孤弦",
+              "月光",
+              "影子",
+              "青砖"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "description"
+          },
+          {
+            "core_fact": "女儿用它拨了一声，像叹息，又像鸟飞过屋顶。",
+            "must_contain": [
+              "拨",
+              "叹息",
+              "鸟",
+              "屋顶"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260503_224845"
+}

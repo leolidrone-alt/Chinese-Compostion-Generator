@@ -1,0 +1,851 @@
+{
+  "user_input": {
+    "topic": "等人",
+    "emotion": "中性偏淡，可以有一点点焦躁，也可以有一点点期待，但不要浓",
+    "target_words": 1000
+  },
+  "blueprint": {
+    "paragraphs": [
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "镇口的老槐树已经活了很多年，树冠巨大。",
+            "must_contain": [
+              "老槐树",
+              "镇口",
+              "树冠"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "每年五月，槐花开得密密层层，像挂了一树的白雪。",
+            "must_contain": [
+              "五月",
+              "槐花",
+              "密密层层",
+              "白雪"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "树下总坐着一个阿婆，矮凳上绣着花。",
+            "must_contain": [
+              "树下",
+              "阿婆",
+              "矮凳",
+              "绣花"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "她叫阿槐，名字就是这棵树给的。",
+            "must_contain": [
+              "阿槐",
+              "名字",
+              "树"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "五十年前，她也是在这里等，等第一个归人。",
+            "must_contain": [
+              "五十年",
+              "等",
+              "归人"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "那时的槐花比现在更盛，风一吹就落满她肩头。",
+            "must_contain": [
+              "那时",
+              "槐花",
+              "更盛",
+              "落满肩头"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "她抬手拂去花瓣，眼睛却一直盯着路的那头。",
+            "must_contain": [
+              "拂去",
+              "花瓣",
+              "眼睛",
+              "盯着路"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "等的人还没来，她只能继续低头绣那朵半开的槐花。",
+            "must_contain": [
+              "没来",
+              "低头绣",
+              "半开",
+              "槐花"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "针穿过白布，线拉得极长，像要把等待也缝进去。",
+            "must_contain": [
+              "针",
+              "白布",
+              "线",
+              "缝"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "绣花的每一下，都像是她对自己说的话。",
+            "must_contain": [
+              "绣花",
+              "每一下",
+              "话"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "终于，一个身影出现在尘土里。",
+            "must_contain": [
+              "身影",
+              "尘土"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "mini_action"
+          },
+          {
+            "core_fact": "她站起身，凳子倒了也顾不上扶。",
+            "must_contain": [
+              "站起身",
+              "凳子倒了"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "那一年她八岁，母亲说要带她去镇上看槐花。",
+            "must_contain": [
+              "八岁",
+              "母亲",
+              "槐花"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "可是母亲去了城里，就再没回来。",
+            "must_contain": [
+              "母亲",
+              "城里",
+              "没回来"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "她每天放学就跑到槐树下，蹲在树根边等。",
+            "must_contain": [
+              "放学",
+              "槐树下",
+              "树根边"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐花开了又落，落了又开。",
+            "must_contain": [
+              "槐花",
+              "开了又落",
+              "落了又开"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "她在地上捡起一朵完整的，放在手心。",
+            "must_contain": [
+              "捡起",
+              "一朵",
+              "手心"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "花瓣薄得像纸，边缘有些发黄。",
+            "must_contain": [
+              "花瓣",
+              "薄",
+              "发黄"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "她想，母亲是不是也看过这样的槐花。",
+            "must_contain": [
+              "母亲",
+              "看过",
+              "槐花"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "夕阳把槐树的影子拉得又细又长。",
+            "must_contain": [
+              "夕阳",
+              "影子",
+              "又细又长"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "她站起来，把花瓣夹进课本里。",
+            "must_contain": [
+              "站",
+              "花瓣",
+              "课本"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "第二天，槐花又落了一地。",
+            "must_contain": [
+              "第二天",
+              "槐花",
+              "一地"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "她把落花扫成一堆，堆在树根下。",
+            "must_contain": [
+              "落花",
+              "扫",
+              "树根"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那是她第一次知道，有些人是等不来的。",
+            "must_contain": [
+              "第一次",
+              "等不来"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "父亲说，别等了，她有自己的路。",
+            "must_contain": [
+              "父亲",
+              "别等了",
+              "自己的路"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "她摇摇头，还是每天去树下坐一会儿。",
+            "must_contain": [
+              "摇头",
+              "每天",
+              "树下",
+              "坐一会儿"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐花年年开，她也年年等。",
+            "must_contain": [
+              "年年开",
+              "年年等"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "十八岁那年，她等来了一个外乡人。",
+            "must_contain": [
+              "十八岁",
+              "外乡人"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "他说他喜欢槐花，更喜欢槐花下的她。",
+            "must_contain": [
+              "喜欢",
+              "槐花",
+              "槐花下"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "他们在树下互换了信物，是一串槐花手串。",
+            "must_contain": [
+              "树下",
+              "信物",
+              "槐花手串"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他说，等明年槐花开时，我就来接你。",
+            "must_contain": [
+              "明年",
+              "槐花开",
+              "接你"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "她把那串手串挂在床头，天天看。",
+            "must_contain": [
+              "手串",
+              "床头",
+              "天天看"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "冬天很冷，她想着槐花开时的暖。",
+            "must_contain": [
+              "冬天",
+              "槐花开",
+              "暖"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "春天来了，槐树开始鼓花苞。",
+            "must_contain": [
+              "春天",
+              "鼓花苞"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "她每天都去看，花苞一天比一天大。",
+            "must_contain": [
+              "每天",
+              "花苞",
+              "一天比一天大"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "第一朵槐花开的那个早晨，她换了新衣裳。",
+            "must_contain": [
+              "第一朵",
+              "早晨",
+              "新衣裳"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "可是从早等到晚，路上只有风声。",
+            "must_contain": [
+              "等到晚",
+              "路上",
+              "风声"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "第二天，第三天下雨，她淋着雨等。",
+            "must_contain": [
+              "第二天",
+              "下雨",
+              "淋雨"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "一个多月后，有人捎来一封信。",
+            "must_contain": [
+              "信",
+              "捎来"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "mini_action"
+          },
+          {
+            "core_fact": "信上说，他在城里娶了别人。",
+            "must_contain": [
+              "信上",
+              "城里",
+              "娶了别人"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "她把信折成一只纸鹤，扔进了槐花堆里。",
+            "must_contain": [
+              "折纸鹤",
+              "槐花堆"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那年槐花落得特别早，还没到六月就没了。",
+            "must_contain": [
+              "槐花落",
+              "特别早",
+              "六月"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "natural_description"
+          }
+        ]
+      },
+      {
+        "target_word_count": 200,
+        "sentences": [
+          {
+            "core_fact": "后来她嫁了本村的人，男人老实。",
+            "must_contain": [
+              "嫁了",
+              "本村",
+              "老实"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "婚后生了个儿子，取名槐生。",
+            "must_contain": [
+              "儿子",
+              "取名",
+              "槐生"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生爱跑，总是不按时回家。",
+            "must_contain": [
+              "槐生",
+              "不按时回家"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "每到晚饭时分，她就站在槐树下喊。",
+            "must_contain": [
+              "晚饭",
+              "槐树下",
+              "喊"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "喊声穿过槐花，落在田野里。",
+            "must_contain": [
+              "喊声",
+              "穿过",
+              "槐花",
+              "田野"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "槐生总是不耐烦地应一声，却迟迟不现。",
+            "must_contain": [
+              "不耐烦",
+              "应一声",
+              "不现"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她把饭菜用碗扣着，坐在树下等。",
+            "must_contain": [
+              "饭菜",
+              "碗扣",
+              "树下"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "等得心烦了，就捡起槐花砸向路边的狗。",
+            "must_contain": [
+              "心烦",
+              "槐花",
+              "砸",
+              "狗"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "狗摇着尾巴跑开，她又觉得无聊。",
+            "must_contain": [
+              "狗",
+              "摇尾巴",
+              "无聊"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "core_fact": "终于，槐生背着书包跑回来了，满头汗。",
+            "must_contain": [
+              "槐生",
+              "书包",
+              "满头汗"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她骂两句，却赶紧把菜热好。",
+            "must_contain": [
+              "骂",
+              "菜热好"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐生大口吃饭，一句话也不说。",
+            "must_contain": [
+              "大口吃饭",
+              "不说话"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她看着儿子，忽然想起自己小时候。",
+            "must_contain": [
+              "看着儿子",
+              "小时候"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "槐花落在桌板上，她拈起来放进嘴里。",
+            "must_contain": [
+              "槐花",
+              "桌板",
+              "拈",
+              "嘴里"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "有点苦，又有点涩，和记忆里一样。",
+            "must_contain": [
+              "苦",
+              "涩",
+              "记忆"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "target_word_count": 150,
+        "sentences": [
+          {
+            "core_fact": "槐生长大了，去了南方的城市。",
+            "must_contain": [
+              "槐生",
+              "南方",
+              "城市"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "past_memory"
+          },
+          {
+            "core_fact": "她送他到槐树下，叮嘱他过年回来。",
+            "must_contain": [
+              "送",
+              "槐树下",
+              "过年"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他说好，头也不回地走了。",
+            "must_contain": [
+              "头也不回"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "第一年没回来，说加班。",
+            "must_contain": [
+              "第一年",
+              "加班"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "第二年没回来，说抢不到票。",
+            "must_contain": [
+              "第二年",
+              "抢不到票"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "第三年她开始坐在槐树下等，从腊月等到正月。",
+            "must_contain": [
+              "第三年",
+              "腊月",
+              "正月"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "槐花早谢了，光秃秃的枝丫像手指。",
+            "must_contain": [
+              "槐花谢",
+              "光秃秃",
+              "枝丫"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "她对着树说，你也在等人的吧。",
+            "must_contain": [
+              "对着树说",
+              "等人"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "风过时，树梢呜呜地响。",
+            "must_contain": [
+              "风",
+              "树梢",
+              "呜呜"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "natural_description"
+          },
+          {
+            "core_fact": "她等到了第六年，槐生带着媳妇和娃回来了。",
+            "must_contain": [
+              "第六年",
+              "媳妇",
+              "娃"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "娃不认识她，躲在后头。",
+            "must_contain": [
+              "娃",
+              "不认识",
+              "躲"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她伸手想抱，娃哭了。",
+            "must_contain": [
+              "伸手",
+              "抱",
+              "哭了"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她缩回手，在衣服上擦了擦。",
+            "must_contain": [
+              "缩回手",
+              "擦了擦"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "她转身进厨房，端出一盘槐花糕。",
+            "must_contain": [
+              "厨房",
+              "槐花糕"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "娃终于笑了，拿起一块塞进嘴里。",
+            "must_contain": [
+              "笑了",
+              "一块",
+              "塞进"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "target_word_count": 100,
+        "sentences": [
+          {
+            "core_fact": "如今阿槐老了，走不动了。",
+            "must_contain": [
+              "阿槐",
+              "老了",
+              "走不动"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "她不再绣花，只是每天让人把她推到槐树下。",
+            "must_contain": [
+              "不再绣花",
+              "推到",
+              "槐树下"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "轮椅的轮子碾过落花，留下一道淡痕。",
+            "must_contain": [
+              "轮椅",
+              "碾过",
+              "落花"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "一只麻雀落在她膝盖上，又飞走了。",
+            "must_contain": [
+              "麻雀",
+              "膝盖",
+              "飞走"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "mini_action"
+          },
+          {
+            "core_fact": "她抬头看树，树也老了，树皮裂开了缝。",
+            "must_contain": [
+              "抬头",
+              "树皮",
+              "裂缝"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_description"
+          },
+          {
+            "core_fact": "一朵槐花悠悠落下，落在她摊开的手心里。",
+            "must_contain": [
+              "槐花",
+              "落下",
+              "手心"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "那朵花半开半谢，正好是绣到一半的样子。",
+            "must_contain": [
+              "半开半谢",
+              "绣到一半"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "core_fact": "这时一个小孩跑过来，捡起那朵花。",
+            "must_contain": [
+              "小孩",
+              "跑过来",
+              "捡起"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "core_fact": "他把花贴在耳朵上，说，我听到了声音。",
+            "must_contain": [
+              "贴在耳朵",
+              "声音"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "core_fact": "阿槐笑了，笑纹里也藏了槐花。",
+            "must_contain": [
+              "阿槐笑了",
+              "笑纹",
+              "槐花"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260607_161052"
+}

@@ -1,0 +1,262 @@
+{
+  "user_input": {
+    "topic": "",
+    "emotion": "中性",
+    "target_words": 800
+  },
+  "blueprint": {
+    "title": "晨间散步",
+    "overall_emotional_baseline": 0.0,
+    "paragraphs": [
+      {
+        "target_word_count": 130,
+        "sentences": [
+          {
+            "content": "清晨六点，我醒了，没有闹钟。"
+          },
+          {
+            "content": "窗外还是灰蓝色的，空气里有股潮湿的草味。"
+          },
+          {
+            "content": "我穿上外套，轻轻关上门。"
+          },
+          {
+            "content": "楼道里昏黄的声控灯亮了一下。"
+          },
+          {
+            "content": "脚步声在楼梯间里回响。"
+          },
+          {
+            "content": "推开单元门，一阵凉风贴着脸颊滑过。"
+          },
+          {
+            "content": "小区里路灯还亮着，光晕像薄纱。"
+          },
+          {
+            "content": "我沿着砖路慢慢走，呼吸着清冽的空气。"
+          },
+          {
+            "content": "前面就是公园的入口。"
+          }
+        ]
+      },
+      {
+        "target_word_count": 205,
+        "sentences": [
+          {
+            "content": "公园里很安静，只有几声鸟鸣。"
+          },
+          {
+            "content": "长椅上没有人，落叶铺了一地。"
+          },
+          {
+            "content": "我走到湖边，水面平得像镜子。"
+          },
+          {
+            "content": "远处有人在打太极拳，动作缓慢。"
+          },
+          {
+            "content": "我停下脚步，看了一会儿。"
+          },
+          {
+            "content": "老人的白衣服在晨雾里格外轻柔。"
+          },
+          {
+            "content": "一只花猫从灌木丛钻出来。"
+          },
+          {
+            "content": "它看我一眼，低头舔爪子。"
+          },
+          {
+            "content": "我蹲下，想摸摸它。"
+          },
+          {
+            "content": "它的毛看起来软软的，耳朵一动一动。"
+          },
+          {
+            "content": "我伸出的手停在半空，怕吓到它。"
+          },
+          {
+            "content": "猫抬起头，眼睛圆圆的。"
+          },
+          {
+            "content": "我们对视了几秒，它轻轻叫了一声。"
+          },
+          {
+            "content": "然后它绕过我，走向草丛。"
+          },
+          {
+            "content": "我跟上去，看它在草里嗅来嗅去。"
+          },
+          {
+            "content": "草尖上的露水沾湿了它的毛。"
+          },
+          {
+            "content": "我站在一旁，静静地看着。"
+          }
+        ]
+      },
+      {
+        "target_word_count": 195,
+        "sentences": [
+          {
+            "content": "太阳出来了，光线洒在湖面上。"
+          },
+          {
+            "content": "水面金灿灿的，刺得眼睛微眯。"
+          },
+          {
+            "content": "我沿着湖边走，看见几只鸭子在游。"
+          },
+          {
+            "content": "它们排成一队，划开水面。"
+          },
+          {
+            "content": "远处传来收音机的声音，放着戏曲。"
+          },
+          {
+            "content": "一位老人坐在长椅上，闭着眼听。"
+          },
+          {
+            "content": "我经过时，他微微点了点头。"
+          },
+          {
+            "content": "我也点点头，继续往前走。"
+          },
+          {
+            "content": "路边的月季花开得正盛，红的黄的。"
+          },
+          {
+            "content": "我凑近闻了闻，香气淡淡的。"
+          },
+          {
+            "content": "一只蜜蜂在花间嗡嗡地飞。"
+          },
+          {
+            "content": "我退后一步，让它采蜜。"
+          },
+          {
+            "content": "这时，风突然大了点，吹落几片花瓣。"
+          },
+          {
+            "content": "花瓣飘在地上，像碎纸。"
+          },
+          {
+            "content": "我弯腰捡起一片，捏在手里。"
+          },
+          {
+            "content": "花瓣凉凉的，有点湿润。"
+          },
+          {
+            "content": "又一阵风来，我松手，它飞走了。"
+          },
+          {
+            "content": "我看着它飘远，消失在晨光里。"
+          }
+        ]
+      },
+      {
+        "target_word_count": 160,
+        "sentences": [
+          {
+            "content": "走到公园转角，听见有人叫我。"
+          },
+          {
+            "content": "是王阿姨，她拎着满满一篮菜。"
+          },
+          {
+            "content": "“这么早出来逛？”她冲我笑。",
+            "atmosphere_hint": "warm"
+          },
+          {
+            "content": "“是啊，空气好。”我也笑。",
+            "atmosphere_hint": "casual"
+          },
+          {
+            "content": "她走近，指着篮子：“菠菜涨价了。”",
+            "atmosphere_hint": "everyday"
+          },
+          {
+            "content": "我应声：“是吗？我好久没买了。”",
+            "atmosphere_hint": "casual"
+          },
+          {
+            "content": "她忽然压低声音：“听说要换物业了。”",
+            "atmosphere_hint": "slight secrecy"
+          },
+          {
+            "content": "我愣了一下，这个我没听说。",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "content": "她看我没反应，又补充：“就那家新公司。”",
+            "atmosphere_hint": "explaining"
+          },
+          {
+            "content": "我点点头，心里却想着那只猫。",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "content": "她看了看表：“哎呀，得回家熬粥了。”",
+            "atmosphere_hint": "hurried"
+          },
+          {
+            "content": "说完她急匆匆走了，篮子一晃一晃。",
+            "atmosphere_hint": "closing encounter"
+          },
+          {
+            "content": "我站在原地，看着她的背影。"
+          },
+          {
+            "content": "空气似乎更暖了，光也更亮。"
+          },
+          {
+            "content": "我转身，继续走我的路。"
+          }
+        ]
+      },
+      {
+        "target_word_count": 115,
+        "sentences": [
+          {
+            "content": "我往回走，脚步快了些。"
+          },
+          {
+            "content": "又到那棵银杏树下，猫已不见。"
+          },
+          {
+            "content": "只有落叶沙沙响。"
+          },
+          {
+            "content": "我停下，看了一会儿树顶的天空。"
+          },
+          {
+            "content": "有几只鸟飞过，叫得很清脆。"
+          },
+          {
+            "content": "再往前走，遇见买菜回来的李叔。"
+          },
+          {
+            "content": "他点头：“早啊。”"
+          },
+          {
+            "content": "我也点头：“早。”"
+          },
+          {
+            "content": "拐进楼道，声控灯又亮了。"
+          },
+          {
+            "content": "到了家门口，掏钥匙，却停住。"
+          },
+          {
+            "content": "想起王阿姨那句“今天天气真好”。"
+          },
+          {
+            "content": "“明天，再早一点……”"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260502_164014"
+}

@@ -1,0 +1,1000 @@
+{
+  "user_input": {
+    "topic": "离开家乡上学时，父亲翻阅铁道给我买橘子的背影",
+    "emotion": "怀念，感激，父爱，感伤，温暖",
+    "target_words": 1400
+  },
+  "blueprint": {
+    "title": "橘香里的背影：父爱如铁道绵长",
+    "overall_emotional_baseline": 0.2,
+    "paragraphs": [
+      {
+        "id": 1,
+        "type": "opening",
+        "target_word_count": 280,
+        "sentences": [
+          {
+            "id": "p1_s1",
+            "core_fact": "The station platform is busy with travelers saying goodbye",
+            "must_contain": [
+              "火车站",
+              "人来人往",
+              "告别"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s2",
+            "core_fact": "The train's whistle cuts through the morning air",
+            "must_contain": [
+              "汽笛声",
+              "划破",
+              "清晨"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s3",
+            "core_fact": "Father escorts me to the train, carrying my luggage",
+            "must_contain": [
+              "父亲",
+              "送",
+              "行李"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s4",
+            "core_fact": "I feel a mix of excitement and reluctance",
+            "must_contain": [
+              "兴奋",
+              "不舍",
+              "我"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p1_s5",
+            "core_fact": "The platform gate is crowded, people hugging",
+            "must_contain": [
+              "月台",
+              "拥挤",
+              "拥抱"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s6",
+            "core_fact": "Father reminds me to be careful on the journey",
+            "must_contain": [
+              "父亲",
+              "叮嘱",
+              "一路小心"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p1_s7",
+            "core_fact": "I nod and tell him not to worry",
+            "must_contain": [
+              "点头",
+              "放心",
+              "我"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p1_s8",
+            "core_fact": "Father looks at the fruit stall across the railway",
+            "must_contain": [
+              "父亲",
+              "望",
+              "水果摊"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s9",
+            "core_fact": "He decides to buy some oranges",
+            "must_contain": [
+              "买",
+              "橘子",
+              "决定"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s10",
+            "core_fact": "The railway tracks glint in the sun",
+            "must_contain": [
+              "铁道",
+              "阳光",
+              "闪亮"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s11",
+            "core_fact": "Father walks towards the tracks, dodging people",
+            "must_contain": [
+              "父亲",
+              "走",
+              "铁道"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s12",
+            "core_fact": "I watch his figure among the crowd",
+            "must_contain": [
+              "看",
+              "身影",
+              "我"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s13",
+            "core_fact": "A train passes on another track, blocking the view",
+            "must_contain": [
+              "火车",
+              "经过",
+              "挡住"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p1_s14",
+            "core_fact": "After it passes, I see him crossing the tracks",
+            "must_contain": [
+              "穿过",
+              "铁道",
+              "背影"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s15",
+            "core_fact": "His back looks slightly stooped",
+            "must_contain": [
+              "微驼",
+              "背",
+              "父亲"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p1_s16",
+            "core_fact": "A sudden worry for his safety arises in me",
+            "must_contain": [
+              "担忧",
+              "安全",
+              "我"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "inner_thought"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "body",
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "id": "p2_s1",
+            "core_fact": "Father steps carefully over the rails",
+            "must_contain": [
+              "父亲",
+              "跨",
+              "铁轨"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s2",
+            "core_fact": "The platform is bustling, but he moves with purpose",
+            "must_contain": [
+              "月台",
+              "嘈杂",
+              "脚步"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s3",
+            "core_fact": "I call out to him to be careful",
+            "must_contain": [
+              "喊",
+              "小心",
+              "我"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p2_s4",
+            "core_fact": "He doesn't look back, just raises a hand",
+            "must_contain": [
+              "父亲",
+              "没回头",
+              "挥手"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s5",
+            "core_fact": "His black cloth shoes and padded coat make him look older",
+            "must_contain": [
+              "黑布鞋",
+              "棉袍",
+              "苍老"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s6",
+            "core_fact": "The sun casts long shadows on the platform",
+            "must_contain": [
+              "阳光",
+              "影子",
+              "长长"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s7",
+            "core_fact": "I think about how he always worries about me",
+            "must_contain": [
+              "想",
+              "操心",
+              "我"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p2_s8",
+            "core_fact": "He reaches the fruit stall and selects oranges",
+            "must_contain": [
+              "父亲",
+              "水果摊",
+              "挑选"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s9",
+            "core_fact": "The vendor hands him a paper bag",
+            "must_contain": [
+              "小贩",
+              "纸袋",
+              "递"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s10",
+            "core_fact": "The oranges are carefully placed into the bag by father",
+            "must_contain": [
+              "橘子",
+              "小心",
+              "放"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s11",
+            "core_fact": "Holding the bag, he starts back across the tracks",
+            "must_contain": [
+              "拎着",
+              "袋子",
+              "往回走"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s12",
+            "core_fact": "He walks more slowly, burdened by the bag",
+            "must_contain": [
+              "缓慢",
+              "沉重",
+              "脚步"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s13",
+            "core_fact": "I see him stumble slightly on the rail",
+            "must_contain": [
+              "绊",
+              "铁轨",
+              "踉跄"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s14",
+            "core_fact": "My heart tightens with fear",
+            "must_contain": [
+              "心",
+              "揪",
+              "害怕"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p2_s15",
+            "core_fact": "But he regains balance and continues",
+            "must_contain": [
+              "稳住",
+              "继续",
+              "走"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s16",
+            "core_fact": "His back seems even more bent now",
+            "must_contain": [
+              "背影",
+              "佝偻",
+              "更加"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s17",
+            "core_fact": "The bag swings slightly with his steps",
+            "must_contain": [
+              "纸袋",
+              "晃动",
+              "步伐"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s18",
+            "core_fact": "I feel a pang of guilt for not helping",
+            "must_contain": [
+              "愧疚",
+              "没帮忙",
+              "我"
+            ],
+            "sentiment": -0.7,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p2_s19",
+            "core_fact": "He finally reaches the platform on my side",
+            "must_contain": [
+              "回到",
+              "月台",
+              "这边"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s20",
+            "core_fact": "He hands me the oranges, his face beaded with sweat",
+            "must_contain": [
+              "递",
+              "橘子",
+              "汗珠"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s21",
+            "core_fact": "The oranges are glowing golden",
+            "must_contain": [
+              "橘子",
+              "金黄",
+              "光泽"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p2_s22",
+            "core_fact": "I take them, feeling their warmth from his hand",
+            "must_contain": [
+              "接",
+              "温暖",
+              "手"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "action"
+          },
+          {
+            "id": "p2_s23",
+            "core_fact": "He tells me to eat them on the train",
+            "must_contain": [
+              "说",
+              "路上",
+              "吃"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "body",
+        "target_word_count": 350,
+        "sentences": [
+          {
+            "id": "p3_s1",
+            "core_fact": "I thank him and urge him to go back",
+            "must_contain": [
+              "谢",
+              "回去",
+              "我"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p3_s2",
+            "core_fact": "He hesitates, wanting to wait until the train departs",
+            "must_contain": [
+              "犹豫",
+              "等",
+              "开"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s3",
+            "core_fact": "The platform guard blows the whistle",
+            "must_contain": [
+              "乘务员",
+              "吹哨",
+              "提醒"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s4",
+            "core_fact": "Passengers scurry to board",
+            "must_contain": [
+              "旅客",
+              "匆忙",
+              "上车"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s5",
+            "core_fact": "I climb aboard and lean out the window",
+            "must_contain": [
+              "上车",
+              "探身",
+              "我"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s6",
+            "core_fact": "Father stands below, looking up at me",
+            "must_contain": [
+              "父亲",
+              "站",
+              "仰望"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s7",
+            "core_fact": "His eyes are moist but he smiles",
+            "must_contain": [
+              "眼睛",
+              "湿润",
+              "微笑"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s8",
+            "core_fact": "He reminds me to write home often",
+            "must_contain": [
+              "嘱咐",
+              "写信",
+              "回家"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p3_s9",
+            "core_fact": "I promise, my voice catching",
+            "must_contain": [
+              "答应",
+              "声音",
+              "哽咽"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "dialogue"
+          },
+          {
+            "id": "p3_s10",
+            "core_fact": "The train jerks and begins to move",
+            "must_contain": [
+              "火车",
+              "震动",
+              "开动"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s11",
+            "core_fact": "Father takes a few steps back, still waving",
+            "must_contain": [
+              "后退",
+              "挥手",
+              "父亲"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s12",
+            "core_fact": "I watch his figure grow smaller",
+            "must_contain": [
+              "看",
+              "身影",
+              "变小"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s13",
+            "core_fact": "The platform and crowd blur into the distance",
+            "must_contain": [
+              "月台",
+              "人群",
+              "模糊"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s14",
+            "core_fact": "I sit down and look at the oranges",
+            "must_contain": [
+              "坐下",
+              "橘子",
+              "看"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s15",
+            "core_fact": "Their bright color reminds me of his caring",
+            "must_contain": [
+              "金黄",
+              "想起",
+              "关爱"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p3_s16",
+            "core_fact": "The thought of his stooped back returns to me",
+            "must_contain": [
+              "驼背",
+              "背影",
+              "浮现"
+            ],
+            "sentiment": -0.4,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p3_s17",
+            "core_fact": "I feel a lump in my throat",
+            "must_contain": [
+              "喉咙",
+              "哽咽",
+              "泪"
+            ],
+            "sentiment": -0.6,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p3_s18",
+            "core_fact": "Why did he go through so much trouble for oranges?",
+            "must_contain": [
+              "为什么",
+              "费劲",
+              "橘子"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "reflection",
+            "psychological_hint": "inner_monologue"
+          },
+          {
+            "id": "p3_s19",
+            "core_fact": "Then I understand it's his way of expressing love",
+            "must_contain": [
+              "明白",
+              "表达",
+              "爱"
+            ],
+            "sentiment": 0.1,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p3_s20",
+            "core_fact": "Father's love is silent but deep",
+            "must_contain": [
+              "父爱",
+              "沉默",
+              "深沉"
+            ],
+            "sentiment": 0.4,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p3_s21",
+            "core_fact": "The train rumbles on, carrying me away",
+            "must_contain": [
+              "火车",
+              "轰隆",
+              "远"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p3_s22",
+            "core_fact": "I hold the oranges tight against my chest",
+            "must_contain": [
+              "抱",
+              "橘子",
+              "胸前"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p3_s23",
+            "core_fact": "Outside the window, the landscape flashes past",
+            "must_contain": [
+              "窗外",
+              "风景",
+              "飞逝"
+            ],
+            "sentiment": 0.0,
+            "type_tag": "scene_setting"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "climax",
+        "target_word_count": 240,
+        "sentences": [
+          {
+            "id": "p4_s1",
+            "core_fact": "I sink into my seat, eyes fixed on the oranges",
+            "must_contain": [
+              "坐",
+              "橘子",
+              "凝视"
+            ],
+            "sentiment": 0.2,
+            "type_tag": "action"
+          },
+          {
+            "id": "p4_s2",
+            "core_fact": "Their fresh scent fills the compartment",
+            "must_contain": [
+              "橘香",
+              "车厢",
+              "弥漫"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p4_s3",
+            "core_fact": "I peel one, the juice sparkles on my fingers",
+            "must_contain": [
+              "剥开",
+              "橘子",
+              "汁水"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "action"
+          },
+          {
+            "id": "p4_s4",
+            "core_fact": "The sweetness bursts on my tongue",
+            "must_contain": [
+              "甜",
+              "味",
+              "口"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "scene_setting"
+          },
+          {
+            "id": "p4_s5",
+            "core_fact": "Yet a bitter thought surfaces: his back under the hot sun",
+            "must_contain": [
+              "却",
+              "苦涩",
+              "烈日"
+            ],
+            "sentiment": -0.2,
+            "type_tag": "inner_thought"
+          },
+          {
+            "id": "p4_s6",
+            "core_fact": "I choke back tears, but a sob escapes",
+            "must_contain": [
+              "忍",
+              "泪",
+              "抽泣"
+            ],
+            "sentiment": -0.5,
+            "type_tag": "action"
+          },
+          {
+            "id": "p4_s7",
+            "core_fact": "The passenger next to me glances over",
+            "must_contain": [
+              "邻座",
+              "看",
+              "我"
+            ],
+            "sentiment": -0.1,
+            "type_tag": "action",
+            "atmosphere_hint": "third_person_glimpse"
+          },
+          {
+            "id": "p4_s8",
+            "core_fact": "Embarrassed, I wipe my eyes and stare out",
+            "must_contain": [
+              "尴尬",
+              "擦",
+              "望向"
+            ],
+            "sentiment": -0.3,
+            "type_tag": "action"
+          },
+          {
+            "id": "p4_s9",
+            "core_fact": "Outside, the sun is setting, painting the sky orange",
+            "must_contain": [
+              "窗外",
+              "夕阳",
+              "橘红"
+            ],
+            "sentiment": 0.3,
+            "type_tag": "scene_setting",
+            "atmosphere_hint": "sensory_detail"
+          },
+          {
+            "id": "p4_s10",
+            "core_fact": "The color echoes the oranges in my hand",
+            "must_contain": [
+              "颜色",
+              "呼应",
+              "橘子"
+            ],
+            "sentiment": 0.5,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s11",
+            "core_fact": "Suddenly, I feel a deep connection with my father",
+            "must_contain": [
+              "连接",
+              "父亲",
+              "深"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s12",
+            "core_fact": "His back, once a source of worry, now stands for strength",
+            "must_contain": [
+              "背影",
+              "担忧",
+              "力量"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s13",
+            "core_fact": "Warmth floods my heart, pushing away the sadness",
+            "must_contain": [
+              "温暖",
+              "涌上",
+              "悲伤"
+            ],
+            "sentiment": 1.0,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p4_s14",
+            "core_fact": "I hold the oranges closer, knowing they carry his love",
+            "must_contain": [
+              "紧抱",
+              "橘子",
+              "爱"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "action"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "closing",
+        "target_word_count": 210,
+        "sentences": [
+          {
+            "id": "p5_s1",
+            "core_fact": "Years later, that memory remains vivid",
+            "must_contain": [
+              "多年",
+              "记忆",
+              "清晰"
+            ],
+            "sentiment": 0.6,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s2",
+            "core_fact": "Every time I eat an orange, I see his back",
+            "must_contain": [
+              "吃橘子",
+              "背影",
+              "浮现"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s3",
+            "core_fact": "The railway tracks have changed, but the love endures",
+            "must_contain": [
+              "铁道",
+              "变",
+              "爱"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s4",
+            "core_fact": "Father has grown old, but his back remains in my mind",
+            "must_contain": [
+              "父亲",
+              "老",
+              "脑海"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s5",
+            "core_fact": "That stooped figure taught me the meaning of sacrifice",
+            "must_contain": [
+              "佝偻",
+              "教",
+              "牺牲"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s6",
+            "core_fact": "I am grateful beyond words for his quiet care",
+            "must_contain": [
+              "感激",
+              "无言",
+              "关怀"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection",
+            "psychological_hint": "exclamation"
+          },
+          {
+            "id": "p5_s7",
+            "core_fact": "Now I understand true love doesn't need grand gestures",
+            "must_contain": [
+              "明白",
+              "真爱",
+              "平凡"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s8",
+            "core_fact": "A bag of oranges was his letter of love",
+            "must_contain": [
+              "橘子",
+              "信",
+              "爱"
+            ],
+            "sentiment": 0.9,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s9",
+            "core_fact": "I will carry that warmth forever",
+            "must_contain": [
+              "永远",
+              "温暖",
+              "带"
+            ],
+            "sentiment": 0.8,
+            "type_tag": "reflection"
+          },
+          {
+            "id": "p5_s10",
+            "core_fact": "When I return home, his back will greet me again",
+            "must_contain": [
+              "回家",
+              "背影",
+              "迎接"
+            ],
+            "sentiment": 0.7,
+            "type_tag": "reflection"
+          }
+        ]
+      }
+    ]
+  },
+  "generated_at": "20260425_081546"
+}
